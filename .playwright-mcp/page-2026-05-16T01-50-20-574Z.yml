@@ -1,0 +1,597 @@
+- generic [ref=e3]:
+  - link "Saltar al contenido" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - navigation "Navegación principal" [ref=e5]:
+    - generic [ref=e6]:
+      - link "Lomas Tech-Wholesale, ir al inicio" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Lomas" [ref=e8]
+      - search [ref=e9]:
+        - generic [ref=e10]: Buscar productos
+        - generic:
+          - img
+        - searchbox "Buscar productos" [ref=e11]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Marcas" [ref=e14] [cursor=pointer]:
+            - /url: /brands
+        - listitem [ref=e15]:
+          - link "Nosotros" [ref=e16] [cursor=pointer]:
+            - /url: /#about
+      - generic [ref=e17]:
+        - link "Catálogo" [ref=e18] [cursor=pointer]:
+          - /url: /catalog
+        - link "Contacta a un asesor" [ref=e19] [cursor=pointer]:
+          - /url: https://wa.me/523336394904
+  - main [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: Portal B2B Activo
+          - heading "Catálogo Inteligente" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Filtra por SKU, marca o categoría. Precios exclusivos para distribuidores registrados.
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]: Buscar productos
+            - generic:
+              - img
+            - searchbox "Buscar productos" [ref=e31]
+          - generic [ref=e32]:
+            - button "Abrir filtros" [ref=e33]:
+              - img [ref=e34]
+              - text: Filtros
+            - generic [ref=e35]:
+              - button "Vista en cuadrícula" [pressed] [ref=e36]:
+                - img [ref=e37]
+              - button "Vista en lista" [ref=e42]:
+                - img [ref=e43]
+      - generic [ref=e44]:
+        - complementary [ref=e45]:
+          - generic [ref=e47]:
+            - heading "Filtros" [level=2] [ref=e49]:
+              - img [ref=e50]
+              - text: Filtros
+            - group "Categorías" [ref=e52]:
+              - generic [ref=e53]: Categorías
+              - generic [ref=e54] [cursor=pointer]:
+                - radio "Todas" [checked] [ref=e55]
+                - generic [ref=e56]: Todas
+              - generic [ref=e57] [cursor=pointer]:
+                - radio "Accesorios" [ref=e58]
+                - generic [ref=e59]: Accesorios
+              - generic [ref=e60] [cursor=pointer]:
+                - radio "Accesorios y Gaming" [ref=e61]
+                - generic [ref=e62]: Accesorios y Gaming
+              - generic [ref=e63] [cursor=pointer]:
+                - radio "Almacenamiento" [ref=e64]
+                - generic [ref=e65]: Almacenamiento
+              - generic [ref=e66] [cursor=pointer]:
+                - radio "Audio" [ref=e67]
+                - generic [ref=e68]: Audio
+              - generic [ref=e69] [cursor=pointer]:
+                - radio "CCTV y Seguridad" [ref=e70]
+                - generic [ref=e71]: CCTV y Seguridad
+              - generic [ref=e72] [cursor=pointer]:
+                - radio "Componentes" [ref=e73]
+                - generic [ref=e74]: Componentes
+              - generic [ref=e75] [cursor=pointer]:
+                - radio "Consumibles" [ref=e76]
+                - generic [ref=e77]: Consumibles
+              - generic [ref=e78] [cursor=pointer]:
+                - radio "Cómputo" [ref=e79]
+                - generic [ref=e80]: Cómputo
+              - generic [ref=e81] [cursor=pointer]:
+                - radio "Energía" [ref=e82]
+                - generic [ref=e83]: Energía
+              - generic [ref=e84] [cursor=pointer]:
+                - radio "Impresión y Digitalización" [ref=e85]
+                - generic [ref=e86]: Impresión y Digitalización
+              - generic [ref=e87] [cursor=pointer]:
+                - radio "Pantallas y Proyectores" [ref=e88]
+                - generic [ref=e89]: Pantallas y Proyectores
+              - generic [ref=e90] [cursor=pointer]:
+                - radio "Papelería" [ref=e91]
+                - generic [ref=e92]: Papelería
+              - generic [ref=e93] [cursor=pointer]:
+                - radio "Punto de Venta y Cables" [ref=e94]
+                - generic [ref=e95]: Punto de Venta y Cables
+              - generic [ref=e96] [cursor=pointer]:
+                - radio "Redes" [ref=e97]
+                - generic [ref=e98]: Redes
+              - generic [ref=e99] [cursor=pointer]:
+                - radio "Software y Seguridad Digital" [ref=e100]
+                - generic [ref=e101]: Software y Seguridad Digital
+              - generic [ref=e102] [cursor=pointer]:
+                - radio "Telefonía y Wearables" [ref=e103]
+                - generic [ref=e104]: Telefonía y Wearables
+              - generic [ref=e105] [cursor=pointer]:
+                - radio "Vídeo y Proyección" [ref=e106]
+                - generic [ref=e107]: Vídeo y Proyección
+            - group "Marcas" [ref=e108]:
+              - generic [ref=e109]: Marcas
+              - generic [ref=e110]:
+                - generic [ref=e111] [cursor=pointer]:
+                  - checkbox "Acer" [ref=e112]
+                  - generic [ref=e113]: Acer
+                - generic [ref=e114] [cursor=pointer]:
+                  - checkbox "Adata" [ref=e115]
+                  - generic [ref=e116]: Adata
+                - generic [ref=e117] [cursor=pointer]:
+                  - checkbox "Asus" [ref=e118]
+                  - generic [ref=e119]: Asus
+                - generic [ref=e120] [cursor=pointer]:
+                  - checkbox "BenQ" [ref=e121]
+                  - generic [ref=e122]: BenQ
+                - generic [ref=e123] [cursor=pointer]:
+                  - checkbox "Brother" [ref=e124]
+                  - generic [ref=e125]: Brother
+                - generic [ref=e126] [cursor=pointer]:
+                  - checkbox "Canon" [ref=e127]
+                  - generic [ref=e128]: Canon
+                - generic [ref=e129] [cursor=pointer]:
+                  - checkbox "Dell" [ref=e130]
+                  - generic [ref=e131]: Dell
+                - generic [ref=e132] [cursor=pointer]:
+                  - checkbox "Dragón XT" [ref=e133]
+                  - generic [ref=e134]: Dragón XT
+                - generic [ref=e135] [cursor=pointer]:
+                  - checkbox "Epson" [ref=e136]
+                  - generic [ref=e137]: Epson
+                - generic [ref=e138] [cursor=pointer]:
+                  - checkbox "Ezviz" [ref=e139]
+                  - generic [ref=e140]: Ezviz
+                - generic [ref=e141] [cursor=pointer]:
+                  - checkbox "HP" [ref=e142]
+                  - generic [ref=e143]: HP
+                - generic [ref=e144] [cursor=pointer]:
+                  - checkbox "HiLook" [ref=e145]
+                  - generic [ref=e146]: HiLook
+                - generic [ref=e147] [cursor=pointer]:
+                  - checkbox "Huawei" [ref=e148]
+                  - generic [ref=e149]: Huawei
+                - generic [ref=e150] [cursor=pointer]:
+                  - checkbox "Kaspersky" [ref=e151]
+                  - generic [ref=e152]: Kaspersky
+                - generic [ref=e153] [cursor=pointer]:
+                  - checkbox "Kingston" [ref=e154]
+                  - generic [ref=e155]: Kingston
+                - generic [ref=e156] [cursor=pointer]:
+                  - checkbox "Kodak Alaris" [ref=e157]
+                  - generic [ref=e158]: Kodak Alaris
+                - generic [ref=e159] [cursor=pointer]:
+                  - checkbox "LG" [ref=e160]
+                  - generic [ref=e161]: LG
+                - generic [ref=e162] [cursor=pointer]:
+                  - checkbox "Lenovo" [ref=e163]
+                  - generic [ref=e164]: Lenovo
+                - generic [ref=e165] [cursor=pointer]:
+                  - checkbox "Lexmark" [ref=e166]
+                  - generic [ref=e167]: Lexmark
+                - generic [ref=e168] [cursor=pointer]:
+                  - checkbox "Logitech" [ref=e169]
+                  - generic [ref=e170]: Logitech
+                - generic [ref=e171] [cursor=pointer]:
+                  - checkbox "Manhattan" [ref=e172]
+                  - generic [ref=e173]: Manhattan
+                - generic [ref=e174] [cursor=pointer]:
+                  - checkbox "Microsoft" [ref=e175]
+                  - generic [ref=e176]: Microsoft
+                - generic [ref=e177] [cursor=pointer]:
+                  - checkbox "Nextep" [ref=e178]
+                  - generic [ref=e179]: Nextep
+                - generic [ref=e180] [cursor=pointer]:
+                  - checkbox "PCM" [ref=e181]
+                  - generic [ref=e182]: PCM
+                - generic [ref=e183] [cursor=pointer]:
+                  - checkbox "Perfect Choice" [ref=e184]
+                  - generic [ref=e185]: Perfect Choice
+                - generic [ref=e186] [cursor=pointer]:
+                  - checkbox "S-Print" [ref=e187]
+                  - generic [ref=e188]: S-Print
+                - generic [ref=e189] [cursor=pointer]:
+                  - checkbox "Samsung" [ref=e190]
+                  - generic [ref=e191]: Samsung
+                - generic [ref=e192] [cursor=pointer]:
+                  - checkbox "Scribe" [ref=e193]
+                  - generic [ref=e194]: Scribe
+                - generic [ref=e195] [cursor=pointer]:
+                  - checkbox "Seagate" [ref=e196]
+                  - generic [ref=e197]: Seagate
+                - generic [ref=e198] [cursor=pointer]:
+                  - checkbox "Sony" [ref=e199]
+                  - generic [ref=e200]: Sony
+                - generic [ref=e201] [cursor=pointer]:
+                  - checkbox "TP-Link" [ref=e202]
+                  - generic [ref=e203]: TP-Link
+                - generic [ref=e204] [cursor=pointer]:
+                  - checkbox "Tripp Lite" [ref=e205]
+                  - generic [ref=e206]: Tripp Lite
+                - generic [ref=e207] [cursor=pointer]:
+                  - checkbox "Verbatim" [ref=e208]
+                  - generic [ref=e209]: Verbatim
+                - generic [ref=e210] [cursor=pointer]:
+                  - checkbox "Vorago" [ref=e211]
+                  - generic [ref=e212]: Vorago
+                - generic [ref=e213] [cursor=pointer]:
+                  - checkbox "WatchGuard" [ref=e214]
+                  - generic [ref=e215]: WatchGuard
+                - generic [ref=e216] [cursor=pointer]:
+                  - checkbox "Western Digital" [ref=e217]
+                  - generic [ref=e218]: Western Digital
+                - generic [ref=e219] [cursor=pointer]:
+                  - checkbox "Xerox" [ref=e220]
+                  - generic [ref=e221]: Xerox
+                - generic [ref=e222] [cursor=pointer]:
+                  - checkbox "Xiaomi" [ref=e223]
+                  - generic [ref=e224]: Xiaomi
+        - generic [ref=e225]:
+          - paragraph [ref=e227]: Mostrando 1–24 de 212 productos
+          - generic [ref=e228]:
+            - article [ref=e229]:
+              - generic [ref=e230]:
+                - generic [ref=e231]: LGR300
+                - generic [ref=e232]: En Stock
+                - img "Aro de Luz Vorago Game Factor LGR300 30cm" [ref=e233]
+              - generic [ref=e234]:
+                - paragraph [ref=e235]: Vorago • Accesorios y Gaming
+                - heading "Aro de Luz Vorago Game Factor LGR300 30cm" [level=3] [ref=e236]
+                - link "Cotizar por WhatsApp" [ref=e237] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20LGR300%20(Aro%20de%20Luz%20Vorago%20Game%20Factor%20LGR300%2030cm).
+                  - img [ref=e238]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]: FKG400
+                - generic [ref=e243]: En Stock
+                - img "Kit Ventiladores Vorago Game Factor FKG400 3 Fans 12mm" [ref=e244]
+              - generic [ref=e245]:
+                - paragraph [ref=e246]: Vorago • Accesorios y Gaming
+                - heading "Kit Ventiladores Vorago Game Factor FKG400 3 Fans 12mm" [level=3] [ref=e247]
+                - link "Cotizar por WhatsApp" [ref=e248] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20FKG400%20(Kit%20Ventiladores%20Vorago%20Game%20Factor%20FKG400%203%20Fans%2012mm).
+                  - img [ref=e249]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e251]:
+              - generic [ref=e252]:
+                - generic [ref=e253]: NE-460R
+                - generic [ref=e254]: En Stock
+                - img "Silla Gamer Ergonómica Dragón XT Racing Rojo-Negro" [ref=e255]
+              - generic [ref=e256]:
+                - paragraph [ref=e257]: Dragón XT • Accesorios y Gaming
+                - heading "Silla Gamer Ergonómica Dragón XT Racing Rojo-Negro" [level=3] [ref=e258]
+                - link "Cotizar por WhatsApp" [ref=e259] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-460R%20(Silla%20Gamer%20Ergon%C3%B3mica%20Drag%C3%B3n%20XT%20Racing%20Rojo-Negro).
+                  - img [ref=e260]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e262]:
+              - generic [ref=e263]:
+                - generic [ref=e264]: NE-460N
+                - generic [ref=e265]: En Stock
+                - img "Silla Gamer Ergonómica Dragón XT Racing Negro" [ref=e266]
+              - generic [ref=e267]:
+                - paragraph [ref=e268]: Dragón XT • Accesorios y Gaming
+                - heading "Silla Gamer Ergonómica Dragón XT Racing Negro" [level=3] [ref=e269]
+                - link "Cotizar por WhatsApp" [ref=e270] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-460N%20(Silla%20Gamer%20Ergon%C3%B3mica%20Drag%C3%B3n%20XT%20Racing%20Negro).
+                  - img [ref=e271]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e273]:
+              - generic [ref=e274]:
+                - generic [ref=e275]: NE-462R
+                - generic [ref=e276]: En Stock
+                - img "Silla Gamer Ergonómica Dragón XT Falkor Rojo-Negro" [ref=e277]
+              - generic [ref=e278]:
+                - paragraph [ref=e279]: Dragón XT • Accesorios y Gaming
+                - heading "Silla Gamer Ergonómica Dragón XT Falkor Rojo-Negro" [level=3] [ref=e280]
+                - link "Cotizar por WhatsApp" [ref=e281] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-462R%20(Silla%20Gamer%20Ergon%C3%B3mica%20Drag%C3%B3n%20XT%20Falkor%20Rojo-Negro).
+                  - img [ref=e282]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e284]:
+              - generic [ref=e285]:
+                - generic [ref=e286]: NE-484
+                - generic [ref=e287]: En Stock
+                - img "Teclado Gamer Dragon XT USB Mecánico Iluminado" [ref=e288]
+              - generic [ref=e289]:
+                - paragraph [ref=e290]: Dragón XT • Accesorios y Gaming
+                - heading "Teclado Gamer Dragon XT USB Mecánico Iluminado" [level=3] [ref=e291]
+                - link "Cotizar por WhatsApp" [ref=e292] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-484%20(Teclado%20Gamer%20Dragon%20XT%20USB%20Mec%C3%A1nico%20Iluminado).
+                  - img [ref=e293]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e295]:
+              - generic [ref=e296]:
+                - generic [ref=e297]: PC-112600
+                - generic [ref=e298]: En Stock
+                - img "BOCINA PERFECT CHOICE PC-112600 ESTEREO 2.0" [ref=e299]
+              - generic [ref=e300]:
+                - paragraph [ref=e301]: Perfect Choice • Audio
+                - heading "BOCINA PERFECT CHOICE PC-112600 ESTEREO 2.0" [level=3] [ref=e302]
+                - link "Cotizar por WhatsApp" [ref=e303] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20PC-112600%20(BOCINA%20PERFECT%20CHOICE%20PC-112600%20ESTEREO%202.0).
+                  - img [ref=e304]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e308]: PC-111009
+                - generic [ref=e309]: En Stock
+                - img "Audífonos Perfect Choice Diadema USB Micrófono Flexible" [ref=e310]
+              - generic [ref=e311]:
+                - paragraph [ref=e312]: Perfect Choice • Audio
+                - heading "Audífonos Perfect Choice Diadema USB Micrófono Flexible" [level=3] [ref=e313]
+                - link "Cotizar por WhatsApp" [ref=e314] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20PC-111009%20(Aud%C3%ADfonos%20Perfect%20Choice%20Diadema%20USB%20Micr%C3%B3fono%20Flexible).
+                  - img [ref=e315]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e317]:
+              - generic [ref=e318]:
+                - generic [ref=e319]: 981-000667
+                - generic [ref=e320]: En Stock
+                - img "Audifonos Logitech G433 Gaming Color Negro" [ref=e321]
+              - generic [ref=e322]:
+                - paragraph [ref=e323]: Logitech • Audio
+                - heading "Audifonos Logitech G433 Gaming Color Negro" [level=3] [ref=e324]
+                - link "Cotizar por WhatsApp" [ref=e325] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20981-000667%20(Audifonos%20Logitech%20G433%20Gaming%20Color%20Negro).
+                  - img [ref=e326]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]: HS-502
+                - generic [ref=e331]: En Stock
+                - img "Diadema Vorago Gamer HS-502 Micrófono RGB 3.5mm" [ref=e332]
+              - generic [ref=e333]:
+                - paragraph [ref=e334]: Vorago • Audio
+                - heading "Diadema Vorago Gamer HS-502 Micrófono RGB 3.5mm" [level=3] [ref=e335]
+                - link "Cotizar por WhatsApp" [ref=e336] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20HS-502%20(Diadema%20Vorago%20Gamer%20HS-502%20Micr%C3%B3fono%20RGB%203.5mm).
+                  - img [ref=e337]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e339]:
+              - generic [ref=e340]:
+                - generic [ref=e341]: 980-001315
+                - generic [ref=e342]: En Stock
+                - img "BOCINAS LOGITECH Z607 MERIDA MULTIMEDIA 5.1" [ref=e343]
+              - generic [ref=e344]:
+                - paragraph [ref=e345]: Logitech • Audio
+                - heading "BOCINAS LOGITECH Z607 MERIDA MULTIMEDIA 5.1" [level=3] [ref=e346]
+                - link "Cotizar por WhatsApp" [ref=e347] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20980-001315%20(BOCINAS%20LOGITECH%20Z607%20MERIDA%20MULTIMEDIA%205.1).
+                  - img [ref=e348]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]: PC-112983
+                - generic [ref=e353]: En Stock
+                - img "Mini Bafle Perfect Choice Apollo 8\" Bluetooth" [ref=e354]
+              - generic [ref=e355]:
+                - paragraph [ref=e356]: Perfect Choice • Audio
+                - heading "Mini Bafle Perfect Choice Apollo 8\" Bluetooth" [level=3] [ref=e357]
+                - link "Cotizar por WhatsApp" [ref=e358] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20PC-112983%20(Mini%20Bafle%20Perfect%20Choice%20Apollo%208%22%20Bluetooth).
+                  - img [ref=e359]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e361]:
+              - generic [ref=e362]:
+                - generic [ref=e363]: PC-113034
+                - generic [ref=e364]: En Stock
+                - img "Barra de Audio Perfect Choice Lungo Beat Bluetooth" [ref=e365]
+              - generic [ref=e366]:
+                - paragraph [ref=e367]: Perfect Choice • Audio
+                - heading "Barra de Audio Perfect Choice Lungo Beat Bluetooth" [level=3] [ref=e368]
+                - link "Cotizar por WhatsApp" [ref=e369] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20PC-113034%20(Barra%20de%20Audio%20Perfect%20Choice%20Lungo%20Beat%20Bluetooth).
+                  - img [ref=e370]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]: 980-000401
+                - generic [ref=e375]: En Stock
+                - img "BOCINA LOGITECH Z313 2.1 50W RMS NEGRO" [ref=e376]
+              - generic [ref=e377]:
+                - paragraph [ref=e378]: Logitech • Audio
+                - heading "BOCINA LOGITECH Z313 2.1 50W RMS NEGRO" [level=3] [ref=e379]
+                - link "Cotizar por WhatsApp" [ref=e380] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20980-000401%20(BOCINA%20LOGITECH%20Z313%202.1%2050W%20RMS%20NEGRO).
+                  - img [ref=e381]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e383]:
+              - generic [ref=e384]:
+                - generic [ref=e385]: 981-000755
+                - generic [ref=e386]: En Stock
+                - img "AUDIFONOS LOGITECH GAMING G332 MICROFONO" [ref=e387]
+              - generic [ref=e388]:
+                - paragraph [ref=e389]: Logitech • Audio
+                - heading "AUDIFONOS LOGITECH GAMING G332 MICROFONO" [level=3] [ref=e390]
+                - link "Cotizar por WhatsApp" [ref=e391] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20981-000755%20(AUDIFONOS%20LOGITECH%20GAMING%20G332%20MICROFONO).
+                  - img [ref=e392]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e394]:
+              - generic [ref=e395]:
+                - generic [ref=e396]: ESB-400
+                - generic [ref=e397]: En Stock
+                - img "Audífonos Vorago Sport ESB-400 Bluetooth 5 TWS" [ref=e398]
+              - generic [ref=e399]:
+                - paragraph [ref=e400]: Vorago • Audio
+                - heading "Audífonos Vorago Sport ESB-400 Bluetooth 5 TWS" [level=3] [ref=e401]
+                - link "Cotizar por WhatsApp" [ref=e402] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20ESB-400%20(Aud%C3%ADfonos%20Vorago%20Sport%20ESB-400%20Bluetooth%205%20TWS).
+                  - img [ref=e403]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e405]:
+              - generic [ref=e406]:
+                - generic [ref=e407]: NE-425
+                - generic [ref=e408]: En Stock
+                - img "Diadema Nextep Micrófono Conexión USB Negro" [ref=e409]
+              - generic [ref=e410]:
+                - paragraph [ref=e411]: Nextep • Audio
+                - heading "Diadema Nextep Micrófono Conexión USB Negro" [level=3] [ref=e412]
+                - link "Cotizar por WhatsApp" [ref=e413] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-425%20(Diadema%20Nextep%20Micr%C3%B3fono%20Conexi%C3%B3n%20USB%20Negro).
+                  - img [ref=e414]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e416]:
+              - generic [ref=e417]:
+                - generic [ref=e418]: EL-995487
+                - generic [ref=e419]: En Stock
+                - img "Audífonos Inalámbricos Perfect Choice Viva Buds Pro" [ref=e420]
+              - generic [ref=e421]:
+                - paragraph [ref=e422]: Perfect Choice • Audio
+                - heading "Audífonos Inalámbricos Perfect Choice Viva Buds Pro" [level=3] [ref=e423]
+                - link "Cotizar por WhatsApp" [ref=e424] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20EL-995487%20(Aud%C3%ADfonos%20Inal%C3%A1mbricos%20Perfect%20Choice%20Viva%20Buds%20Pro).
+                  - img [ref=e425]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e427]:
+              - generic [ref=e428]:
+                - generic [ref=e429]: 8ZQ75LTABM
+                - generic [ref=e430]: En Stock
+                - img "Laptop HP ProBook 440 G7 14\" Intel Core i5 10210U 256GB SSD" [ref=e431]
+              - generic [ref=e432]:
+                - paragraph [ref=e433]: HP • Cómputo
+                - heading "Laptop HP ProBook 440 G7 14\" Intel Core i5 10210U 256GB SSD" [level=3] [ref=e434]
+                - link "Cotizar por WhatsApp" [ref=e435] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%208ZQ75LTABM%20(Laptop%20HP%20ProBook%20440%20G7%2014%22%20Intel%20Core%20i5%2010210U%20256GB%20SSD).
+                  - img [ref=e436]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e438]:
+              - generic [ref=e439]:
+                - generic [ref=e440]: 153B4LTABM
+                - generic [ref=e441]: En Stock
+                - img "Laptop HP 250 G7 15.6\" Intel Core i7 1065G7 1TB HDD 8GB Ram" [ref=e442]
+              - generic [ref=e443]:
+                - paragraph [ref=e444]: HP • Cómputo
+                - heading "Laptop HP 250 G7 15.6\" Intel Core i7 1065G7 1TB HDD 8GB Ram" [level=3] [ref=e445]
+                - link "Cotizar por WhatsApp" [ref=e446] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20153B4LTABM%20(Laptop%20HP%20250%20G7%2015.6%22%20Intel%20Core%20i7%201065G7%201TB%20HDD%208GB%20Ram).
+                  - img [ref=e447]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e449]:
+              - generic [ref=e450]:
+                - generic [ref=e451]: 2E5H4LAABM
+                - generic [ref=e452]: En Stock
+                - img "Desktop HP ProDesk 400 G6 SFF Intel Core i5 9400 512GB SSD" [ref=e453]
+              - generic [ref=e454]:
+                - paragraph [ref=e455]: HP • Cómputo
+                - heading "Desktop HP ProDesk 400 G6 SFF Intel Core i5 9400 512GB SSD" [level=3] [ref=e456]
+                - link "Cotizar por WhatsApp" [ref=e457] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%202E5H4LAABM%20(Desktop%20HP%20ProDesk%20400%20G6%20SFF%20Intel%20Core%20i5%209400%20512GB%20SSD).
+                  - img [ref=e458]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e462]: 7ZU66LAABM
+                - generic [ref=e463]: En Stock
+                - img "Desktop HP ProDesk 400 G5 DM Intel Core i5 9500T 256GB SSD" [ref=e464]
+              - generic [ref=e465]:
+                - paragraph [ref=e466]: HP • Cómputo
+                - heading "Desktop HP ProDesk 400 G5 DM Intel Core i5 9500T 256GB SSD" [level=3] [ref=e467]
+                - link "Cotizar por WhatsApp" [ref=e468] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%207ZU66LAABM%20(Desktop%20HP%20ProDesk%20400%20G5%20DM%20Intel%20Core%20i5%209500T%20256GB%20SSD).
+                  - img [ref=e469]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e471]:
+              - generic [ref=e472]:
+                - generic [ref=e473]: 8PB56LTABM
+                - generic [ref=e474]: En Stock
+                - img "All in One HP 205 G3 19.5\" AMD A4 9125 1TB HDD" [ref=e475]
+              - generic [ref=e476]:
+                - paragraph [ref=e477]: HP • Cómputo
+                - heading "All in One HP 205 G3 19.5\" AMD A4 9125 1TB HDD" [level=3] [ref=e478]
+                - link "Cotizar por WhatsApp" [ref=e479] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%208PB56LTABM%20(All%20in%20One%20HP%20205%20G3%2019.5%22%20AMD%20A4%209125%201TB%20HDD).
+                  - img [ref=e480]
+                  - text: Cotizar por WhatsApp
+            - article [ref=e482]:
+              - generic [ref=e483]:
+                - generic [ref=e484]: 81MB0004US
+                - generic [ref=e485]: En Stock
+                - img "Laptop Lenovo 300e Chromebook 2G 11.6\" Intel Celeron N4000" [ref=e486]
+              - generic [ref=e487]:
+                - paragraph [ref=e488]: Lenovo • Cómputo
+                - heading "Laptop Lenovo 300e Chromebook 2G 11.6\" Intel Celeron N4000" [level=3] [ref=e489]
+                - link "Cotizar por WhatsApp" [ref=e490] [cursor=pointer]:
+                  - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%2081MB0004US%20(Laptop%20Lenovo%20300e%20Chromebook%202G%2011.6%22%20Intel%20Celeron%20N4000).
+                  - img [ref=e491]
+                  - text: Cotizar por WhatsApp
+          - navigation "Paginación" [ref=e493]:
+            - button "Página anterior" [disabled]:
+              - img
+            - button "Ir a página 1" [ref=e494]: "1"
+            - button "Ir a página 2" [ref=e495]: "2"
+            - generic [ref=e496]: …
+            - button "Ir a página 9" [ref=e497]: "9"
+            - button "Página siguiente" [ref=e498]:
+              - img [ref=e499]
+  - contentinfo [ref=e501]:
+    - generic [ref=e502]:
+      - generic [ref=e503]:
+        - generic [ref=e504]: LOMAS
+        - paragraph [ref=e505]: Tu puente logístico hacia el futuro. Proveemos soluciones tecnológicas y de oficina para empresas que exigen excelencia.
+      - navigation "Empresa" [ref=e506]:
+        - heading "Empresa" [level=2] [ref=e507]
+        - list [ref=e508]:
+          - listitem [ref=e509]:
+            - link "Nosotros" [ref=e510] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e511]:
+            - link "Programa de Mayoreo" [ref=e512] [cursor=pointer]:
+              - /url: /catalog
+          - listitem [ref=e513]:
+            - link "Marcas" [ref=e514] [cursor=pointer]:
+              - /url: /brands
+          - listitem [ref=e515]:
+            - link "Contacto" [ref=e516] [cursor=pointer]:
+              - /url: /#contact
+      - navigation "Soporte" [ref=e517]:
+        - heading "Soporte" [level=2] [ref=e518]
+        - list [ref=e519]:
+          - listitem [ref=e520]:
+            - link "Información de Envío" [ref=e521] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Consulta%20sobre%20env%C3%ADos
+          - listitem [ref=e522]:
+            - link "Garantía" [ref=e523] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Consulta%20de%20garant%C3%ADa
+          - listitem [ref=e524]:
+            - link "Política de Privacidad" [ref=e525] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Solicitud%20de%20pol%C3%ADtica%20de%20privacidad
+          - listitem [ref=e526]:
+            - link "Términos de Servicio" [ref=e527] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Solicitud%20de%20t%C3%A9rminos%20de%20servicio
+      - generic [ref=e528]:
+        - heading "Contacto" [level=2] [ref=e529]
+        - list [ref=e530]:
+          - listitem [ref=e531]:
+            - img [ref=e532]
+            - generic [ref=e535]: Plátano 1406, Del Fresno, 44909 Guadalajara, Jal., México.
+          - listitem [ref=e536]:
+            - link "33 3639 4904" [ref=e537] [cursor=pointer]:
+              - /url: tel:+523336394904
+              - img [ref=e538]
+              - generic [ref=e540]: 33 3639 4904
+          - listitem [ref=e541]:
+            - link "ventas@lomas.com.mx" [ref=e542] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx
+              - img [ref=e543]
+              - generic [ref=e546]: ventas@lomas.com.mx
+    - generic [ref=e547]:
+      - paragraph [ref=e548]: COMERCIALIZADORA MAYORISTA LOMAS, S.DE R.L. DE C.V.
+      - list [ref=e549]:
+        - listitem [ref=e550]:
+          - link "Facebook" [ref=e551] [cursor=pointer]:
+            - /url: https://facebook.com/
+            - img [ref=e552]
+        - listitem [ref=e554]:
+          - link "Instagram" [ref=e555] [cursor=pointer]:
+            - /url: https://instagram.com/
+            - img [ref=e556]
+        - listitem [ref=e559]:
+          - link "LinkedIn" [ref=e560] [cursor=pointer]:
+            - /url: https://linkedin.com/
+            - img [ref=e561]
+    - paragraph [ref=e566]: © 2026 Lomas Comercializadora Mayorista — Hecho en Guadalajara.
+  - link "Contactar por WhatsApp" [ref=e567] [cursor=pointer]:
+    - /url: https://wa.me/523336394904
+    - img [ref=e568]
+    - generic [ref=e570]: Contactar por WhatsApp

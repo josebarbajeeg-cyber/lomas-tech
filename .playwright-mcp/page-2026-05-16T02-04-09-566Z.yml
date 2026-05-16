@@ -1,0 +1,602 @@
+- generic [ref=e3]:
+  - link "Saltar al contenido" [ref=e4] [cursor=pointer]:
+    - /url: "#main"
+  - navigation "Navegación principal" [ref=e5]:
+    - generic [ref=e6]:
+      - link "Lomas Tech-Wholesale, ir al inicio" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "Lomas" [ref=e8]
+      - generic [ref=e9]:
+        - button "Buscar productos" [ref=e10]:
+          - img [ref=e11]
+        - button "Abrir menú de navegación" [ref=e14]:
+          - img [ref=e15]
+  - main [ref=e16]:
+    - generic [ref=e17]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: Mayorista Autorizado en México
+          - heading "Tu Socio Mayorista en Tecnología y Oficina" [level=1] [ref=e25]
+          - paragraph [ref=e26]: El catálogo más completo de impresoras, tóners y suministros al mejor precio del mercado. Impulsa tu negocio con soluciones B2B eficientes.
+          - generic [ref=e27]:
+            - link "Ver Catálogo" [ref=e28] [cursor=pointer]:
+              - /url: /catalog
+              - text: Ver Catálogo
+              - img [ref=e29]
+            - link "Contacta a un asesor" [ref=e31] [cursor=pointer]:
+              - /url: "#contact"
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - img [ref=e34]
+              - text: 20+ marcas oficiales
+            - listitem [ref=e37]:
+              - img [ref=e38]
+              - text: Envío nacional 24–48 h
+            - listitem [ref=e43]:
+              - img [ref=e44]
+              - text: Atención B2B dedicada
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - img "Producto destacado 1 de 6" [ref=e51]
+            - generic [ref=e52]:
+              - button "Imagen anterior" [ref=e53]:
+                - img [ref=e54]
+              - button "Imagen siguiente" [ref=e56]:
+                - img [ref=e57]
+            - generic [ref=e59]:
+              - button "Ir a imagen 1" [ref=e60]
+              - button "Ir a imagen 2" [ref=e61]
+              - button "Ir a imagen 3" [ref=e62]
+              - button "Ir a imagen 4" [ref=e63]
+              - button "Ir a imagen 5" [ref=e64]
+              - button "Ir a imagen 6" [ref=e65]
+          - generic [ref=e66]:
+            - img [ref=e68]
+            - generic [ref=e73]:
+              - generic [ref=e74]: Envíos rápidos
+              - generic [ref=e75]: 24/48 horas
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - heading "Marcas que distribuimos" [level=2] [ref=e79]
+          - paragraph [ref=e80]: Distribuidores autorizados de las mejores marcas
+        - generic [ref=e82]:
+          - link "Ver marca Brand 1" [ref=e83] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 1" [ref=e84]
+          - link "Ver marca Brand 2" [ref=e85] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 2" [ref=e86]
+          - link "Ver marca Brand 3" [ref=e87] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 3" [ref=e88]
+          - link "Ver marca Brand 4" [ref=e89] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 4" [ref=e90]
+          - link "Ver marca Brand 5" [ref=e91] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 5" [ref=e92]
+          - link "Ver marca Brand 6" [ref=e93] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 6" [ref=e94]
+          - link "Ver marca Brand 7" [ref=e95] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 7" [ref=e96]
+          - link "Ver marca Brand 8" [ref=e97] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 8" [ref=e98]
+          - link "Ver marca Brand 9" [ref=e99] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 9" [ref=e100]
+          - link "Ver marca Brand 10" [ref=e101] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 10" [ref=e102]
+          - link "Ver marca Brand 11" [ref=e103] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 11" [ref=e104]
+          - link "Ver marca Brand 12" [ref=e105] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 12" [ref=e106]
+          - link "Ver marca Brand 13" [ref=e107] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 13" [ref=e108]
+          - link "Ver marca Brand 14" [ref=e109] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 14" [ref=e110]
+          - link "Ver marca Brand 15" [ref=e111] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 15" [ref=e112]
+          - link "Ver marca Brand 16" [ref=e113] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 16" [ref=e114]
+          - link "Ver marca Brand 17" [ref=e115] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 17" [ref=e116]
+          - link "Ver marca Brand 18" [ref=e117] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 18" [ref=e118]
+          - link "Ver marca Brand 19" [ref=e119] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 19" [ref=e120]
+          - link "Ver marca Brand 20" [ref=e121] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 20" [ref=e122]
+          - link "Ver marca Brand 21" [ref=e123] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 21" [ref=e124]
+          - link "Ver marca Brand 22" [ref=e125] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 22" [ref=e126]
+          - link "Ver marca Brand 23" [ref=e127] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 23" [ref=e128]
+          - link "Ver marca Brand 24" [ref=e129] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 24" [ref=e130]
+          - link "Ver marca Brand 25" [ref=e131] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 25" [ref=e132]
+          - link "Ver marca Brand 26" [ref=e133] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 26" [ref=e134]
+          - link "Ver marca Brand 27" [ref=e135] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 27" [ref=e136]
+          - link "Ver marca Brand 28" [ref=e137] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 28" [ref=e138]
+          - link "Ver marca Brand 29" [ref=e139] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 29" [ref=e140]
+          - link "Ver marca Brand 30" [ref=e141] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 30" [ref=e142]
+          - link "Ver marca Brand 31" [ref=e143] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 31" [ref=e144]
+          - link "Ver marca Brand 32" [ref=e145] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 32" [ref=e146]
+          - link "Ver marca Brand 33" [ref=e147] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 33" [ref=e148]
+          - link "Ver marca Brand 34" [ref=e149] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 34" [ref=e150]
+          - link "Ver marca Brand 1" [ref=e151] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 1" [ref=e152]
+          - link "Ver marca Brand 2" [ref=e153] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 2" [ref=e154]
+          - link "Ver marca Brand 3" [ref=e155] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 3" [ref=e156]
+          - link "Ver marca Brand 4" [ref=e157] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 4" [ref=e158]
+          - link "Ver marca Brand 5" [ref=e159] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 5" [ref=e160]
+          - link "Ver marca Brand 6" [ref=e161] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 6" [ref=e162]
+          - link "Ver marca Brand 7" [ref=e163] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 7" [ref=e164]
+          - link "Ver marca Brand 8" [ref=e165] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 8" [ref=e166]
+          - link "Ver marca Brand 9" [ref=e167] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 9" [ref=e168]
+          - link "Ver marca Brand 10" [ref=e169] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 10" [ref=e170]
+          - link "Ver marca Brand 11" [ref=e171] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 11" [ref=e172]
+          - link "Ver marca Brand 12" [ref=e173] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 12" [ref=e174]
+          - link "Ver marca Brand 13" [ref=e175] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 13" [ref=e176]
+          - link "Ver marca Brand 14" [ref=e177] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 14" [ref=e178]
+          - link "Ver marca Brand 15" [ref=e179] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 15" [ref=e180]
+          - link "Ver marca Brand 16" [ref=e181] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 16" [ref=e182]
+          - link "Ver marca Brand 17" [ref=e183] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 17" [ref=e184]
+          - link "Ver marca Brand 18" [ref=e185] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 18" [ref=e186]
+          - link "Ver marca Brand 19" [ref=e187] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 19" [ref=e188]
+          - link "Ver marca Brand 20" [ref=e189] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 20" [ref=e190]
+          - link "Ver marca Brand 21" [ref=e191] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 21" [ref=e192]
+          - link "Ver marca Brand 22" [ref=e193] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 22" [ref=e194]
+          - link "Ver marca Brand 23" [ref=e195] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 23" [ref=e196]
+          - link "Ver marca Brand 24" [ref=e197] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 24" [ref=e198]
+          - link "Ver marca Brand 25" [ref=e199] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 25" [ref=e200]
+          - link "Ver marca Brand 26" [ref=e201] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 26" [ref=e202]
+          - link "Ver marca Brand 27" [ref=e203] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 27" [ref=e204]
+          - link "Ver marca Brand 28" [ref=e205] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 28" [ref=e206]
+          - link "Ver marca Brand 29" [ref=e207] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 29" [ref=e208]
+          - link "Ver marca Brand 30" [ref=e209] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 30" [ref=e210]
+          - link "Ver marca Brand 31" [ref=e211] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 31" [ref=e212]
+          - link "Ver marca Brand 32" [ref=e213] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 32" [ref=e214]
+          - link "Ver marca Brand 33" [ref=e215] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 33" [ref=e216]
+          - link "Ver marca Brand 34" [ref=e217] [cursor=pointer]:
+            - /url: /brands
+            - img "Brand 34" [ref=e218]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - generic [ref=e222]: Acerca de Lomas
+          - heading "Más de 15 años conectando marcas globales con tu negocio" [level=2] [ref=e224]
+          - paragraph [ref=e225]: Lomas Comercializadora Mayorista es el referente líder en distribución de tecnología y suministros de oficina para el sector B2B en México. Garantizamos precios competitivos, disponibilidad inmediata y una red de distribución que cubre todo el territorio nacional.
+          - paragraph [ref=e226]: Más que un proveedor, somos tu aliado estratégico para impulsar el crecimiento de tu empresa.
+          - link "Conoce nuestra historia" [ref=e227] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Conoce nuestra historia
+            - img [ref=e228]
+        - generic [ref=e230]:
+          - generic [ref=e231]:
+            - generic [ref=e232]: Experiencia
+            - paragraph [ref=e233]: 15+
+            - paragraph [ref=e234]: Años distribuyendo en México
+          - generic [ref=e235]:
+            - generic [ref=e236]: Clientes B2B
+            - paragraph [ref=e237]: 2,400+
+            - paragraph [ref=e238]: Distribuidores activos
+        - generic [ref=e239]:
+          - img "Almacén Lomas, vista 1" [ref=e240]
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: Operación logística en Guadalajara
+            - generic [ref=e244]:
+              - button "Ir a vista 1" [ref=e245]
+              - button "Ir a vista 2" [ref=e246]
+              - button "Ir a vista 3" [ref=e247]
+      - generic [ref=e249]:
+        - generic [ref=e250]:
+          - heading "Soluciones integrales" [level=2] [ref=e251]
+          - paragraph [ref=e252]: Encuentra todo lo que tu empresa necesita en un solo lugar.
+        - generic [ref=e253]:
+          - generic [ref=e254]:
+            - generic [ref=e255]:
+              - img "Impresión y Digitalización" [ref=e256]
+              - img [ref=e259]
+            - generic [ref=e263]:
+              - heading "Impresión y Digitalización" [level=3] [ref=e264]
+              - paragraph [ref=e265]: Equipos multifuncionales, láser y tinta para cualquier volumen de trabajo.
+              - link "Explorar" [ref=e266] [cursor=pointer]:
+                - /url: /catalog?category=Impresi%C3%B3n%20y%20Digitalizaci%C3%B3n
+                - text: Explorar
+                - img [ref=e267]
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - img "Tóners y Consumibles" [ref=e271]
+              - img [ref=e274]
+            - generic [ref=e277]:
+              - heading "Tóners y Consumibles" [level=3] [ref=e278]
+              - paragraph [ref=e279]: Cartuchos originales y compatibles de alto rendimiento garantizado.
+              - link "Explorar" [ref=e280] [cursor=pointer]:
+                - /url: /catalog?category=Consumibles
+                - text: Explorar
+                - img [ref=e281]
+          - generic [ref=e283]:
+            - generic [ref=e284]:
+              - img "Soluciones de Energía" [ref=e285]
+              - img [ref=e288]
+            - generic [ref=e290]:
+              - heading "Soluciones de Energía" [level=3] [ref=e291]
+              - paragraph [ref=e292]: Servidores, UPS y sistemas de almacenamiento de alta disponibilidad.
+              - link "Explorar" [ref=e293] [cursor=pointer]:
+                - /url: /catalog?category=Almacenamiento
+                - text: Explorar
+                - img [ref=e294]
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - heading "Más vendidos" [level=2] [ref=e300]
+            - paragraph [ref=e301]: Productos con alta rotación y excelente margen para tu negocio.
+          - link "Ver todo el catálogo" [ref=e302] [cursor=pointer]:
+            - /url: /catalog
+            - text: Ver todo el catálogo
+            - img [ref=e303]
+        - generic [ref=e305]:
+          - article [ref=e306]:
+            - generic [ref=e307]:
+              - generic [ref=e308]: En Stock
+              - img "Papel Cortado Maestro Special Carta 95% de Blancura 75Grs Caja c/5000 Hojas" [ref=e309]
+            - generic [ref=e310]:
+              - paragraph [ref=e311]: Nextep • Papelería
+              - heading "Papel Cortado Maestro Special Carta 95% de Blancura 75Grs Caja c/5000 Hojas" [level=3] [ref=e312]
+              - generic [ref=e313]:
+                - generic [ref=e314]: $95.00
+                - generic [ref=e315]: Caja
+              - link "Cotizar ahora" [ref=e316] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NEAPAPAE001%20(Papel%20Cortado%20Maestro%20Special%20Carta%2095%25%20de%20Blancura%2075Grs%20Caja%20c%2F5000%20Hojas).
+                - img [ref=e317]
+                - text: Cotizar ahora
+          - article [ref=e321]:
+            - generic [ref=e322]:
+              - generic [ref=e323]: En Stock
+              - img "Papel Scribe Fotocopiado Oficio 500H 75g" [ref=e324]
+            - generic [ref=e325]:
+              - paragraph [ref=e326]: Scribe • Papelería
+              - heading "Papel Scribe Fotocopiado Oficio 500H 75g" [level=3] [ref=e327]
+              - generic [ref=e328]:
+                - generic [ref=e329]: $110.00
+                - generic [ref=e330]: Resma
+              - link "Cotizar ahora" [ref=e331] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20SCAPAPAE017%20(Papel%20Scribe%20Fotocopiado%20Oficio%20500H%2075g).
+                - img [ref=e332]
+                - text: Cotizar ahora
+          - article [ref=e336]:
+            - generic [ref=e337]:
+              - generic [ref=e338]: En Stock
+              - img "Papel Xerox Marathon Carta 500H 75g" [ref=e339]
+            - generic [ref=e340]:
+              - paragraph [ref=e341]: Xerox • Papelería
+              - heading "Papel Xerox Marathon Carta 500H 75g" [level=3] [ref=e342]
+              - generic [ref=e343]:
+                - generic [ref=e344]: $98.00
+                - generic [ref=e345]: Resma
+              - link "Cotizar ahora" [ref=e346] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20XEAPAPAE007%20(Papel%20Xerox%20Marathon%20Carta%20500H%2075g).
+                - img [ref=e347]
+                - text: Cotizar ahora
+          - article [ref=e351]:
+            - generic [ref=e352]:
+              - generic [ref=e353]: En Stock
+              - img "Multifuncional Brother DCP-B7535DW Monocromática Láser Tóner Benefit" [ref=e354]
+            - generic [ref=e355]:
+              - paragraph [ref=e356]: Brother • Impresión y Digitalización
+              - heading "Multifuncional Brother DCP-B7535DW Monocromática Láser Tóner Benefit" [level=3] [ref=e357]
+              - link "Cotizar ahora" [ref=e358] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20DCP-B7535DW%20(Multifuncional%20Brother%20DCP-B7535DW%20Monocrom%C3%A1tica%20L%C3%A1ser%20T%C3%B3ner%20Benefit).
+                - img [ref=e359]
+                - text: Cotizar ahora
+          - article [ref=e363]:
+            - generic [ref=e364]:
+              - generic [ref=e365]: En Stock
+              - img "Multifuncional Xerox VersaLink B405DN Monocromática Láser" [ref=e366]
+            - generic [ref=e367]:
+              - paragraph [ref=e368]: Xerox • Impresión y Digitalización
+              - heading "Multifuncional Xerox VersaLink B405DN Monocromática Láser" [level=3] [ref=e369]
+              - link "Cotizar ahora" [ref=e370] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20B405DN%20(Multifuncional%20Xerox%20VersaLink%20B405DN%20Monocrom%C3%A1tica%20L%C3%A1ser).
+                - img [ref=e371]
+                - text: Cotizar ahora
+          - article [ref=e375]:
+            - generic [ref=e376]:
+              - generic [ref=e377]: En Stock
+              - img "Silla Gamer Ergonómica Dragón XT Racing Rojo-Negro" [ref=e378]
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: Dragón XT • Accesorios y Gaming
+              - heading "Silla Gamer Ergonómica Dragón XT Racing Rojo-Negro" [level=3] [ref=e381]
+              - link "Cotizar ahora" [ref=e382] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-460R%20(Silla%20Gamer%20Ergon%C3%B3mica%20Drag%C3%B3n%20XT%20Racing%20Rojo-Negro).
+                - img [ref=e383]
+                - text: Cotizar ahora
+          - article [ref=e387]:
+            - generic [ref=e388]:
+              - generic [ref=e389]: En Stock
+              - img "Teclado Gamer Dragon XT USB Mecánico Iluminado" [ref=e390]
+            - generic [ref=e391]:
+              - paragraph [ref=e392]: Dragón XT • Accesorios y Gaming
+              - heading "Teclado Gamer Dragon XT USB Mecánico Iluminado" [level=3] [ref=e393]
+              - link "Cotizar ahora" [ref=e394] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20NE-484%20(Teclado%20Gamer%20Dragon%20XT%20USB%20Mec%C3%A1nico%20Iluminado).
+                - img [ref=e395]
+                - text: Cotizar ahora
+          - article [ref=e399]:
+            - generic [ref=e400]:
+              - generic [ref=e401]: En Stock
+              - img "Mouse Logitech M280 Inalámbrico Negro" [ref=e402]
+            - generic [ref=e403]:
+              - paragraph [ref=e404]: Logitech • Accesorios
+              - heading "Mouse Logitech M280 Inalámbrico Negro" [level=3] [ref=e405]
+              - link "Cotizar ahora" [ref=e406] [cursor=pointer]:
+                - /url: https://wa.me/523336394904?text=Hola%2C%20me%20interesa%20cotizar%20el%20SKU%20910-004842%20(Mouse%20Logitech%20M280%20Inal%C3%A1mbrico%20Negro).
+                - img [ref=e407]
+                - text: Cotizar ahora
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - generic [ref=e416]: Por qué elegirnos
+          - heading "Construido para distribuidores que exigen más" [level=2] [ref=e418]
+        - generic [ref=e419]:
+          - generic [ref=e420]:
+            - img [ref=e422]
+            - heading "Precios de Mayorista" [level=3] [ref=e424]
+            - paragraph [ref=e425]: Escalas de descuento por volumen para maximizar tu rentabilidad.
+          - generic [ref=e426]:
+            - img [ref=e428]
+            - heading "Envíos a todo México" [level=3] [ref=e433]
+            - paragraph [ref=e434]: Logística eficiente y segura para que tu mercancía llegue a tiempo.
+          - generic [ref=e435]:
+            - img [ref=e437]
+            - heading "Garantía Original" [level=3] [ref=e440]
+            - paragraph [ref=e441]: Todos nuestros productos cuentan con respaldo directo del fabricante.
+      - generic [ref=e445]:
+        - generic [ref=e448]: Portal B2B Mayorista
+        - heading "Optimiza tus compras con un asesor dedicado" [level=2] [ref=e449]
+        - paragraph [ref=e450]: Accede a inventario en tiempo real, líneas de crédito, descarga de facturas y atención personalizada para tu negocio.
+        - generic [ref=e451]:
+          - link "Contactar un asesor" [ref=e452] [cursor=pointer]:
+            - /url: https://wa.me/523336394904
+            - img [ref=e453]
+            - text: Contactar un asesor
+          - link "Ver catálogo completo" [ref=e455] [cursor=pointer]:
+            - /url: /catalog
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - generic [ref=e459]:
+            - heading "Visítanos" [level=2] [ref=e460]
+            - paragraph [ref=e461]: Encuentra nuestras oficinas centrales en Guadalajara.
+          - paragraph [ref=e462]:
+            - img [ref=e463]
+            - generic [ref=e466]: Plátano 1406, Del Fresno, 44909 GDL
+        - iframe [ref=e468]
+      - generic [ref=e470]:
+        - generic [ref=e471]:
+          - generic [ref=e472]:
+            - heading "Impulsamos tu estrategia B2B" [level=2] [ref=e473]:
+              - text: Impulsamos tu
+              - text: estrategia B2B
+            - paragraph [ref=e474]: Estamos listos para atender tus necesidades de mayoreo. Nuestro equipo de expertos te brindará atención personalizada.
+          - list [ref=e475]:
+            - listitem [ref=e476]:
+              - img [ref=e478]
+              - generic [ref=e481]:
+                - heading "Oficinas centrales" [level=3] [ref=e482]
+                - paragraph [ref=e483]:
+                  - text: Plátano 1406, Del Fresno, 44909
+                  - text: Guadalajara, Jal., México.
+            - listitem [ref=e484]:
+              - img [ref=e486]
+              - generic [ref=e488]:
+                - heading "Teléfono" [level=3] [ref=e489]
+                - link "33 3639 4904" [ref=e490] [cursor=pointer]:
+                  - /url: tel:+523336394904
+            - listitem [ref=e491]:
+              - img [ref=e493]
+              - generic [ref=e496]:
+                - heading "Correo" [level=3] [ref=e497]
+                - link "ventas@lomas.com.mx" [ref=e498] [cursor=pointer]:
+                  - /url: mailto:ventas@lomas.com.mx
+                - link "soporte@lomas.com.mx" [ref=e499] [cursor=pointer]:
+                  - /url: mailto:soporte@lomas.com.mx
+        - generic [ref=e501]:
+          - generic [ref=e502]:
+            - generic [ref=e503]:
+              - text: Nombre completo
+              - textbox "Nombre completo" [ref=e504]:
+                - /placeholder: Juan Pérez
+            - generic [ref=e505]:
+              - text: Correo electrónico
+              - textbox "Correo electrónico" [ref=e506]:
+                - /placeholder: juan@empresa.com
+          - generic [ref=e507]:
+            - generic [ref=e508]:
+              - text: Empresa
+              - textbox "Empresa" [ref=e509]:
+                - /placeholder: Razón social
+            - generic [ref=e510]:
+              - text: Teléfono
+              - textbox "Teléfono" [ref=e511]:
+                - /placeholder: 10 dígitos
+          - generic [ref=e512]:
+            - text: Mensaje o solicitud de SKU
+            - textbox "Mensaje o solicitud de SKU" [ref=e513]:
+              - /placeholder: ¿Qué productos o marcas te interesan para tu negocio?
+          - button "Enviar solicitud" [ref=e514]:
+            - img [ref=e515]
+            - text: Enviar solicitud
+          - paragraph [ref=e518]: Al enviar, aceptas nuestro Aviso de Privacidad para fines comerciales B2B.
+  - contentinfo [ref=e519]:
+    - generic [ref=e520]:
+      - generic [ref=e521]:
+        - generic [ref=e522]: LOMAS
+        - paragraph [ref=e523]: Tu puente logístico hacia el futuro. Proveemos soluciones tecnológicas y de oficina para empresas que exigen excelencia.
+      - navigation "Empresa" [ref=e524]:
+        - heading "Empresa" [level=2] [ref=e525]
+        - list [ref=e526]:
+          - listitem [ref=e527]:
+            - link "Nosotros" [ref=e528] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e529]:
+            - link "Programa de Mayoreo" [ref=e530] [cursor=pointer]:
+              - /url: /catalog
+          - listitem [ref=e531]:
+            - link "Marcas" [ref=e532] [cursor=pointer]:
+              - /url: /brands
+          - listitem [ref=e533]:
+            - link "Contacto" [ref=e534] [cursor=pointer]:
+              - /url: /#contact
+      - navigation "Soporte" [ref=e535]:
+        - heading "Soporte" [level=2] [ref=e536]
+        - list [ref=e537]:
+          - listitem [ref=e538]:
+            - link "Información de Envío" [ref=e539] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Consulta%20sobre%20env%C3%ADos
+          - listitem [ref=e540]:
+            - link "Garantía" [ref=e541] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Consulta%20de%20garant%C3%ADa
+          - listitem [ref=e542]:
+            - link "Política de Privacidad" [ref=e543] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Solicitud%20de%20pol%C3%ADtica%20de%20privacidad
+          - listitem [ref=e544]:
+            - link "Términos de Servicio" [ref=e545] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx?subject=Solicitud%20de%20t%C3%A9rminos%20de%20servicio
+      - generic [ref=e546]:
+        - heading "Contacto" [level=2] [ref=e547]
+        - list [ref=e548]:
+          - listitem [ref=e549]:
+            - img [ref=e550]
+            - generic [ref=e553]: Plátano 1406, Del Fresno, 44909 Guadalajara, Jal., México.
+          - listitem [ref=e554]:
+            - link "33 3639 4904" [ref=e555] [cursor=pointer]:
+              - /url: tel:+523336394904
+              - img [ref=e556]
+              - generic [ref=e558]: 33 3639 4904
+          - listitem [ref=e559]:
+            - link "ventas@lomas.com.mx" [ref=e560] [cursor=pointer]:
+              - /url: mailto:ventas@lomas.com.mx
+              - img [ref=e561]
+              - generic [ref=e564]: ventas@lomas.com.mx
+    - generic [ref=e565]:
+      - paragraph [ref=e566]: COMERCIALIZADORA MAYORISTA LOMAS, S.DE R.L. DE C.V.
+      - list [ref=e567]:
+        - listitem [ref=e568]:
+          - link "Facebook" [ref=e569] [cursor=pointer]:
+            - /url: https://facebook.com/
+            - img [ref=e570]
+        - listitem [ref=e572]:
+          - link "Instagram" [ref=e573] [cursor=pointer]:
+            - /url: https://instagram.com/
+            - img [ref=e574]
+        - listitem [ref=e577]:
+          - link "LinkedIn" [ref=e578] [cursor=pointer]:
+            - /url: https://linkedin.com/
+            - img [ref=e579]
+    - paragraph [ref=e584]: © 2026 Lomas Comercializadora Mayorista — Hecho en Guadalajara.
+  - link "Contactar por WhatsApp" [ref=e585] [cursor=pointer]:
+    - /url: https://wa.me/523336394904
+    - img [ref=e586]
+    - generic [ref=e588]: Contactar por WhatsApp

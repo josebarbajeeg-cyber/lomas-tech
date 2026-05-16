@@ -1,0 +1,45 @@
+# Lomas Tech-Wholesale
+User-agent: *
+Allow: /
+
+# Major search bots
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+
+# AI / generative search bots — explicitly allowed for GEO visibility
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+
+# Block low-value paths
+Disallow: /catalog?q=
+Disallow: /*?utm_
+
+Sitemap: https://www.lomastech.mx/sitemap.xml

@@ -1,5 +1,4 @@
-
-export interface Product {
+﻿export interface Product {
   sku: string;
   name: string;
   brand: string;
@@ -15,1723 +14,3836 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  // Accesorios y Gaming
-  {
-    sku: 'LGR300',
-    name: 'Aro de Luz Vorago Game Factor LGR300 30cm',
-    brand: 'Vorago',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/LGR300.png'
+  {
+    "sku": "20SL00VNLM",
+    "name": "Laptop Lenovo ThinkBook 14-IIL Aluminio 14\" Intel Core i3 1005G1 Disco duro 1 TB Ram 8 GB Windows 10 Pro",
+    "brand": "Lenovo",
+    "category": "CÃ³mputo",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/LNHLATAC081.webp"
+  },
+  {
+    "sku": "MMM55",
+    "name": "Laptop Dell Latitude 15 3520 15.6\" Intel Core i5 1135G7 Disco duro 1 TB Ram 8 GB Windows 10 Pro Color Negro",
+    "brand": "Dell",
+    "category": "CÃ³mputo",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/DEHLATAB311.webp"
+  },
+  {
+    "sku": "421G6LA#ABM",
+    "name": "Desktop HP ProDesk 400 G7 SFF Intel Core i5 10400 Disco duro 256 GB SSD Ram 8 GB Windows 10 Pro",
+    "brand": "HP",
+    "category": "CÃ³mputo",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/HPHDEKAB547.webp"
+  },
+  {
+    "sku": "400-ATKJ",
+    "name": "Disco duro Dell 2 TB 7.2K RPM SATA 3.5\" Hot-plug Hard para Servidores R240/R340/R440/R540/R740",
+    "brand": "Dell",
+    "category": "Servidores y Almacenamiento",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/DEVDISAG008.webp"
+  },
+  {
+    "sku": "2313C004AC",
+    "name": "Multifuncional Canon Pixma G2110 Color Tinta Continua",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIIMPAG124.webp"
+  },
+  {
+    "sku": "2315C004AC",
+    "name": "Multifuncional Canon Pixma G3110 Color Tinta Continua Wi-Fi",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIIMPAG119.webp"
+  },
+  {
+    "sku": "2316C004AB",
+    "name": "Multifuncional Canon Pixma G4110 Color Tinta Continua Wi-Fi/ADF/Wireless direct",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIIMPAG131.webp"
+  },
+  {
+    "sku": "2223C024AA",
+    "name": "Multifuncional Canon ImageClass D1620 MonocromÃ¡tica LÃ¡ser de 45ppm",
+    "brand": "Canon",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIIMPAG113.webp"
+  },
+  {
+    "sku": "0667C001AC",
+    "name": "TINTA CANON GI-190 G1110/G2110/G3110/G4110 NEGRA TINTA CONTINUA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB205.webp"
+  },
+  {
+    "sku": "0668C001AC",
+    "name": "TINTA CANON GI-190 G1110/G2110/G3110/G4110 CYAN TINTA CONTINUA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB206.webp"
+  },
+  {
+    "sku": "0669C001AC",
+    "name": "TINTA CANON GI-190 G1110/G2110/G3110/G4110 MAGENTA TINTA CONTINUA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB207.webp"
+  },
+  {
+    "sku": "0670C001AC",
+    "name": "TINTA CANON GI-190 G1110/G2110/G3110/G4110 AMARILLO TINTA CONTINUA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB208.webp"
+  },
+  {
+    "sku": "3391C001AA",
+    "name": "Tinta Canon GI-10 Cian Pixma Tinta Continua",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB233.webp"
+  },
+  {
+    "sku": "3392C001AA",
+    "name": "Tinta Canon GI-10 Magenta Pixma Tinta Continua",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB234.webp"
+  },
+  {
+    "sku": "3393C001AA",
+    "name": "Tinta Canon GI-10 Amarilla Pixma Tinta Continua",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB235.webp"
+  },
+  {
+    "sku": "4534C001AA",
+    "name": "Tinta Canon Pixma GI-11 Color Cian",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB237.webp"
+  },
+  {
+    "sku": "4535C001AA",
+    "name": "Tinta Canon Pixma GI-11 Color Magenta",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB238.webp"
+  },
+  {
+    "sku": "4536C001AA",
+    "name": "Tinta Canon Pixma GI-11 Color Amarillo",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB239.webp"
+  },
+  {
+    "sku": "3382C001AA",
+    "name": "Tinta Canon GI-10 Negra Pixma Tinta Continua",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB232.webp"
+  },
+  {
+    "sku": "4525C001AA",
+    "name": "Tinta Canon Pixma GI-11 Color Negro",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB236.webp"
+  },
+  {
+    "sku": "4563B001AB",
+    "name": "TANQUE TINTA CANON MAGENTA CLI-126",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB092.webp"
+  },
+  {
+    "sku": "6531B001AA",
+    "name": "TINTA CANON CLI-151 Y",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB124.webp"
+  },
+  {
+    "sku": "6528B001AA",
+    "name": "TINTA CANON CLI-151 BK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB127.webp"
+  },
+  {
+    "sku": "6529B001AA",
+    "name": "TINTA CANON CLI-151 C",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB134.webp"
+  },
+  {
+    "sku": "6530B001AA",
+    "name": "TINTA CANON CLI-151 M",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB135.webp"
+  },
+  {
+    "sku": "9244B001AA",
+    "name": "TANQUE TINTA CANON PGI 1100 CYAN MB2010",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB197.webp"
+  },
+  {
+    "sku": "9245B001AA",
+    "name": "TANQUE TINTA CANON PGI 1100 MAGENTA MB2010",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB198.webp"
+  },
+  {
+    "sku": "9246B001AA",
+    "name": "TANQUE TINTA CANON PGI 1100 AMARILLO MB2010",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB199.webp"
+  },
+  {
+    "sku": "6402B010AA",
+    "name": "TINTA CANON NEGRO MATE PGI-72 MBK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB219.webp"
+  },
+  {
+    "sku": "6409B010AA",
+    "name": "TINTA CANON GRIS PGI-72 GY",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB220.webp"
+  },
+  {
+    "sku": "6408B010AA",
+    "name": "TINTA CANON MAGENTA FOTO PGI-72 PM",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB221.webp"
+  },
+  {
+    "sku": "6406B010AA",
+    "name": "TINTA CANON AMARILLO PGI-72 Y",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB223.webp"
+  },
+  {
+    "sku": "6405B010AA",
+    "name": "TINTA CANON MAGENTA PGI-72 M",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB224.webp"
+  },
+  {
+    "sku": "6403B010AA",
+    "name": "TINTA CANON NEGRO FOTO PGI-72 PBK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB226.webp"
+  },
+  {
+    "sku": "6404B010AA",
+    "name": "TINTA CANON CIAN  PGI-72 C",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB227.webp"
+  },
+  {
+    "sku": "6411B010AA",
+    "name": "TINTA CANON CHROMO OPTIMIZER PGI-72 CO",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB228.webp"
+  },
+  {
+    "sku": "0623B035AA",
+    "name": "TANQUE TINTA CANON AMARILLO CLI-8 (450 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB076.webp"
+  },
+  {
+    "sku": "4533B001AB",
+    "name": "TANQUE TINTA CANON NEGRO PGI-125",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB088.webp"
+  },
+  {
+    "sku": "6500B001AA",
+    "name": "TINTA CANON PGI-150 PGBK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB126.webp"
+  },
+  {
+    "sku": "6384B009AA",
+    "name": "TINTA CANON CLI-42 NEGRO",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB136.webp"
+  },
+  {
+    "sku": "6385B009AA",
+    "name": "TINTA CANON CLI-42 CYAN",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB137.webp"
+  },
+  {
+    "sku": "6386B009AA",
+    "name": "TINTA CANON CLI-42 MAGENTA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB140.webp"
+  },
+  {
+    "sku": "6387B009AA",
+    "name": "TINTA CANON CLI-42 AMARILLO",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB141.webp"
+  },
+  {
+    "sku": "6388B009AA",
+    "name": "TINTA CANON CLI-42 PHOTO CYAN",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB142.webp"
+  },
+  {
+    "sku": "6389B009AA",
+    "name": "TINTA CANON CLI-42 PHOTO MAGENTA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB143.webp"
+  },
+  {
+    "sku": "1509B020AA",
+    "name": "TINTA CANON NEGRO PGI-35 (190 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB100.webp"
+  },
+  {
+    "sku": "2974B017AA",
+    "name": "TINTA CANON NEGRO PG-210 BK (250 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB102.webp"
+  },
+  {
+    "sku": "9316B001AA",
+    "name": "TINTA CANON CIAN PGI-2100 C",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB215.webp"
+  },
+  {
+    "sku": "9317B001AA",
+    "name": "TINTA CANON MAGENTA PGI-2100 M",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB216.webp"
+  },
+  {
+    "sku": "9318B001AA",
+    "name": "TINTA CANON AMARILLO PGI-2100 Y",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB217.webp"
+  },
+  {
+    "sku": "6435B001AA",
+    "name": "TINTA CANON PGI-150XL PGBK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB128.webp"
+  },
+  {
+    "sku": "6477B001AA",
+    "name": "TINTA CANON CLI-151XL BK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB129.webp"
+  },
+  {
+    "sku": "6480B001AA",
+    "name": "TINTA CANON CLI-151XL Y",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB130.webp"
+  },
+  {
+    "sku": "6481B001AA",
+    "name": "TINTA CANON CLI-151XL GY",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB131.webp"
+  },
+  {
+    "sku": "6478B001AA",
+    "name": "TINTA CANON CLI-151XL C",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB132.webp"
+  },
+  {
+    "sku": "6479B001AA",
+    "name": "TINTA CANON CLI-151XL M",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB133.webp"
+  },
+  {
+    "sku": "9223B001AA",
+    "name": "TANQUE TINTA CANON PGI 1100 BLACK MB2010",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB196.webp"
+  },
+  {
+    "sku": "0615B050AA",
+    "name": "TINTA CANON NEGRO PG-40 BK (355 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB069.webp"
+  },
+  {
+    "sku": "2973B017AA",
+    "name": "TINTA CANON NEGRO PG-210XL BK (400 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB104.webp"
+  },
+  {
+    "sku": "1511B020AA",
+    "name": "TINTA CANON CLI-36 COLOR (250 PÃ¡g.)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB101.webp"
+  },
+  {
+    "sku": "2976B017AA",
+    "name": "TINTA CANON CL-211 COLOR (225 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB103.webp"
+  },
+  {
+    "sku": "8274B001AA",
+    "name": "TINTA CANON PG-145 XL BK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB147.webp"
+  },
+  {
+    "sku": "5200B001AB",
+    "name": "TINTA CANON PG-140 XL NEGRO ALTO RENDIMIENTO",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB095.webp"
+  },
+  {
+    "sku": "0617B050AA",
+    "name": "TINTA CANON COLOR CL-41 (320 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB070.webp"
+  },
+  {
+    "sku": "9208B001AA",
+    "name": "TANQUE TINTA CANON ALTA CAPACIDAD CYAN PGI 1100XL",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB210.webp"
+  },
+  {
+    "sku": "9209B001AA",
+    "name": "TANQUE TINTA CANON ALTA CAPACIDAD MAGENTA PGI 1100XL",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB211.webp"
+  },
+  {
+    "sku": "9210B001AA",
+    "name": "TANQUE TINTA CANON ALTA CAPACIDAD AMARILLO PGI 1100XL",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB212.webp"
+  },
+  {
+    "sku": "9295B001AA",
+    "name": "TINTA CANON NEGRO PGI-2100 BK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB214.webp"
+  },
+  {
+    "sku": "9281B001AA",
+    "name": "TINTA CANON MAGENTA ALTA CAPACIDAD PGI-2100 XLM",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB229.webp"
+  },
+  {
+    "sku": "9282B001AA",
+    "name": "TINTA CANON AMARILLO ALTA CAPACIDAD PGI-2100 XLY",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB230.webp"
+  },
+  {
+    "sku": "9280B001AA",
+    "name": "TINTA CANON CYAN ALTA CAPACIDAD PGI-2100 XL C",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB231.webp"
+  },
+  {
+    "sku": "2975B017AA",
+    "name": "TINTA CANON CL-211XL COLOR (349 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB105.webp"
+  },
+  {
+    "sku": "9187B001AA",
+    "name": "TANQUE TINTA CANON ALTA CAPACIDAD NEGRO PGI 1100XL",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB209.webp"
+  },
+  {
+    "sku": "8276B001AA",
+    "name": "TINTA CANON CL-146 XL CLR",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB146.webp"
+  },
+  {
+    "sku": "9259B001AA",
+    "name": "TINTA CANON NEGRO ALTA CAPACIDAD PGI-2100 XL BK",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB218.webp"
+  },
+  {
+    "sku": "3488C001AA",
+    "name": "Tinta Canon PFI-030 Color Negro Mate para Series TA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB143.webp"
+  },
+  {
+    "sku": "3489C001AA",
+    "name": "Tinta Canon PFI-030 Color Negro para Series TA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB144.webp"
+  },
+  {
+    "sku": "3490C001AA",
+    "name": "Tinta Canon PFI-030 Color Cian para Series TA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB145.webp"
+  },
+  {
+    "sku": "3491C001AA",
+    "name": "Tinta Canon PFI-030 Color Magenta para Series TA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB146.webp"
+  },
+  {
+    "sku": "3492C001AA",
+    "name": "Tinta Canon PFI-030 Color Amarillo para Series TA",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB147.webp"
+  },
+  {
+    "sku": "5198B001AB",
+    "name": "Tinta Canon Pixma PG-140 XXL Color Negro",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB241.webp"
+  },
+  {
+    "sku": "5202B001AB",
+    "name": "TINTA CANON CL-141 XL COLOR ALTO RENDIMIENTO",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB097.webp"
+  },
+  {
+    "sku": "2142C001AA",
+    "name": "TINTA CANON NEGRO MATTE PFI-007 MBK 90ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB078.webp"
+  },
+  {
+    "sku": "2143C001AA",
+    "name": "TINTA CANON NEGRO PFI-007BK 90ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB079.webp"
+  },
+  {
+    "sku": "2144C001AA",
+    "name": "TINTA CANON CYAN PFI-007C 90ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB080.webp"
+  },
+  {
+    "sku": "2145C001AA",
+    "name": "TINTA CANON MAGENTA PFI-007M 90ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB081.webp"
+  },
+  {
+    "sku": "2146C001AA",
+    "name": "TINTA CANON AMARILLO PFI-007Y 90ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB082.webp"
+  },
+  {
+    "sku": "0692C005AA",
+    "name": "Cabezal Canon Combo Tinta Negra y Color BH-1 CH-1 para Pixma G1110 G2110 G3110 G4110",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACACCAE008.webp"
+  },
+  {
+    "sku": "1242C001AA",
+    "name": "Toner Canon 045 Negro Capacidad Estandar",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB074.webp"
+  },
+  {
+    "sku": "6272B001AA",
+    "name": "Toner Canon 131 Negro",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB068.webp"
+  },
+  {
+    "sku": "1239C001AA",
+    "name": "Toner Canon 045 Amarillo para ImageClass Series MF630C/LBP610C (1300 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB071.webp"
+  },
+  {
+    "sku": "1241C001AA",
+    "name": "Toner Canon 045 Cyan para ImageClass Series MF630C/LBP610C (1300 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB073.webp"
+  },
+  {
+    "sku": "2164C001AA",
+    "name": "TÃ³ner Canon 047 Negro para ImageClass Series LBP110/MF110 (1600 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB094.webp"
+  },
+  {
+    "sku": "1492A002CA",
+    "name": "Toner Canon Negro E-20 para Serie PC 2mil paginas",
+    "brand": "Canon",
+    "category": "CÃ³mputo",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB008.webp"
+  },
+  {
+    "sku": "0263B001BA",
+    "name": "Toner Canon 104 para ImageClass D420/D480/ MF4100/4600 Series (2mil pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB039.webp"
+  },
+  {
+    "sku": "1240C001AA",
+    "name": "Toner Canon 045 Magenta para ImageClass Series MF630C/LBP610C (1300 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB072.webp"
+  },
+  {
+    "sku": "3484B001AA",
+    "name": "Toner Canon 125",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB062.webp"
+  },
+  {
+    "sku": "3500B001AA",
+    "name": "Toner Canon 128",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB063.webp"
+  },
+  {
+    "sku": "3024C001AA",
+    "name": "TÃ³ner Canon 054 Capacidad 1500 PÃ¡ginas Color Negro",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB086.webp"
+  },
+  {
+    "sku": "6704B001AA",
+    "name": "TANQUE TINTA CANON NEGRO MATE PFI-107MBK 130ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB050.webp"
+  },
+  {
+    "sku": "1320B014CC",
+    "name": "Cartucho Mantenimiento Canon MC-10 (IPF650/655/750/760/765)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB060.webp"
+  },
+  {
+    "sku": "9435B001AA",
+    "name": "Toner Canon 137",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB070.webp"
+  },
+  {
+    "sku": "6705B001AA",
+    "name": "TANQUE TINTA CANON NEGRO PFI-107BK 130ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB051.webp"
+  },
+  {
+    "sku": "6706B001AA",
+    "name": "Tinta Canon PFI-107C 130ml Color Cian",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB052.webp"
+  },
+  {
+    "sku": "6707B001AA",
+    "name": "TANQUE TINTA CANON MAGNETA PFI-107M 130ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB053.webp"
+  },
+  {
+    "sku": "6708B001AA",
+    "name": "TANQUE TINTA CANON AMARILLO PFI-107Y 130ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB054.webp"
+  },
+  {
+    "sku": "3479B001AA",
+    "name": "Toner Canon 119",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB064.webp"
+  },
+  {
+    "sku": "1156C002AA",
+    "name": "Cartucho Mantenimiento Canon MC-30 Imageprograf para Serie Pro/Serie TX/GP",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACCATAC005.webp"
+  },
+  {
+    "sku": "3631B001AA",
+    "name": "TINTA CANON MAGENTA PFI-104 M 130ML (IPF-650/655/750)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB040.webp"
+  },
+  {
+    "sku": "6270B001AA",
+    "name": "Toner Canon 131 Magenta",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB066.webp"
+  },
+  {
+    "sku": "6271B001AA",
+    "name": "Toner Canon 131 Cyan",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB067.webp"
+  },
+  {
+    "sku": "6269B001AA",
+    "name": "Toner Canon 131 Amarillo",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB069.webp"
+  },
+  {
+    "sku": "3023C001AA",
+    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Cian",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB087.webp"
+  },
+  {
+    "sku": "3022C001AA",
+    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Magenta",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB088.webp"
+  },
+  {
+    "sku": "3021C001AA",
+    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Amarillo",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB089.webp"
+  },
+  {
+    "sku": "1243C001AA",
+    "name": "Toner Canon 045H Amarillo para ImageClass Series MF630C/LBP610C (2200 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB075.webp"
+  },
+  {
+    "sku": "1244C001AA",
+    "name": "Toner Canon 045H Magenta para ImageClass Series MF630C/LBP610C (2200 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB076.webp"
+  },
+  {
+    "sku": "1245C001AA",
+    "name": "Toner Canon 045H Cyan para ImageClass Series MF630C/LBP610C (2200 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB077.webp"
+  },
+  {
+    "sku": "1246C001AA",
+    "name": "Toner Canon 045 Negro Alta Capacidad",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB078.webp"
+  },
+  {
+    "sku": "2199C001AA",
+    "name": "Toner Canon 052BK LBP210 MF420 3100 Paginas",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB079.webp"
+  },
+  {
+    "sku": "0894B001AA",
+    "name": "TINTA CANON NEGRO MATTE PFI-102 MBK (SOLO iPF605 /",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB012.webp"
+  },
+  {
+    "sku": "0895B001AA",
+    "name": "TINTA CANON NEGRA PFI-102BK (SOLO iPF605/510/650/6",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB013.webp"
+  },
+  {
+    "sku": "0896B001AA",
+    "name": "TINTA CANON CYAN PFI-102C (SOLO iPF605/510/650/655",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB014.webp"
+  },
+  {
+    "sku": "0897B001AA",
+    "name": "TINTA CANON MAGENTA PFI-102M (SOLO iPF605/510/710/720)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB015.webp"
+  },
+  {
+    "sku": "0898B001AA",
+    "name": "Tinta Canon PFI-102Y Color Amarillo (Solo iPF605/501/650)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB016.webp"
+  },
+  {
+    "sku": "3009C001AA",
+    "name": "TÃ³ner Canon 057 para ImageClass Series LBP226dw / MF445dw (3000 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB090.webp"
+  },
+  {
+    "sku": "1249C001AA",
+    "name": "Toner Canon 046 Cyan para MF735 MF733 MF731 2300 Paginas",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB082.webp"
+  },
+  {
+    "sku": "1248C001AA",
+    "name": "Toner Canon 046 Magenta para ImageClass Series MF730C/LBP650C (2300 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB083.webp"
+  },
+  {
+    "sku": "1247C001AA",
+    "name": "Toner Canon 046 Amarillo para MF735 MF733 MF731 2300 Paginas",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB084.webp"
+  },
+  {
+    "sku": "7833A001BA",
+    "name": "TÃ³ner Canon S-35 D340/D320",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB028.webp"
+  },
+  {
+    "sku": "3252C001AA",
+    "name": "Toner Canon 121 para ImageClass Series D1620/D1650 5000 Paginas",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB085.webp"
+  },
+  {
+    "sku": "2617B001AA",
+    "name": "Toner Canon 120 para ImageClass Series D1120 / D1150 /D1170 / D1180 /D1320 / D1350 / D1370 /D1520 / D1550 (3000 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB053.webp"
+  },
+  {
+    "sku": "8792B001AA",
+    "name": "TANQUE TINTA CANON AMARILLO PFI-207Y 300ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB172.webp"
+  },
+  {
+    "sku": "2662B001AA",
+    "name": "Toner Canon 118 Negro para ImageClass Series LBP7200Cdn / LBP7660Cdn / MF8350Cdn / MF8380Cdw / MF8580Cdw / MF726Cdw /",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB058.webp"
+  },
+  {
+    "sku": "2661B001AA",
+    "name": "Toner Canon 118 Cyan para ImageClass Series LBP7200Cdn / LBP7660Cdn / MF8350Cdn / MF8380Cdw / MF8580Cdw / MF726Cdw / M",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB059.webp"
+  },
+  {
+    "sku": "2660B001AA",
+    "name": "Toner Canon 118 Magenta para ImageClass Series LBP7200Cdn / LBP7660Cdn / MF8350Cdn / MF8380Cdw / MF8580Cdw / MF726Cdw",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB060.webp"
+  },
+  {
+    "sku": "2659B001AA",
+    "name": "Toner Canon 118 Amarillo",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB061.webp"
+  },
+  {
+    "sku": "8788B001AA",
+    "name": "TANQUE TINTA CANON NEGRO MATE PFI-207MBK 300ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTINAB168.webp"
+  },
+  {
+    "sku": "3480B001AA",
+    "name": "Toner Canon 119 II Alta Capacidad",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB065.webp"
+  },
+  {
+    "sku": "9810B001AA",
+    "name": "Tanque Tinta Canon PF1-307 MBK Color Negro Mate 330ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB055.webp"
+  },
+  {
+    "sku": "0264B001AA",
+    "name": "Toner Canon 106 para ImageClass MF6530/MF6550 Series",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB040.webp"
+  },
+  {
+    "sku": "2362C001AA",
+    "name": "Tinta Canon PFI-310 Y Color Amarillo 330ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB142.webp"
+  },
+  {
+    "sku": "2200C001AA",
+    "name": "Toner Canon 052H para ImageClass Series LBP210/MF420 (3100 Pag)",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTONAB080.webp"
+  },
+  {
+    "sku": "2957B001AA",
+    "name": "TANQUE TINTA CANON NEGRA MATTE PFI-303 MBK 330ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB065.webp"
+  },
+  {
+    "sku": "0810C001AA",
+    "name": "TINTA CANON NEGRO MATTE PFI-1300 MBK 330ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB102.webp"
+  },
+  {
+    "sku": "2353C001AA",
+    "name": "TINTA CANON PFI-710 MBK NEGRO MATE 700ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB121.webp"
+  },
+  {
+    "sku": "2962B001AA",
+    "name": "TANQUE TINTA CANON NEGRA MATTE PFI-703MBK 700ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB035.webp"
+  },
+  {
+    "sku": "2964B001AA",
+    "name": "TANQUE TINTA CANON CYAN PFI-703 C 700ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB037.webp"
+  },
+  {
+    "sku": "6682B001AA",
+    "name": "TINTA CANON CYAN PFI-706 C-700[[A",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB062.webp"
+  },
+  {
+    "sku": "6681B001AA",
+    "name": "TINTA CANON NEGRA PFI-706 BK 700ML",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB115.webp"
+  },
+  {
+    "sku": "6688B001AA",
+    "name": "TINTA CANON VERDE PFI-706 G - 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB119.webp"
+  },
+  {
+    "sku": "0774C001AA",
+    "name": "TINTA CANON NEGRO MATTE PFI-1700 MBK de 700ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB066.webp"
+  },
+  {
+    "sku": "0780C001AA",
+    "name": "TINTA CANON FHOTO MAGENTA PFI-1700 (PM) de 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB072.webp"
+  },
+  {
+    "sku": "0781C001AA",
+    "name": "TINTA CANON GRIS PFI-1700 de 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB073.webp"
+  },
+  {
+    "sku": "0782C001AA",
+    "name": "TINTA CANON FHOTO GRIS PFI-1700 de 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB074.webp"
+  },
+  {
+    "sku": "0783C001AA",
+    "name": "TINTA CANON FHOTO ROJO PFI-1700 (R) de 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB075.webp"
+  },
+  {
+    "sku": "0785C001AA",
+    "name": "TINTA CANON CHROMA OPTIMIZER PFI-1700 (CO) de 700 ml",
+    "brand": "Canon",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACTIFAB077.webp"
+  },
+  {
+    "sku": "2628C003AA",
+    "name": "CÃ¡mara Canon EOS T100 con lente EF-S 18-55mm f/3.5-5.6",
+    "brand": "Canon",
+    "category": "CÃ¡mara, Video y ProyecciÃ³n",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAECAMAB252.webp"
+  },
+  {
+    "sku": "2727C002AA",
+    "name": "Camara Canon EOS Rebel T7 Con Lente EF-S 18-55mm f/3.5-5.6",
+    "brand": "Canon",
+    "category": "CÃ¡mara, Video y ProyecciÃ³n",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAECAMAB258.webp"
+  },
+  {
+    "sku": "8568B001AA",
+    "name": "Papel Canon RP108",
+    "brand": "Canon",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACPAPAE023.webp"
+  },
+  {
+    "sku": "3115B001AA",
+    "name": "Tinta/Papel Canon KP-108IN Para Selphy CP (Cont. 108 Papel)",
+    "brand": "Canon",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CACPAPAN005.webp"
+  },
+  {
+    "sku": "2995C003AA",
+    "name": "EscÃ¡ner Canon ScanLIDE 300",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB025.webp"
+  },
+  {
+    "sku": "9705B007AC",
+    "name": "Escaner Canon ImageFormula P-215II ResoluciÃ³n 600 dpi",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB015.webp"
+  },
+  {
+    "sku": "2646C002AC",
+    "name": "EscÃ¡ner Canon ImageFormula DR-C230 de 30ppm con Cap 60 Hojas",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB029.webp"
+  },
+  {
+    "sku": "3258C002AA",
+    "name": "Escaner Canon ImageFormula DR-C225II ResoluciÃ³n 600 ppp",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB027.webp"
+  },
+  {
+    "sku": "0651C002AE",
+    "name": "Escaner Canon ImageFormula DR-C240 de 45ppm con Cap 60 Hojas",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB023.webp"
+  },
+  {
+    "sku": "2405C002AE",
+    "name": "EscÃ¡ner Canon ImageFormula DR-M260 de 60 PPM con Cap. 90 Hojas",
+    "brand": "Canon",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/CAIESCAB032.webp"
+  },
+  {
+    "sku": "B600_DN",
+    "name": "Impresora LÃ¡ser Xerox VersaLink B600DN MonocromÃ¡tica con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAE102.webp"
+  },
+  {
+    "sku": "B610_DN",
+    "name": "Impresora LÃ¡ser Xerox VersaLink B610DN MonocromÃ¡tica con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAE103.webp"
+  },
+  {
+    "sku": "B405_DN",
+    "name": "Multifuncional Xerox VersaLink B405DN MonocromÃ¡tica LÃ¡ser con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG208.webp"
+  },
+  {
+    "sku": "C8130_T",
+    "name": "Multifuncional Xerox AltaLink C8130 Color LÃ¡ser con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG249.webp"
+  },
+  {
+    "sku": "C8135_T",
+    "name": "Multifuncional Xerox AltaLink C8135A3 Color LÃ¡ser TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG254.webp"
+  },
+  {
+    "sku": "B8155_F",
+    "name": "Multifuncional Xerox AltaLink B8155 MFP A3 MonocromÃ¡tica LÃ¡ser 55 PPM",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG255.webp"
+  },
+  {
+    "sku": "C8145_F",
+    "name": "Multifuncional Xerox AltaLink C8145 Color LÃ¡ser A3 con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG246.webp"
+  },
+  {
+    "sku": "C8155_F",
+    "name": "Multifuncional Xerox AltaLink C8155 Color LÃ¡ser con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG250.webp"
+  },
+  {
+    "sku": "B8170_F",
+    "name": "Multifuncional Xerox AltaLink B8170MonocromÃ¡tica LÃ¡ser con TecnologÃ­a ConnectKey",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG248.webp"
+  },
+  {
+    "sku": "116R00003",
+    "name": "Kit Rodillos de AlimentaciÃ³n Xerox 116R00003 100000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB017.webp"
+  },
+  {
+    "sku": "108R01124",
+    "name": "Cartucho Residual Xerox 108R01124 30000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB568.webp"
+  },
+  {
+    "sku": "108R01470",
+    "name": "Rodillo Xerox TR 1 VersaLink B605_S",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB022.webp"
+  },
+  {
+    "sku": "008R13089",
+    "name": "Contenedor de Desperdicio Xerox 008R13089 33000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECCOTAB002.webp"
+  },
+  {
+    "sku": "008R13036",
+    "name": "Cartucho de Residuo Xerox TÃ³ner PK",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB040.webp"
+  },
+  {
+    "sku": "008R08102",
+    "name": "Cartucho Residuos Xerox Desperdicios 69K PÃ¡ginas para AltaLink C8170/B8170",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAS036.webp"
+  },
+  {
+    "sku": "108R00982",
+    "name": "Cartucho de Residuos Xerox Phaser 7800 Hasta 20000 PÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB020.webp"
+  },
+  {
+    "sku": "497N05495",
+    "name": "Adaptador Xerox 497N05495 Red InalÃ¡mbrica para B1025",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE591.webp"
+  },
+  {
+    "sku": "008R12964",
+    "name": "Cartucho de Grapas Xerox 008R12964",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECGRAAB021.webp"
+  },
+  {
+    "sku": "497K17800",
+    "name": "Bandeja Xerox Interna 497K17800 Salida Dual",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE575.webp"
+  },
+  {
+    "sku": "104R00256",
+    "name": "Limpiador Xerox para Banda de Transferencia 160K Versalink C8000/C9000",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECLIMAB005.webp"
+  },
+  {
+    "sku": "008r13086",
+    "name": "Rodillo de Transferencia Xerox 008r13086 200000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB013.webp"
+  },
+  {
+    "sku": "109R00783",
+    "name": "Kit Mantenimiento Xerox 109R00783 30000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB026.webp"
+  },
+  {
+    "sku": "4VA",
+    "name": "Kit de Velocidades  Xerox 4VA 20 PPM",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE581.webp"
+  },
+  {
+    "sku": "497K13660",
+    "name": "Kit de Compra Xerox 497K13660",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAS008.webp"
+  },
+  {
+    "sku": "108R00861",
+    "name": "Unidad de Imagen Xerox 108R00861 80000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB023.webp"
+  },
+  {
+    "sku": "113R00672",
+    "name": "MÃ³dulo Xerox XerogrÃ¡fico para WC5645/5645/5665/5675/5687",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB005.webp"
+  },
+  {
+    "sku": "497K18340",
+    "name": "Kit Postscript 3 Xerox 497K18340",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE583.webp"
+  },
+  {
+    "sku": "497K13630",
+    "name": "Bandeja de Papel Xerox 497K13630 para 550 hojas",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECBAEAB005.webp"
+  },
+  {
+    "sku": "013R00603",
+    "name": "Unidad de Tambor Xerox 013R00603 100000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB053.webp"
+  },
+  {
+    "sku": "008R13087",
+    "name": "Fusor 120V Xerox 008R13087 100000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB047.webp"
+  },
+  {
+    "sku": "097S04949",
+    "name": "Bandeja de Papel Xerox 097S04949 para 550 hojas",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE585.webp"
+  },
+  {
+    "sku": "108R00691",
+    "name": "Unidad de Imagen Xerox 108R00691 20000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB015.webp"
+  },
+  {
+    "sku": "115R00119",
+    "name": "Kit Mantenimiento Xerox 110V VersaLink B400/B405 200K (Incluye Fusor y Rodillo Transferencia PolarizaciÃ³n)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAF005.webp"
+  },
+  {
+    "sku": "008R13041",
+    "name": "Cartucho de Grapas Xerox 008R130418R13041",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB039.webp"
+  },
+  {
+    "sku": "108R01121",
+    "name": "Unidad de Imagen Xerox 108R01121 60000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECKITAH001.webp"
+  },
+  {
+    "sku": "109R00752",
+    "name": "Fusor 110V Xerox 109R00752 400000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB027.webp"
+  },
+  {
+    "sku": "013R00602",
+    "name": "Unidad de Tambor Xerox 013R00602 231000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB054.webp"
+  },
+  {
+    "sku": "001R00610",
+    "name": "Cinta Transferencia Xerox 001R00610 para WorkCentre 7120/7125 200000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECCINAD005.webp"
+  },
+  {
+    "sku": "497K17440",
+    "name": "Kit de Transporte Horizontal Xerox para Finalizadora BR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECKITAB062.webp"
+  },
+  {
+    "sku": "LB1",
+    "name": "Bandeja de Papel Xerox LB1 para 550 hojas",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE517.webp"
+  },
+  {
+    "sku": "108R00648",
+    "name": "Unidad de Imagen Xerox Phaser 7400 30000 pÃ¡ginas Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB011.webp"
+  },
+  {
+    "sku": "115R00063",
+    "name": "Kit Mantenimiento Xerox 115R00063 200000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB029.webp"
+  },
+  {
+    "sku": "013R00655",
+    "name": "Tambor Xerox Color Negro 1 CRU/CT",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB055.webp"
+  },
+  {
+    "sku": "008R13044",
+    "name": "Fusor Xerox Workcentre 7232 100000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB049.webp"
+  },
+  {
+    "sku": "008R12988",
+    "name": "Fusor 120V Xerox 008R12988 200000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB030.webp"
+  },
+  {
+    "sku": "008R13102",
+    "name": "Fusor Xerox MÃ³dulo 110V 560/570",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB039.webp"
+  },
+  {
+    "sku": "109R00731",
+    "name": "Kit de Mantenimiento Xerox 109R00731 300000 pÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB025.webp"
+  },
+  {
+    "sku": "EZK",
+    "name": "Finalizador de Oficina Xerox para AltaLink C81XX/B81XX",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE592.webp"
+  },
+  {
+    "sku": "097S04948",
+    "name": "Bandeja de Papel Xerox 097S04948 2000 hojas",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE590.webp"
+  },
+  {
+    "sku": "108R01416",
+    "name": "CARTUCHO DE RESIDUOS XEROX",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB616.webp"
+  },
+  {
+    "sku": "116R00010",
+    "name": "Kit de Rodillo Xerox para Bandeja de Papel para VersaLink C",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB020.webp"
+  },
+  {
+    "sku": "116R00009",
+    "name": "RODILLO XEROX DE TRANSFERENCIA 200K VERSALINK B600",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB021.webp"
+  },
+  {
+    "sku": "008R12990",
+    "name": "TONER XEROX BOTELLA DESPERDICIO CT",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB378.webp"
+  },
+  {
+    "sku": "115R00116",
+    "name": "Rodillo De Transferencia Xerox Versalink B70XX 200K",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB018.webp"
+  },
+  {
+    "sku": "115R00129",
+    "name": "Botella de Desperdicio Xerox 21.2K VersaLink C7000 SFP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECCOTAB005.webp"
+  },
+  {
+    "sku": "115R00126",
+    "name": "Rodillo de Transferencia Xerox 180k VersaLink C7000 SFP",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB019.webp"
+  },
+  {
+    "sku": "008R13061",
+    "name": "TONER XEROX CARTUCHO RESERVA WC 7425/7428/7435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB454.webp"
+  },
+  {
+    "sku": "006R01573",
+    "name": "TONER XEROX WC 5021",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB536.webp"
+  },
+  {
+    "sku": "006R01731",
+    "name": "Toner Xerox Negro para B1025",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB668.webp"
+  },
+  {
+    "sku": "108R00865",
+    "name": "TONER XEROX DESPERDICIO PHASER 7500",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB424.webp"
+  },
+  {
+    "sku": "101R00664",
+    "name": "Tambor Xerox Negro Rendimiento 10000 PÃ¡ginas para B210/B205/B215",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB069.webp"
+  },
+  {
+    "sku": "006R01773",
+    "name": "TÃ³ner Xerox 52K PÃ¡ginas para AltaLink B8170 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB703.webp"
+  },
+  {
+    "sku": "106R04348",
+    "name": "Toner Xerox Capacidad Estandar 3K Paginas B205/B210/B215 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB687.webp"
+  },
+  {
+    "sku": "106R02762",
+    "name": "TONER XEROX AMARILLO PARA PHASER 6020/6022 Y WC 6025/6027",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB599.webp"
+  },
+  {
+    "sku": "108R01504",
+    "name": "CARTUCHO RESIDUOS XEROX VERSALINK C8000 C9000 47K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAF008.webp"
+  },
+  {
+    "sku": "106R01598",
+    "name": "TONER XEROX PHASER 6500/6505 CYAN 1000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB485.webp"
+  },
+  {
+    "sku": "106R01599",
+    "name": "TONER XEROX PHASER 6500/6505 MAGENTA 1000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB486.webp"
+  },
+  {
+    "sku": "106R01600",
+    "name": "TONER XEROX PHASER 6500/6505 AMARILLO 1000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB487.webp"
+  },
+  {
+    "sku": "106R02778",
+    "name": "TONER XEROX NEGRO WC3215 /3225 3000 PAGINA S",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB586.webp"
+  },
+  {
+    "sku": "101R00555",
+    "name": "TAMBOR O UNIDAD DE IMAGEN XEROX P/ 3330/ 3335/ 3345 30K IMPR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB042.webp"
+  },
+  {
+    "sku": "106R01632",
+    "name": "TONER XEROX PHASER 6000/6010 MAGENTA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB480.webp"
+  },
+  {
+    "sku": "8NA",
+    "name": "Kit InicializaciÃ³n Xerox 25PPM MFP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE562.webp"
+  },
+  {
+    "sku": "115R00128",
+    "name": "Botella de Desperdicio Xerox 30K VersaLink C7020/7025/7030",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECCOTAB004.webp"
+  },
+  {
+    "sku": "006R01772",
+    "name": "TÃ³ner Xerox 52K PÃ¡ginas para AltaLink B8145/55 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB702.webp"
+  },
+  {
+    "sku": "106R03745",
+    "name": "Toner Xerox 22.2K Color Negro VersaLink C7020/7025/7030",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB637.webp"
+  },
+  {
+    "sku": "006R01461",
+    "name": "TONER XEROX NEGRO WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB471.webp"
+  },
+  {
+    "sku": "106R02180",
+    "name": "TONER XEROX PHASER 3040_B/3010_B CAPACIDAD 1K NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB507.webp"
+  },
+  {
+    "sku": "101R00474",
+    "name": "TAMBOR XEROX WC3215",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB040.webp"
+  },
+  {
+    "sku": "106R02773",
+    "name": "TONER XEROX IMPRESIÃ“N NEGRO 3020/3025",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB585.webp"
+  },
+  {
+    "sku": "008R13178",
+    "name": "ROLLO TRANSFERENCIA XEROX PARA WC 5945/55",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECROLAB001.webp"
+  },
+  {
+    "sku": "001R00613",
+    "name": "LIMPIADOR CORREA XEROX 160K PAGINAS WC 7525/7530/753",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECLIMAB003.webp"
+  },
+  {
+    "sku": "101R00554",
+    "name": "Tambor Xerox 65K PÃ¡ginas VersaLink B400",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB047.webp"
+  },
+  {
+    "sku": "106R03396",
+    "name": "TONER XEROX NEGRO 31K VERSALINK B70XX",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB628.webp"
+  },
+  {
+    "sku": "106R03485",
+    "name": "TONER XEROX CYAN ALTA CAPACIDAD 2.4K PHASER 6510 WC6515",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB609.webp"
+  },
+  {
+    "sku": "106R03486",
+    "name": "TONER XEROX MAGENTA ALTA CAPACIDAD 2.4K PHASER 6510 WC6515",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB610.webp"
+  },
+  {
+    "sku": "013R00650",
+    "name": "TONER XEROX NEGRO 120000 PAG CC ASSEMBLY",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB467.webp"
+  },
+  {
+    "sku": "106R03484",
+    "name": "Toner Xerox Capacidad Estandar 2.5K Paginas Phaser 6510/Workcentre 6515 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB677.webp"
+  },
+  {
+    "sku": "006R01701",
+    "name": "Toner Xerox Alatlink Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB630.webp"
+  },
+  {
+    "sku": "106R01047",
+    "name": "TONER XEROX C20W M20W C20IW",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB162.webp"
+  },
+  {
+    "sku": "006R01517",
+    "name": "TONER XEROX WC7545/75567525/7530/7535 NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB503.webp"
+  },
+  {
+    "sku": "108R01036",
+    "name": "UNIDAD LIMPIEZA XEROX IBT PHASER 7800",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECKITAB060.webp"
+  },
+  {
+    "sku": "006R01683",
+    "name": "TÃ³ner Xerox 2 Botes C/U 44K AltaLink B80XX Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB629.webp"
+  },
+  {
+    "sku": "106R03746",
+    "name": "Toner Xerox Amarillo 11.8K VersaLink C7020/7025/7030",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB634.webp"
+  },
+  {
+    "sku": "106R03748",
+    "name": "Toner Xerox Cyan 11.8K VersaLink C7020/7025/7030",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB636.webp"
+  },
+  {
+    "sku": "106R03488",
+    "name": "TONER XEROX NEGRO EXTRA ALTA CAPACIDAD 5.5K PHASER 6510 WC",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB612.webp"
+  },
+  {
+    "sku": "106R02308",
+    "name": "TONER XEROX WC 3315 NEGRO CAPACIDAD ESTANDA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB535.webp"
+  },
+  {
+    "sku": "106R03520",
+    "name": "Toner Xerox Alta Capacidad 4.8K VersaLink C400/405 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB617.webp"
+  },
+  {
+    "sku": "106R03581",
+    "name": "TONER XEROX CAPACIDAD ESTANDAR 5.9K** PARA B400/B405",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB625.webp"
+  },
+  {
+    "sku": "108R01488",
+    "name": "TAMBOR XEROX NEGRO VERSALINK C600 SERIES 40K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB062.webp"
+  },
+  {
+    "sku": "108R01485",
+    "name": "TAMBOR XEROX CYAN VERSALINK C600 SERIES 40K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB063.webp"
+  },
+  {
+    "sku": "108R01486",
+    "name": "TAMBOR XEROX MAGENTA VERSALINK C600 SERIES 40K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB064.webp"
+  },
+  {
+    "sku": "108R01487",
+    "name": "TAMBOR XEROX AMARILLO VERSALINK C600 SERIES 40K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB065.webp"
+  },
+  {
+    "sku": "497K16590",
+    "name": "Kit TransportaciÃ³n Xerox Horizontal AltaLink B80XX",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAS033.webp"
+  },
+  {
+    "sku": "106R03048",
+    "name": "TONER XEROX DUAL PACK NEGRO WC3020 /3025 3000 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB588.webp"
+  },
+  {
+    "sku": "006R01659",
+    "name": "Toner Xerox Negro C70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB580.webp"
+  },
+  {
+    "sku": "006R01660",
+    "name": "Toner Xerox Cyan C70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB581.webp"
+  },
+  {
+    "sku": "006R01661",
+    "name": "Toner Xerox Magenta C70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB582.webp"
+  },
+  {
+    "sku": "006R01662",
+    "name": "Toner Xerox Amarillo C70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB583.webp"
+  },
+  {
+    "sku": "113R00671",
+    "name": "TAMBOR XEROX C20W M20W C20IW",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB008.webp"
+  },
+  {
+    "sku": "106R01601",
+    "name": "TONER XEROX PHASER 6500 CYAN 2500 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB495.webp"
+  },
+  {
+    "sku": "106R01602",
+    "name": "TONER XEROX PHASER 6500 MAGENTA 2500 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB496.webp"
+  },
+  {
+    "sku": "106R01603",
+    "name": "TONER XEROX PHASER 6500 YELLOW 2500 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB497.webp"
+  },
+  {
+    "sku": "006R01160",
+    "name": "TONER XEROX NEGRO (RENDIMIENTO 30000 IMPRESIO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB518.webp"
+  },
+  {
+    "sku": "106R01487",
+    "name": "TONER XEROX ALTA CAPACIDAD WORKCENTRE 3210/3220",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB415.webp"
+  },
+  {
+    "sku": "008R13064",
+    "name": "RODILLO DE TRANSFERENCIA XEROX 200 PAGINAS P/ 7830 7835",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECRODAB015.webp"
+  },
+  {
+    "sku": "006R01702",
+    "name": "Toner Xerox Altalink Cyan",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB631.webp"
+  },
+  {
+    "sku": "006R01703",
+    "name": "Toner Xerox Altalink Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB632.webp"
+  },
+  {
+    "sku": "006R01704",
+    "name": "Toner Xerox Altalink Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB633.webp"
+  },
+  {
+    "sku": "006R01561",
+    "name": "Toner Xerox 006R01561 Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB567.webp"
+  },
+  {
+    "sku": "106R02249",
+    "name": "TONER XEROX CYAN PARA WC6605 / PH6600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB602.webp"
+  },
+  {
+    "sku": "106R02250",
+    "name": "TONER XEROX MAGENTA PARA WC6605 / PH6600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB603.webp"
+  },
+  {
+    "sku": "106R02251",
+    "name": "TONER XEROX AMARILLO PARA WC6605 / PH6600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB604.webp"
+  },
+  {
+    "sku": "106R02252",
+    "name": "TONER XEROX NEGRO PARA WC6605 / PH6600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB605.webp"
+  },
+  {
+    "sku": "108R00958",
+    "name": "TINTA XEROX SOLIDA CYAN 6 BARRAS 17.300 PAG.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB144.webp"
+  },
+  {
+    "sku": "108R00959",
+    "name": "TINTA XEROX SOLIDA MAGENTA 6 BARRAS 17.300 PAG.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB145.webp"
+  },
+  {
+    "sku": "108R00960",
+    "name": "TINTA XEROX SOLIDA AMARILLO 6 BARRAS 17.300 PAG.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB146.webp"
+  },
+  {
+    "sku": "108R00961",
+    "name": "TINTA XEROX SOLIDA NEGRO 6 BARRAS 17.300 PAG.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB147.webp"
+  },
+  {
+    "sku": "106R01604",
+    "name": "TONER XEROX PHASER 6500/6505 NEGRO 3000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB484.webp"
+  },
+  {
+    "sku": "106R03693",
+    "name": "TONER XEROX CYAN EXTRA ALTA CAPACIDAD 4.3K PHASER 6510 WC6",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB613.webp"
+  },
+  {
+    "sku": "106R03694",
+    "name": "TONER XEROX MAGENTA EXTRA ALTA CAPACIDAD 4.3K PHASER 6510",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB614.webp"
+  },
+  {
+    "sku": "106R03695",
+    "name": "TONER XEROX AMARILLO EXTRA ALTA CAPACIDAD 4.3K PHASER 6510",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB615.webp"
+  },
+  {
+    "sku": "106R03772",
+    "name": "TÃ³ner Xerox Capacidad EstÃ¡ndar 3.3K VersaLink C7000 SFP Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB644.webp"
+  },
+  {
+    "sku": "006R01379",
+    "name": "Toner Xerox 700 Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB455.webp"
+  },
+  {
+    "sku": "006R01380",
+    "name": "Toner Xerox 700 Cyan",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB456.webp"
+  },
+  {
+    "sku": "006R01381",
+    "name": "Toner Xerox 700 Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB457.webp"
+  },
+  {
+    "sku": "006R01382",
+    "name": "Toner Xerox 700 Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB458.webp"
+  },
+  {
+    "sku": "006R01606",
+    "name": "TONER XEROX NEGRO WC5945/5955",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB577.webp"
+  },
+  {
+    "sku": "108R01419",
+    "name": "TAMBOR XEROX AMARILLO 48K PHASER6510 WC6515",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB045.webp"
+  },
+  {
+    "sku": "108R01420",
+    "name": "TAMBOR XEROX NEGRO 48K PHASER6510 WC6515",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB046.webp"
+  },
+  {
+    "sku": "006R01529",
+    "name": "Toner Xerox 550/560 Negro 30000 Paginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB489.webp"
+  },
+  {
+    "sku": "006R01530",
+    "name": "Toner Xerox 550/560 Amarillo 32000 Paginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB490.webp"
+  },
+  {
+    "sku": "006R01531",
+    "name": "TÃ³ner Xerox 550/560 Magenta 32000 PÃ¡ginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB491.webp"
+  },
+  {
+    "sku": "006R01532",
+    "name": "Toner Xerox 550/560 Cyan 32000 Paginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB492.webp"
+  },
+  {
+    "sku": "108R01151",
+    "name": "UNIDAD IMAGEN XEROX NEGRO PHASER 7100",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB032.webp"
+  },
+  {
+    "sku": "106R03887",
+    "name": "Toner Xerox Negro Extra Alta Capacidad 12.1K para Versalink",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB652.webp"
+  },
+  {
+    "sku": "106R03621",
+    "name": "TONER XEROX DE ALTA CAPACIDAD P/ 3330/ 3335/ 3345 8500 IMP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB607.webp"
+  },
+  {
+    "sku": "008R12941",
+    "name": "GRAPAS XEROX PHASER 5500 APILADOR 3 CAJAS 5000 C/U",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECGRAAB026.webp"
+  },
+  {
+    "sku": "006R01219",
+    "name": "Toner Xerox Docucolor 240 250 Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB299.webp"
+  },
+  {
+    "sku": "006R01220",
+    "name": "Toner Xerox Docucolor 240 250 Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB300.webp"
+  },
+  {
+    "sku": "006R01222",
+    "name": "Toner Xerox Doducolor 240 250 Cyan",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB302.webp"
+  },
+  {
+    "sku": "106R01305",
+    "name": "TONER XEROX WC 5230_TD 30K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB391.webp"
+  },
+  {
+    "sku": "006R01758",
+    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 59K PÃ¡ginas Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB700.webp"
+  },
+  {
+    "sku": "106R02721",
+    "name": "TONER XEROX P3610/WC3615 5900 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB556.webp"
+  },
+  {
+    "sku": "006R01319",
+    "name": "TONER XEROX NEGRO 24K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB373.webp"
+  },
+  {
+    "sku": "106R01529",
+    "name": "TONER XEROX ESTANDAR 5000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB469.webp"
+  },
+  {
+    "sku": "106R01481",
+    "name": "TONER XEROX CYAN PHASER 6140N",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB426.webp"
+  },
+  {
+    "sku": "106R01483",
+    "name": "TONER XEROX AMARILLO PHASER 6140N",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB428.webp"
+  },
+  {
+    "sku": "106R01373",
+    "name": "TONER XEROX CAP ESTANDAR PHASER 3250 3.5K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB393.webp"
+  },
+  {
+    "sku": "106R03521",
+    "name": "Toner Xerox Alta Capacidad 4.8K VersaLink C400/405 Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB618.webp"
+  },
+  {
+    "sku": "106R03522",
+    "name": "Toner Xerox Alta Capacidad 4.8K VersaLink C400/405 Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB619.webp"
+  },
+  {
+    "sku": "006R01238",
+    "name": "TONER XEROX 6204 NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB338.webp"
+  },
+  {
+    "sku": "006R01518",
+    "name": "TONER XEROX WC7545/7556/7525/7530/7535 AMARILLO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB504.webp"
+  },
+  {
+    "sku": "006R01519",
+    "name": "TONER XEROX WC7545/7556/7525/7530/7535 MAGENTA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB505.webp"
+  },
+  {
+    "sku": "006R01520",
+    "name": "TONER XEROX WC7545/75567525/7530/7535 CYAN",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB506.webp"
+  },
+  {
+    "sku": "006R01754",
+    "name": "TÃ³ner Xerox AltaLink C8130/C8135 59K PÃ¡ginas Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB707.webp"
+  },
+  {
+    "sku": "108R00794",
+    "name": "TONER XEROX CAPAC ESTANDAR PHASER 3635MFP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB395.webp"
+  },
+  {
+    "sku": "106R02312",
+    "name": "TONER XEROX WC 3325 NEGRO ALTA CAPACIDAD 11",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB533.webp"
+  },
+  {
+    "sku": "113R00719",
+    "name": "TONER XEROX CYAN ESTANDAR 2K PHASER 6180",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB341.webp"
+  },
+  {
+    "sku": "113R00720",
+    "name": "TONER XEROX MAGENTA ESTANDAR 2K PHASER 6180",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB342.webp"
+  },
+  {
+    "sku": "113R00721",
+    "name": "TONER XEROX AMARILLO ESTANDAR 2K PHASER 6180",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB343.webp"
+  },
+  {
+    "sku": "109R00847",
+    "name": "UNIDAD XEROX FUSOR WC 5945/55 C/FILTRO OZONO 350K PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB052.webp"
   },
-  {
-    sku: 'FKG400',
-    name: 'Kit Ventiladores Vorago Game Factor FKG400 3 Fans 12mm',
-    brand: 'Vorago',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/FKG400.png',
-    badge: 'Gaming'
-  },
-  {
-    sku: 'NE-460R',
-    name: 'Silla Gamer Ergonómica Dragón XT Racing Rojo-Negro',
-    brand: 'Dragón XT',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-460R.png'
-  },
-  {
-    sku: 'NE-460N',
-    name: 'Silla Gamer Ergonómica Dragón XT Racing Negro',
-    brand: 'Dragón XT',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-460N.png'
-  },
-  {
-    sku: 'NE-462R',
-    name: 'Silla Gamer Ergonómica Dragón XT Falkor Rojo-Negro',
-    brand: 'Dragón XT',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-462R.png'
-  },
-  {
-    sku: 'NE-484',
-    name: 'Teclado Gamer Dragon XT USB Mecánico Iluminado',
-    brand: 'Dragón XT',
-    category: 'Accesorios y Gaming',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-484.png'
-  },
-  // Audio
-  {
-    sku: 'PC-112600',
-    name: 'BOCINA PERFECT CHOICE PC-112600 ESTEREO 2.0',
-    brand: 'Perfect Choice',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PC-112600.png'
-  },
-  {
-    sku: 'PC-111009',
-    name: 'Audífonos Perfect Choice Diadema USB Micrófono Flexible',
-    brand: 'Perfect Choice',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PC-111009.png'
-  },
-  {
-    sku: '981-000667',
-    name: 'Audifonos Logitech G433 Gaming Color Negro',
-    brand: 'Logitech',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/981-000667.png'
-  },
-  {
-    sku: 'HS-502',
-    name: 'Diadema Vorago Gamer HS-502 Micrófono RGB 3.5mm',
-    brand: 'Vorago',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HS-502.png'
-  },
-  {
-    sku: '980-001315',
-    name: 'BOCINAS LOGITECH Z607 MERIDA MULTIMEDIA 5.1',
-    brand: 'Logitech',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/980-001315.png'
-  },
-  {
-    sku: 'PC-112983',
-    name: 'Mini Bafle Perfect Choice Apollo 8" Bluetooth',
-    brand: 'Perfect Choice',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PC-112983.png'
-  },
-  {
-    sku: 'PC-113034',
-    name: 'Barra de Audio Perfect Choice Lungo Beat Bluetooth',
-    brand: 'Perfect Choice',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PC-113034.png'
-  },
-  {
-    sku: '980-000401',
-    name: 'BOCINA LOGITECH Z313 2.1 50W RMS NEGRO',
-    brand: 'Logitech',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/980-000401.png'
-  },
-  {
-    sku: '981-000755',
-    name: 'AUDIFONOS LOGITECH GAMING G332 MICROFONO',
-    brand: 'Logitech',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/981-000755.png'
-  },
-  {
-    sku: 'ESB-400',
-    name: 'Audífonos Vorago Sport ESB-400 Bluetooth 5 TWS',
-    brand: 'Vorago',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ESB-400.png'
-  },
-  {
-    sku: 'NE-425',
-    name: 'Diadema Nextep Micrófono Conexión USB Negro',
-    brand: 'Nextep',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-425.png'
-  },
-  {
-    sku: 'EL-995487',
-    name: 'Audífonos Inalámbricos Perfect Choice Viva Buds Pro',
-    brand: 'Perfect Choice',
-    category: 'Audio',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/EL-995487.png'
-  },
-  // Cómputo
-  {
-    sku: '8ZQ75LTABM',
-    name: 'Laptop HP ProBook 440 G7 14" Intel Core i5 10210U 256GB SSD',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/8ZQ75LTABM.png'
-  },
-  {
-    sku: '153B4LTABM',
-    name: 'Laptop HP 250 G7 15.6" Intel Core i7 1065G7 1TB HDD 8GB Ram',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/153B4LTABM.png'
-  },
-  {
-    sku: '2E5H4LAABM',
-    name: 'Desktop HP ProDesk 400 G6 SFF Intel Core i5 9400 512GB SSD',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/2E5H4LAABM.png'
-  },
-  {
-    sku: '7ZU66LAABM',
-    name: 'Desktop HP ProDesk 400 G5 DM Intel Core i5 9500T 256GB SSD',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/7ZU66LAABM.png'
-  },
-  {
-    sku: '8PB56LTABM',
-    name: 'All in One HP 205 G3 19.5" AMD A4 9125 1TB HDD',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/8PB56LTABM.png'
-  },
-  {
-    sku: '81MB0004US',
-    name: 'Laptop Lenovo 300e Chromebook 2G 11.6" Intel Celeron N4000',
-    brand: 'Lenovo',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/81MB0004US.png'
-  },
-  {
-    sku: '11FJ007KLS',
-    name: 'All in One Lenovo V50a-24IMB 23.8" Intel Core i5 10400T 256GB',
-    brand: 'Lenovo',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/11FJ007KLS.png'
-  },
-  {
-    sku: '20U2S35A00',
-    name: 'Laptop Lenovo Thinkpad L14 14" Intel Core i3 10110U 256GB SSD',
-    brand: 'Lenovo',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/20U2S35A00.png'
-  },
-  {
-    sku: '81VW003LLM',
-    name: 'Laptop Lenovo IdeaPad S340-15IIL 15.6" Intel Core i5 1TB',
-    brand: 'Lenovo',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/81VW003LLM.png'
-  },
-  {
-    sku: '63JHH',
-    name: 'Laptop Dell Vostro 3401 14" Intel Core i3 1005G1 1TB HDD',
-    brand: 'Dell',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/63JHH.png'
-  },
-  {
-    sku: 'KWNWX',
-    name: 'Laptop Dell Inspiron 3505 15.6" Intel Core i3 1005G1 1TB HDD',
-    brand: 'Dell',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/KWNWX.png'
-  },
-  {
-    sku: '085PD',
-    name: 'Laptop Dell Inspiron 15 5594 15.6" Intel Core i5 1035G1 256GB',
-    brand: 'Dell',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/085PD.png'
-  },
-  {
-    sku: 'K6NW5',
-    name: 'Laptop Dell Latitude 14 3410 14" Intel Core i5 10210U 256GB',
-    brand: 'Dell',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/K6NW5.png'
-  },
-  {
-    sku: 'NX.HS5AL.003',
-    name: 'Laptop Acer Aspire 3 A315-56-30C6 15.6" Intel Core i3',
-    brand: 'Acer',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NX.HS5AL.003.png'
-  },
-  {
-    sku: 'NX.HS5AL.00B',
-    name: 'Laptop Acer Aspire 3 A315-56-52R4 15.6" Intel Core i5',
-    brand: 'Acer',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NX.HS5AL.00B.png'
-  },
-  {
-    sku: 'NX.HURAL.005',
-    name: 'Laptop Acer Aspire 5 A514-53-72YP 14" Intel Core i7',
-    brand: 'Acer',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NX.HURAL.005.png'
-  },
-  {
-    sku: 'A540NA-GQ058T',
-    name: 'Laptop Asus A540NA 15.6" Intel Celeron N3350 500 GB',
-    brand: 'Asus',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/A540NA-GQ058T.png'
-  },
-  {
-    sku: 'A543BA-GQ550T',
-    name: 'Laptop Asus A543BA 15.6" AMD A4 9125 500 GB',
-    brand: 'Asus',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/A543BA-GQ550T.png'
-  },
-  {
-    sku: 'P2540FA',
-    name: 'Laptop Asus ExpertBook P2450FA 15.6" Intel Core i5',
-    brand: 'Asus',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/P2540FA-i58G512WP-01.png'
-  },
-  {
-    sku: 'FX505DT-BQ017T',
-    name: 'Laptop Asus TUF Gaming FX505DT 15.6" AMD R7 3750H',
-    brand: 'Asus',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/FX505DT-BQ017T.png'
-  },
-  {
-    sku: '4YX80LA',
-    name: 'All in One POS HP RP9 G1 9115A 15.6" Intel Celeron',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/4YX80LA.png'
-  },
-  {
-    sku: '1NW76UA',
-    name: 'All in One POS HP Engage One Touch 141 14" Intel Celeron',
-    brand: 'HP',
-    category: 'Cómputo',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1NW76UA.png'
-  },
-  // Pantallas y Proyectores
-  {
-    sku: '65CCAAC6US',
-    name: 'Monitor Lenovo LED LI2215S FHD 21.5" Panel TN',
-    brand: 'Lenovo',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/65CCAAC6US.png'
-  },
-  {
-    sku: '210-AUNF',
-    name: 'Monitor Dell Entry E2220H 21.5" 1920x1080',
-    brand: 'Dell',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/210-AUNF.png'
-  },
-  {
-    sku: 'UM.XV6AA.A06',
-    name: 'Monitor Acer LED V196HQL Ab 18.5" 1366x768',
-    brand: 'Acer',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/UM.XV6AA.A06.png'
-  },
-  {
-    sku: 'UM.UV6AA.005',
-    name: 'Monitor Acer V6 V246HQL bi FHD 23.6" Panel IPS',
-    brand: 'Acer',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/UM.UV6AA.005.png'
-  },
-  {
-    sku: '70UN7100PUA',
-    name: 'Pantalla LG Al ThinQ 4K UHD 70" 3840x2160',
-    brand: 'LG',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/70UN7100PUA.png'
-  },
-  {
-    sku: 'UN43TU6900',
-    name: 'Televisor Samsung TU7000 43" Crystal UHD Smart TV',
-    brand: 'Samsung',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/UN43TU6900FXZX.png'
-  },
-  {
-    sku: '60UN7300PUA',
-    name: 'Televisor LG 60UN7300PUA AI ThinQ 60" UHD 4K',
-    brand: 'LG',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/60UN7300PUA.png'
-  },
-  {
-    sku: 'MS550',
-    name: 'Proyector BenQ MS550 3600 Lúmenes SVGA',
-    brand: 'BenQ',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MS550.png'
-  },
-  {
-    sku: '65UN7300PUC',
-    name: 'Pantalla LG 65UN7300PUC TV AI ThinQ 65" UHD 4K',
-    brand: 'LG',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/65UN7300PUC.png'
-  },
-  {
-    sku: '65UN7000PUD',
-    name: 'Televisor LG 65UN7000PUD 65" 4K UHD LED Smart TV',
-    brand: 'LG',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/65UN7000PUD.png'
-  },
-  {
-    sku: '50UN6951ZUF',
-    name: 'Pantalla LG TV Al ThinQ 50" 4K UHD Smart TV',
-    brand: 'LG',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/50UN6951ZUF.png'
-  },
-  {
-    sku: 'LH32BETBLG',
-    name: 'Televisor Samsung LED Profesional 32" LH32BETBLGK',
-    brand: 'Samsung',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/LH32BETBLGKXZX.png'
-  },
-  {
-    sku: 'UN65TU7000',
-    name: 'Pantalla Samsung TU7000 65" UHD 4K Smart TV',
-    brand: 'Samsung',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/UN65TU7000FXZX.png'
-  },
-  {
-    sku: 'MH550',
-    name: 'Proyector BenQ MH550 3500 Lúmenes Full HD',
-    brand: 'BenQ',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MH550.png'
-  },
-  {
-    sku: 'MW550',
-    name: 'Proyector BenQ MW550 3600 Lúmenes WXGA',
-    brand: 'BenQ',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MW550.png'
-  },
-  {
-    sku: 'V11H843021',
-    name: 'VIDEOPROYECTOR EPSON POWERLITE X41+',
-    brand: 'Epson',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/V11H843021.png'
-  },
-  {
-    sku: 'T6N32AA',
-    name: 'Monitor POS HP LED L7014t 14" Wide Táctil',
-    brand: 'HP',
-    category: 'Pantallas y Proyectores',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/T6N32AA.png'
-  },
-  // Impresión y Digitalización
-  {
-    sku: 'DCP-B7535DW',
-    name: 'Multifuncional Brother DCP-B7535DW Monocromática Láser Tóner Benefit',
-    brand: 'Brother',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DCPB7535DW.png'
-  },
-  {
-    sku: 'DCPL2551DW',
-    name: 'Multifuncional Brother DCPL2551DW Monocromática Láser',
-    brand: 'Brother',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DCPL2551DW.png'
-  },
-  {
-    sku: 'G3110',
-    name: 'Multifuncional Canon Pixma G3110 Color Tinta Continua',
-    brand: 'Canon',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/2315C004AB.png'
-  },
-  {
-    sku: 'B405DN',
-    name: 'Multifuncional Xerox VersaLink B405DN Monocromática Láser',
-    brand: 'Xerox',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/B405_DN.png'
-  },
-  {
-    sku: 'G2110',
-    name: 'Multifuncional Canon Pixma G2110 Color Tinta Continua',
-    brand: 'Canon',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/2313C004AB.png'
-  },
-  {
-    sku: 'MFC-T4500DW',
-    name: 'Multifuncional Brother InkBenefit Tank Business MFC-T4500DW Color',
-    brand: 'Brother',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MFCT4500DW.png'
-  },
-  {
-    sku: 'C405DN',
-    name: 'Multifuncional Xerox VersaLink C405DN Color Láser',
-    brand: 'Xerox',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C405_DN.png'
-  },
-  {
-    sku: 'B205_NI',
-    name: 'Multifuncional Xerox B205_NI Monocromática Wi-Fi',
-    brand: 'Xerox',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/B205_NI.png'
-  },
-  {
-    sku: 'L6171',
-    name: 'Multifuncional Epson EcoTank L6171 Color Tinta Continua',
-    brand: 'Epson',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C11CG20301.png'
-  },
-  {
-    sku: 'L805',
-    name: 'Impresora de Inyección Epson Ecotank L805 Color',
-    brand: 'Epson',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C11CE86301.png'
-  },
-  {
-    sku: '1000w',
-    name: 'Impresora Láser HP NeverStop 1000w Monocromática',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/4RY23ABGJ.png'
-  },
-  {
-    sku: '8210',
-    name: 'Impresora de Inyección HP OfficeJet 8210 Color',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/D9L63AAKY.png'
-  },
-  {
-    sku: 'M521DN',
-    name: 'Multifuncional HP LaserJet Pro M521DN Monocromática Láser',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/A8P79ABGJ.png'
-  },
-  {
-    sku: 'MX321adn',
-    name: 'Multifuncional Lexmark MX321adn Monocromática Láser',
-    brand: 'Lexmark',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/36S0620.png'
-  },
-  {
-    sku: 'B2236DW',
-    name: 'Impresora Láser Lexmark B2236DW Monocromática',
-    brand: 'Lexmark',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/18M0100.png'
-  },
-  {
-    sku: 'Z1Z36AA',
-    name: 'Escáner de Códigos de Barras POS HP II Lineales',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/Z1Z36AA.png'
-  },
-  {
-    sku: 'TM-T88V',
-    name: 'Impresora POS Epson TM-T88V-834 Térmica',
-    brand: 'Epson',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C31CA85834.png'
-  },
-  {
-    sku: '2000_s2',
-    name: 'Escáner HP ScanJet Pro 2000 s2 ADF 600dpi',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/6FW06ABGJ.png'
-  },
-  {
-    sku: 'N4000_snw1',
-    name: 'Escáner HP ScanJet Pro N4000 snw1 ADF 600 dpi',
-    brand: 'HP',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/6FW08ABGJ.png'
-  },
-  {
-    sku: 'i1150',
-    name: 'Escáner Kodak Alaris ScanMate i1150 600 dpi',
-    brand: 'Kodak Alaris',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1664390.png'
-  },
-  {
-    sku: 'i940',
-    name: 'Escáner Kodak Alaris ScanMate i940 600 dpi',
-    brand: 'Kodak Alaris',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/I940.png'
-  },
-  {
-    sku: 'i1100',
-    name: 'Escáner Kodak Alaris i1100 i1190 600 dpi 40PPM',
-    brand: 'Kodak Alaris',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1333848.png'
-  },
-  {
-    sku: 'E1035',
-    name: 'Escáner Kodak Alaris E1035 600 dpi 35PPM ADF',
-    brand: 'Kodak Alaris',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1025071.png'
-  },
-  {
-    sku: 'S2000',
-    name: 'Escáner Kodak Alaris S2000 S2080W 600 dpi',
-    brand: 'Kodak Alaris',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1015189.png'
-  },
-  {
-    sku: 'DR-M260',
-    name: 'Escáner Canon ImageFormula DR-M260 60 PPM',
-    brand: 'Canon',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/2405C002AC.png'
-  },
-  {
-    sku: 'ADS-2800W',
-    name: 'Escáner Brother ADS-2800W Resolucion 600 x 600',
-    brand: 'Brother',
-    category: 'Impresión y Digitalización',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ADS2800W.png'
-  },
-  // Consumibles
-  {
-    sku: 'CF410A',
-    name: 'TONER HP 410A NEGRO (CF410A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CF410A.png'
-  },
-  {
-    sku: 'F6V31AL',
-    name: 'TINTA HP 664XL NEGRO ALTO RENDIMIENTO',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/F6V31AL.png'
-  },
-  {
-    sku: 'CF226A',
-    name: 'TONER HP 26A NEGRO (CF226A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CF226A.png'
-  },
-  {
-    sku: 'CE255A',
-    name: 'TONER HP NEGRO P3015 6K (CE255A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CE255A.png'
-  },
-  {
-    sku: '101R00554',
-    name: 'TAMBOR XEROX O UNIDAD DE IMAGEN 65K',
-    brand: 'Xerox',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/101R00554.png'
-  },
-  {
-    sku: 'TZE231',
-    name: 'CINTA BROTHER TZ-231 NEGRO/BLANCO 12MM',
-    brand: 'Brother',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TZE231.png'
-  },
-  {
-    sku: 'TN1060',
-    name: 'TONER BROTHER TN1060 NEGRO HL1112',
-    brand: 'Brother',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TN1060.png'
-  },
-  {
-    sku: 'DR630',
-    name: 'TAMBOR BROTHER NEGRO HL-L2360DW',
-    brand: 'Brother',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DR630.png'
-  },
-  {
-    sku: 'TN660',
-    name: 'TONER BROTHER ALTO RENDIMIENTO HL-L2360DW',
-    brand: 'Brother',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TN660.png'
-  },
-  {
-    sku: 'CL-141',
-    name: 'TINTA CANON CL-141 COLOR (5203B001AB)',
-    brand: 'Canon',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/5203B001AB.png'
-  },
-  {
-    sku: 'PG-145',
-    name: 'TINTA CANON PG-145 BK (8275B001AA)',
-    brand: 'Canon',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/8275B001AA.png'
-  },
-  {
-    sku: 'TN850',
-    name: 'TONER BROTHER TN850 NEGRO 8000 PAG',
-    brand: 'Brother',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TN850.png'
-  },
-  {
-    sku: 'PG-140',
-    name: 'TINTA CANON PG-140 NEGRO (5201B001AB)',
-    brand: 'Canon',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/5201B001AB.png'
-  },
-  {
-    sku: '113R00773',
-    name: 'TAMBOR XEROX WORKCENTER 3615',
-    brand: 'Xerox',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/113R00773.png'
-  },
-  {
-    sku: '106R03583',
-    name: 'TONER XEROX CAPACIDAD ALTA 13.9K B400/B405',
-    brand: 'Xerox',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/106R03583.png'
-  },
-  {
-    sku: '106R03396',
-    name: 'TONER XEROX NEGRO 31K VERSALINK B70XX',
-    brand: 'Xerox',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/106R03396.png'
-  },
-  {
-    sku: '56F4000',
-    name: 'TONER LEXMARK NEGRO PROG RETORNO',
-    brand: 'Lexmark',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/56F4000.png'
-  },
-  {
-    sku: 'B234000',
-    name: 'TONER LEXMARK NEGRO PROGRAMA RETORNO',
-    brand: 'Lexmark',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/B234000.png'
-  },
-  {
-    sku: 'CF258A',
-    name: 'Toner HP 58A Negro Original LaserJet',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CF258A.png'
-  },
-  {
-    sku: 'SU803A',
-    name: 'TONER S-PRINT A4 MLT-D111L NEGRO',
-    brand: 'S-Print',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SU803A.png'
-  },
-  {
-    sku: 'CE285A',
-    name: 'TONER HP P1102/P1102W (CE285A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CE285A.png'
-  },
-  {
-    sku: 'CF217A',
-    name: 'TONER HP 17A NEGRO (CF217A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CF217A.png'
-  },
-  {
-    sku: 'CF248A',
-    name: 'TONER HP 48A NEGRO (CF248A)',
-    brand: 'HP',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CF248A.png'
-  },
-  {
-    sku: 'SU815A',
-    name: 'TONER S-PRINT A4 MLT-D111S NEGRO',
-    brand: 'S-Print',
-    category: 'Consumibles',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SU815A.png'
-  },
-  // Almacenamiento
-  {
-    sku: 'AUV210',
-    name: 'Memoria USB Adata UV210 16 GB Metálica',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AUV210-16G-RGD.png'
-  },
-  {
-    sku: 'AHV620',
-    name: 'DISCO DURO ADATA HV620/2TB NEGRO USB 3.0',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AHV620S-2TU31-CBK.png'
-  },
-  {
-    sku: '97488',
-    name: 'DISCO COMPACTO CD-R 700MB TORRE 50 UNIDADES',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/97488.png'
-  },
-  {
-    sku: 'SU630',
-    name: 'SSD Interno Adata Ultimate SU630 480 GB',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ASU630SS-480GQ-R.png'
-  },
-  {
-    sku: 'AHV620-1TB',
-    name: 'DISCO DURO ADATA HV620/1TB NEGRO USB 3.1',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AHV620S-1TU31-CBK.png'
-  },
-  {
-    sku: '94554',
-    name: 'DISCO COMPACTO VERBATIM R 52X 80MIN 700MB',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/94554.png'
-  },
-  {
-    sku: '97176',
-    name: 'DVD-R VERBATIM 4.7GB 16X SPINDLE C/50',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/97176.png'
-  },
-  {
-    sku: '97167',
-    name: 'DVD-R VERBATIM 4.7GB 16X BLANCO SPINDLE',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/97167.png'
-  },
-  {
-    sku: 'HDD-300',
-    name: 'ENCLOSURE VORAGO HDD-300 NEGRO DD 2.5/3.5',
-    brand: 'Vorago',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HDD-300.png'
-  },
-  {
-    sku: '94178',
-    name: 'CAJAS DELGADAS VERBATIM ALMACENAMIENTO',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/94178.png'
-  },
-  {
-    sku: '94776',
-    name: 'DISCO COMPACTO VERBATIM R 52X 80MIN SLIM',
-    brand: 'Verbatim',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/94776.png'
-  },
-  {
-    sku: 'CR-101',
-    name: 'LECTOR MEMORIA VORAGO CR-101 SD/T-FLASH',
-    brand: 'Vorago',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CR-101.png'
-  },
-  {
-    sku: 'HDD-102',
-    name: 'CARCASA VORAGO DISCO DURO HDD-102 AZUL',
-    brand: 'Vorago',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HDD-102.png'
-  },
-  {
-    sku: 'AC008',
-    name: 'MEMORIA USB ADATA AC008 16GB RETAIL BLACK',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AC008-16G-RKD.png'
-  },
-  {
-    sku: 'AHD710P',
-    name: 'DISCO DURO ADATA EXTERNO SPORT USB 3.0 1TB',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AHD710P-1TU31-CBK.png'
-  },
-  {
-    sku: 'SA400S37-240G',
-    name: 'SSD Kingston 240 GB SATA 3 2.5" SA400S37',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SA400S37240G.png'
-  },
-  {
-    sku: 'AUSDX128G',
-    name: 'Memoria Micro SD Adata SDXC UHS-1 U1 128 GB',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AUSDX128GUICL10A1-RA.png'
-  },
-  {
-    sku: 'SA400S37-480G',
-    name: 'SSD Kingston 480 GB SATA 3 2.5" SA400S37',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SA400S37480G.png'
-  },
-  {
-    sku: 'SDCS2-32GB',
-    name: 'Memoria Micro SD Kingston Canvas Select Plus 32GB',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SDCS232GB.png'
-  },
-  {
-    sku: 'DTSE9H',
-    name: 'MEMORIA KINGSTON 16GB DATATRAVELER SE9',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DTSE9H16GBZ.png'
-  },
-  {
-    sku: 'SDCS2-128GB',
-    name: 'Memoria Kingston Micro SDCS2 Canvas Select 128GB',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SDCS2128GB.png'
-  },
-  {
-    sku: 'AHD710P-2TB',
-    name: 'DISCO DURO ADATA HD710 2TB NEGRO USB 3.1',
-    brand: 'Adata',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AHD710P-2TU31-CBK.png'
-  },
-  {
-    sku: 'DT100G3-64GB',
-    name: 'MEMORIA KINGSTON USB 64GB DT100G3',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DT100G364GB.png'
-  },
-  {
-    sku: 'DT100G3-32GB',
-    name: 'MEMORIA KINGSTON USB 32GB DT100G3',
-    brand: 'Kingston',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DT100G332GB.png'
-  },
-  {
-    sku: 'C7976A',
-    name: 'CARTUCHO DATOS HP LTO-6 ULTRIUM RW 6.25 TB',
-    brand: 'HP',
-    category: 'Almacenamiento',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C7976A.png'
-  },
-  // Telefonía y Wearables
-  {
-    sku: '51094XRQ',
-    name: 'Smartphone Huawei Y9 Prime 6.59" 64GB/4GB',
-    brand: 'Huawei',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/51094XRQ.png'
-  },
-  {
-    sku: 'REDMINOTE8',
-    name: 'Smartphone Xiaomi Redmi Note 8 6.3" 64GB/4GB',
-    brand: 'Xiaomi',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/REDMINOTE8-A.png'
-  },
-  {
-    sku: 'SAM-A01CORD-R',
-    name: 'Smartphone Samsung Galaxy A01 5.3" 16GB/1GB',
-    brand: 'Samsung',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SAMA01CORD-R.png'
-  },
-  {
-    sku: '51095EBA',
-    name: 'Smartphone Huawei Y8s 6.5" 64GB/4GB',
-    brand: 'Huawei',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/51095EBA.png'
-  },
-  {
-    sku: 'REDMINOTE9S',
-    name: 'Smartphone Xiaomi Redmi Note 9s 6.67" 128GB/4GB',
-    brand: 'Xiaomi',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/REDMINOTE9S1284-G.png'
-  },
-  {
-    sku: 'REDMINOTE9PRO',
-    name: 'Smartphone Xiaomi Redmi Note 9 Pro 6.67" 128GB',
-    brand: 'Xiaomi',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/REDMINOTE9PRO-V.png'
-  },
-  {
-    sku: 'SM-A115M',
-    name: 'Smartphone Samsung Galaxy A11 6.4" 64GB',
-    brand: 'Samsung',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SM-A115M-64GB-B.png'
-  },
-  {
-    sku: 'SAM-A01CORD-N',
-    name: 'Smartphone Samsung Galaxy A01 16GB/1GB Negro',
-    brand: 'Samsung',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SAMA01CORD-N.png'
-  },
-  {
-    sku: 'SM-A015M',
-    name: 'Smartphone Samsung Galaxy A01 5.7" HD+ 16GB',
-    brand: 'Samsung',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SM-A015MZKAMXO.png'
-  },
-  {
-    sku: 'SAM-GLXA10S',
-    name: 'Smartphone Samsung Galaxy A10S 6.2" HD+ 32GB',
-    brand: 'Samsung',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SAMGLXA10S-AZ.png'
-  },
-  {
-    sku: 'MI-BAND4',
-    name: 'Band Xiaomi Mi Smart 4 Pantalla 0.95" Negro',
-    brand: 'Xiaomi',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MI-BAND4.png'
-  },
-  {
-    sku: 'MI-BAND4C',
-    name: 'Band Xiaomi 4C Pantalla 1.08" Sensor Ritmo',
-    brand: 'Xiaomi',
-    category: 'Telefonía y Wearables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MI-BAND4C.png'
-  },
-  // Energía
-  {
-    sku: 'PSU-101',
-    name: 'FUENTE PODER VORAGO GABNET PSU-101 500W',
-    brand: 'Vorago',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PSU-101.png'
-  },
-  {
-    sku: 'SMART1500-TL',
-    name: 'UPS TRIPP LITE 1500VA 1PUERTO SERIAL USB',
-    brand: 'Tripp Lite',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SMART1500LCD.png'
-  },
-  {
-    sku: 'SMART1000-TL',
-    name: 'UPS TRIPP LITE SMART LCD 1000VA 500W USB',
-    brand: 'Tripp Lite',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SMART1000LCD.png'
-  },
-  {
-    sku: 'INTERNET550U',
-    name: 'UPS Tripp Lite Standby 550VA/300W 10 Cont.',
-    brand: 'Tripp Lite',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/INTERNET550U.png'
-  },
-  {
-    sku: 'UPS-301',
-    name: 'NO BREAK VORAGO UPS-301 800VA 480W 6 CONT.',
-    brand: 'Vorago',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/UPS-301.png'
-  },
-  {
-    sku: 'AVR-100',
-    name: 'Regulador Vorago AVR-100 1000VA 8 Contactos',
-    brand: 'Vorago',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/AVR-100.png'
-  },
-  {
-    sku: 'SMART1500-LCDT',
-    name: 'UPS TRIPP LITE SMART LCD 1500VA INTERACT.',
-    brand: 'Tripp Lite',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SMART1500LCDT.png'
-  },
-  {
-    sku: 'MNC-SUPAB001',
-    name: 'Barra Multicontacto Manhattan Prot. 6 Cont.',
-    brand: 'Manhattan',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MNCSUPAB001.png'
-  },
-  {
-    sku: 'MNC-ACCAC001',
-    name: 'Batería CMOS Manhattan CR2032 Litio 3V',
-    brand: 'Manhattan',
-    category: 'Energía',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MNCACCAC001.png'
-  },
-  // Punto de Venta y Cables
-  {
-    sku: 'P568-010',
-    name: 'CABLE TRIPP LITE HDMI ALTA VELOCIDAD 3M',
-    brand: 'Tripp Lite',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/P568-010.png'
-  },
-  {
-    sku: 'CAB-109',
-    name: 'CABLE VORAGO CAB-109 HDMI A HDMI 2 MTS',
-    brand: 'Vorago',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/CAB-109.png'
-  },
-  {
-    sku: 'MNC-CALAB015',
-    name: 'Cable Manhattan HDMI 1.3 M-M Blindado 5m',
-    brand: 'Manhattan',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MNCCALAB015.png'
-  },
-  {
-    sku: 'NE-500',
-    name: 'Lector de Códigos de Barra Nextep 1D USB',
-    brand: 'Nextep',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-500.png'
-  },
-  {
-    sku: 'NE-511',
-    name: 'Mini Impresora Térmica Nextep 80mm USB',
-    brand: 'Nextep',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-511.png'
-  },
-  {
-    sku: 'NE-515',
-    name: 'Cajón de Dinero Nextep 5 Billetes/8 Monedas',
-    brand: 'Nextep',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-515.png'
-  },
-  {
-    sku: 'NE-514',
-    name: 'Cajón de Dinero Nextep 4 Billetes/8 Monedas',
-    brand: 'Nextep',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NE-514.png'
-  },
-  {
-    sku: '1RL96AA',
-    name: 'Impresora de Recibos POS HP Engage One',
-    brand: 'HP',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1RL96AA.png'
-  },
-  {
-    sku: '4AK35AA',
-    name: 'Cajón de Dinero POS HP Eléctrico',
-    brand: 'HP',
-    category: 'Punto de Venta y Cables',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/4AK35AA.png'
-  },
-  // Software y Seguridad Digital
-  {
-    sku: 'FQC-08981',
-    name: 'Microsoft Windows 10 Pro 64-bit Español OEM',
-    brand: 'Microsoft',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/FQC-08981.png'
-  },
-  {
-    sku: 'HAV-00003',
-    name: 'Microsoft Windows 10 Home 32/64-bit USB',
-    brand: 'Microsoft',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HAV-00003.png'
-  },
-  {
-    sku: 'GAG-00004',
-    name: 'Software Microsoft Office 365 Personal 1 Usuario',
-    brand: 'Microsoft',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/QQ2-00507.png'
-  },
-  {
-    sku: '79G-05044',
-    name: 'Microsoft Office Home and Student 2019 Mac/Win',
-    brand: 'Microsoft',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/79G-05044.png'
-  },
-  {
-    sku: 'KL1941ACAFL',
-    name: 'Antivirus Kaspersky Internet Security 1 Dispositivo',
-    brand: 'Kaspersky',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/KL1941ACAFL.png'
-  },
-  {
-    sku: 'KL1941BCAFL',
-    name: 'Antivirus Kaspersky Internet Security 3 Dispositivos',
-    brand: 'Kaspersky',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/KL1941BCAFL.png'
-  },
-  {
-    sku: 'WDB-822-01',
-    name: 'Software WatchGuard Basic Security Suite 1 Año',
-    brand: 'WatchGuard',
-    category: 'Software y Seguridad Digital',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/WDB-822-01.png'
-  },
-  // CCTV y Seguridad
-  {
-    sku: 'HWT-B110-P',
-    name: 'Cámara Bullet HiLook 720p 2.8mm Exterior IP66',
-    brand: 'HiLook',
-    category: 'CCTV y Seguridad',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HWT-B110-P.png'
-  },
-  {
-    sku: 'DVR-204G-F1',
-    name: 'DVR HiLook 4 Canales 1080p Lite H.264+ Metal',
-    brand: 'HiLook',
-    category: 'CCTV y Seguridad',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/DVR-204G-F1.png'
-  },
-  {
-    sku: 'HWT-T110-P',
-    name: 'Cámara Domo HiLook 720p 2.8mm Interior Plástico',
-    brand: 'HiLook',
-    category: 'CCTV y Seguridad',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/HWT-T110-P.png'
-  },
-  {
-    sku: 'E25',
-    name: 'Cámara IP Ezviz Interior 1080p Audio Dos Vías',
-    brand: 'Ezviz',
-    category: 'CCTV y Seguridad',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/E25.png'
-  },
-  {
-    sku: 'C3WN',
-    name: 'Cámara IP Ezviz Exterior 1080p Wi-Fi IP66',
-    brand: 'Ezviz',
-    category: 'CCTV y Seguridad',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C3WN.png'
-  },
-  // Redes
-  {
-    sku: 'ARCHER-C20',
-    name: 'Router TP-Link Archer C20 AC750 Doble Banda',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ARCHER-C20.png'
-  },
-  {
-    sku: 'TL-WR840N',
-    name: 'Router TP-Link TL-WR840N 300Mbps 2 Antenas',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TL-WR840N.png'
-  },
-  {
-    sku: 'TL-WA850RE',
-    name: 'Extensor de Rango TP-Link TL-WA850RE 300Mbps',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TL-WA850RE.png'
-  },
-  {
-    sku: 'TL-SF1008D',
-    name: 'Switch TP-Link TL-SF1008D 8 Puertos 10/100Mbps',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TL-SF1008D.png'
-  },
-  {
-    sku: 'ARCHER-C6',
-    name: 'Router TP-Link Archer C6 AC1200 Gigabit Doble Banda',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ARCHER-C6.png'
-  },
-  {
-    sku: 'EAP225-OUTDOOR',
-    name: 'Access Point TP-Link EAP225 Exterior AC1200',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/EAP225-OUTDOOR.png'
-  },
-  {
-    sku: 'TL-SG1024',
-    name: 'Switch TP-Link TL-SG1024 24 Puertos Gigabit Rack',
-    brand: 'TP-Link',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/TL-SG1024.png'
-  },
-  {
-    sku: 'MNC-NREAB001',
-    name: 'Switch Manhattan 8 Puertos 10/100Mbps Compacto',
-    brand: 'Manhattan',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MNCNREAB001.png'
-  },
-  {
-    sku: 'MNC-NREAB002',
-    name: 'Adaptador USB Ethernet Manhattan 10/100Mbps',
-    brand: 'Manhattan',
-    category: 'Redes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MNCNREAB002.png'
-  },
-  // Vídeo y Proyección
-  {
-    sku: '1918C002AA',
-    name: 'Proyector Canon Rayo S1 Compacto 100 Lúmenes',
-    brand: 'Canon',
-    category: 'Vídeo y Proyección',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/1918C002AA.png'
-  },
-  {
-    sku: 'EB-S41',
-    name: 'Proyector Epson PowerLite S41+ 3300 Lúmenes',
-    brand: 'Epson',
-    category: 'Vídeo y Proyección',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/C11CF44301.png'
-  },
-  {
-    sku: 'X118HP',
-    name: 'Proyector Acer X118HP 4000 Lúmenes SVGA HDMI',
-    brand: 'Acer',
-    category: 'Vídeo y Proyección',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/MR.JR811.00R.png'
-  },
-  {
-    sku: 'VPL-DX221',
-    name: 'Proyector Sony VPL-DX221 2800 Lúmenes XGA',
-    brand: 'Sony',
-    category: 'Vídeo y Proyección',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/VPL-DX221.png'
-  },
-  {
-    sku: 'MS550',
-    name: 'Proyector BenQ MS550 3600 Lúmenes SVGA Doble HDMI',
-    brand: 'BenQ',
-    category: 'Vídeo y Proyección',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/9H.JJ477.13L.png'
-  },
-  // Componentes y Otros
-  {
-    sku: 'ST1000DM010',
-    name: 'Disco Duro Seagate BarraCuda 1TB 3.5" SATA 6GB/S',
-    brand: 'Seagate',
-    category: 'Componentes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/ST1000DM010.png'
-  },
-  {
-    sku: 'WDS240G2G0A',
-    name: 'SSD WD Green 240GB 2.5" SATA 6GB/S',
-    brand: 'Western Digital',
-    category: 'Componentes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/WDS240G2G0A.png'
-  },
-  {
-    sku: 'GAB-101',
-    name: 'Gabinete Vorago GAB-101 Micro ATX 500W',
-    brand: 'Vorago',
-    category: 'Componentes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/GAB-101.png'
-  },
-  {
-    sku: 'KM-103',
-    name: 'Kit Teclado y Mouse Vorago KM-103 USB Negro',
-    brand: 'Vorago',
-    category: 'Componentes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/KM-103.png'
-  },
-  {
-    sku: 'PAD-101',
-    name: 'Mouse Pad Vorago PAD-101 Negro',
-    brand: 'Vorago',
-    category: 'Componentes',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PAD-101.png'
-  },
-  // Papelería
-  {
-    sku: 'NEAPAPAE001',
-    name: 'Papel Cortado Maestro Special Carta 95% de Blancura 75Grs Caja c/5000 Hojas',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NEAPAPAE001.png',
-    price: '$95.00',
-    unit: 'Caja'
-  },
-  {
-    sku: 'NXPPAPAR003',
-    name: 'Rollo Papel Nextep Termico para Terminal Movil 57mm x 12m Caja c/100 Rollos',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NXPPAPAR003.png'
-  },
-  {
-    sku: 'NEAPAPAE007',
-    name: 'Papel Cortado Nextep Copy Carta 92% de Blancura 75Grs Caja c/5000 Hojas',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NEAPAPAE007.png'
-  },
-  {
-    sku: 'NXPPAPAR002',
-    name: 'Rollo Papel Nextep Termico 80mm x 70m Caja c/50 Rollos',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NXPPAPAR002.png'
-  },
-  {
-    sku: 'NEAPAPAE004',
-    name: 'Papel Cortado Nextep Ecologico Carta 75Grs Caja c/5000 Hojas',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NEAPAPAE004.png'
-  },
-  {
-    sku: 'NXPPAPAR005',
-    name: 'Rollo Papel Nextep Bond 76mm x 70m Caja c/50 Rollos',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NXPPAPAR005.png'
-  },
-  {
-    sku: 'PMPPAPAD061',
-    name: 'Rollo de Papel PCM Termico 57x36mts Blanco con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD061.png'
-  },
-  {
-    sku: 'PMPPAPAD007',
-    name: 'Rollo de Papel PCM Termico 57x60mts Blanco con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD007.png'
-  },
-  {
-    sku: 'PMPPAPAD004',
-    name: 'Rollo de Papel PCM Autocopia 76x70mts Blanco/Amarillo con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD004.png'
-  },
-  {
-    sku: 'PMPPAPAD003',
-    name: 'Rollo de Papel PCM Bond 76x70mts Blanco con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD003.png'
-  },
-  {
-    sku: 'PMPPAPAD052',
-    name: 'Rollo de Papel PCM Termico 80x70mts Blanco con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD052.png'
-  },
-  {
-    sku: 'PMPPAPAD017',
-    name: 'Rollo de Papel PCM Termico 57x12mts Blanco con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD017.png'
-  },
-  {
-    sku: 'PMPPAPAD045',
-    name: 'Rollo de Papel PCM Autocopia 2H 76x70mts Blanco/Rosa con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD045.png'
-  },
-  {
-    sku: 'PMPPAPAD044',
-    name: 'Rollo de Papel PCM Autocopia 3H 76x70mts Blanco/Canario/Rosa con 10 rollos',
-    brand: 'PCM',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/PMPPAPAD044.png'
-  },
-  {
-    sku: 'NXPPAPAR008',
-    name: 'Rollo Papel Nextep Bond 57mm x 60m Caja c/100 Rollos',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NXPPAPAR008.png'
-  },
-  {
-    sku: 'NXPPAPAR009',
-    name: 'Rollo Papel Nextep Termico 57mm x 60m Caja c/100 Rollos',
-    brand: 'Nextep',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/NXPPAPAR009.png'
-  },
-  {
-    sku: 'SCAPAPAE017',
-    name: 'Papel Scribe Fotocopiado Oficio 500H 75g',
-    brand: 'Scribe',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/SCAPAPAE017.png',
-    price: '$110.00',
-    unit: 'Resma'
-  },
-  {
-    sku: 'XEAPAPAE007',
-    name: 'Papel Xerox Marathon Carta 500H 75g',
-    brand: 'Xerox',
-    category: 'Papelería',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/XEAPAPAE007.png',
-    price: '$98.00',
-    unit: 'Resma'
-  },
-  {
-    sku: '910-004842',
-    name: 'Mouse Logitech M280 Inalámbrico Negro',
-    brand: 'Logitech',
-    category: 'Accesorios',
-    status: 'En Stock',
-    image: 'https://contenidos.exel.com.mx/imgProducto/910-004842.png'
-  },
- ];
+  {
+    "sku": "106R01391",
+    "name": "TONER XEROX NEGRO PHASER 6280 CAP ESTANDAR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB432.webp"
+  },
+  {
+    "sku": "108R00974",
+    "name": "UNIDAD IMAGEN XEROX NEGRO PHASER 6700 50000 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB028.webp"
+  },
+  {
+    "sku": "108R00971",
+    "name": "UNIDAD IMAGEN XEROX CYAN PHASER 6700 50000 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB029.webp"
+  },
+  {
+    "sku": "108R00972",
+    "name": "UNIDAD IMAGEN XEROX MAGENTA PHASER 6700 50000 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB030.webp"
+  },
+  {
+    "sku": "006r01463",
+    "name": "TONER XEROX MAGENTA WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB472.webp"
+  },
+  {
+    "sku": "006R01464",
+    "name": "TONER XEROX CYAN WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB473.webp"
+  },
+  {
+    "sku": "006R01462",
+    "name": "TONER XEROX AMARILLO WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB474.webp"
+  },
+  {
+    "sku": "108R01022",
+    "name": "TINTA XEROX COLORQUBE CYAN 8900 (6 BARRAS)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB139.webp"
+  },
+  {
+    "sku": "108R01023",
+    "name": "TINTA XEROX COLORQUBE MAGENTA 8900 (6 BARRAS)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB140.webp"
+  },
+  {
+    "sku": "108R01024",
+    "name": "TINTA XEROX COLORQUBE AMARILLA 8900 (6 BARRAS)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTINAB141.webp"
+  },
+  {
+    "sku": "006R01271",
+    "name": "TONER XEROX AMARILLO WORKCENTRE 7132W 8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB312.webp"
+  },
+  {
+    "sku": "006R01272",
+    "name": "TONER XEROX MAGENTA WORKCENTRE 7132W 8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB313.webp"
+  },
+  {
+    "sku": "106R03765",
+    "name": "TÃ³ner Xerox Alta Capacidad 10.7K VersaLink C7000 SFP Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB645.webp"
+  },
+  {
+    "sku": "106R03532",
+    "name": "TONER XEROX NEGRO EXTRA ALTA CAPACIDAD VERSALINK C400/405 (1",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB621.webp"
+  },
+  {
+    "sku": "106R02310",
+    "name": "TONER XEROX WC 3325 NEGRO CAPACIDAD ESTANDA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB534.webp"
+  },
+  {
+    "sku": "106R01316",
+    "name": "TONER XEROX NEGRO 6400MFP ALTA CAPACIDAD",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB443.webp"
+  },
+  {
+    "sku": "006r01552",
+    "name": "TONER XEROX NEGRO 110.000 PAG  5865/5875/5890",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB554.webp"
+  },
+  {
+    "sku": "106R01514",
+    "name": "TONER XEROX 106R01514 NEGRO 7100 PAGINAS PHASER 6700",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB550.webp"
+  },
+  {
+    "sku": "106R03623",
+    "name": "TONER XEROX EXTRA ALTA CAPACIDAD P/3330/ 3335/ 3345 15K IMP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB608.webp"
+  },
+  {
+    "sku": "106R01389",
+    "name": "TONER XEROX MAGENTA PHASER 6280 CAP ESTANDAR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB430.webp"
+  },
+  {
+    "sku": "006R01276",
+    "name": "TONER XEROX WORKCENTRE 4150 20k",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB310.webp"
+  },
+  {
+    "sku": "106R02306",
+    "name": "TONER XEROX PHASER 3320 NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB532.webp"
+  },
+  {
+    "sku": "106R01410",
+    "name": "TONER XEROX WORKCENTRE 4260",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB423.webp"
+  },
+  {
+    "sku": "006R01182",
+    "name": "Toner Xerox WorkCentre 123 128 Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB227.webp"
+  },
+  {
+    "sku": "106R02723",
+    "name": "TONER XEROX NEGRO P-WC3615 PHASER 3610 ALTO RENDIMIENTO 14K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB555.webp"
+  },
+  {
+    "sku": "106R03939",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.9k VersaLink C605 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB692.webp"
+  },
+  {
+    "sku": "006R01551",
+    "name": "TONER XEROX NEGRO WC 5845/5855 76000 PGS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB548.webp"
+  },
+  {
+    "sku": "106R01163",
+    "name": "TONER XEROX PHASER 7760 NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB305.webp"
+  },
+  {
+    "sku": "106R01294",
+    "name": "TONER XEROX PHASER 5550 35K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB397.webp"
+  },
+  {
+    "sku": "006R01759",
+    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 28K PÃ¡ginas Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB698.webp"
+  },
+  {
+    "sku": "006R01761",
+    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 28K PÃ¡ginas Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB699.webp"
+  },
+  {
+    "sku": "013R00624",
+    "name": "TAMBOR XEROX WC7328 7335 7345",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB005.webp"
+  },
+  {
+    "sku": "106R02236",
+    "name": "TONER XEROX PHASER WC 6605 NEGRO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB545.webp"
+  },
+  {
+    "sku": "106R03886",
+    "name": "Toner Xerox Amarillo Extra Alta Capacidad 9K para Versalink",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB655.webp"
+  },
+  {
+    "sku": "106R01531",
+    "name": "TONER XEROX ALTA CAPACIDAD 11000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB470.webp"
+  },
+  {
+    "sku": "106R03884",
+    "name": "Toner Xerox Cyan Extra Alta Capacidad 9K para Versalink C50",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB653.webp"
+  },
+  {
+    "sku": "106R03885",
+    "name": "Toner Xerox Magenta Extra Alta Capacidad 9K para Versalink C",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB654.webp"
+  },
+  {
+    "sku": "109R00850",
+    "name": "Fusor Xerox 120V CRU 8075/8090",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB059.webp"
+  },
+  {
+    "sku": "106R01513",
+    "name": "TONER XEROX 106R01513 AMARILLO 5000 PAGINAS PHASER 6700",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB551.webp"
+  },
+  {
+    "sku": "113R00674",
+    "name": "TAMBOR XEROX PHASER 245",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB010.webp"
+  },
+  {
+    "sku": "106R02755",
+    "name": "TONER XEROX WORKCENTRE 6655 ALTA CAPACIDAD NEGRO 12000 PAGIN",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB576.webp"
+  },
+  {
+    "sku": "106R03533",
+    "name": "TONER XEROX AMARILLO EXTRA ALTA CAPACIDAD VERSALINK C400/405",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB622.webp"
+  },
+  {
+    "sku": "106R03534",
+    "name": "TONER XEROX CYAN EXTRA ALTA CAPACIDAD VERSALINK C400/405 (8K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB623.webp"
+  },
+  {
+    "sku": "106R03535",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 8K VersaLink C400/405 Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB624.webp"
+  },
+  {
+    "sku": "106R04057",
+    "name": "Toner Xerox Negro Alta Capacidad 20.9K Paginas Versalink C8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB676.webp"
+  },
+  {
+    "sku": "006R01760",
+    "name": "TÃ³ner Xerox 28K PÃ¡ginas AltaLink C8145/C8155/C8170 Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB697.webp"
+  },
+  {
+    "sku": "106R03927",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.9K VersaLink C600 Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB664.webp"
+  },
+  {
+    "sku": "013R00675",
+    "name": "Tambor Xerox 200K AltaLink B80XX",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB049.webp"
+  },
+  {
+    "sku": "115R00135",
+    "name": "FUSOR XEROX 100K VERSALINK C600 SERIES",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB063.webp"
+  },
+  {
+    "sku": "106R02741",
+    "name": "TÃ³ner Xerox Workcentre 3655 Extra Alta Capacidad 25900 PÃ¡ginas Color Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB571.webp"
+  },
+  {
+    "sku": "106R03585",
+    "name": "TONER XEROX CAPACIDAD EXTRA ALTA 24.6K** PARA B400/B405",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB627.webp"
+  },
+  {
+    "sku": "106R03943",
+    "name": "Toner Xerox Alta Capacidad 25.9K para Versalink B600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB647.webp"
+  },
+  {
+    "sku": "106R02735",
+    "name": "Toner Xerox Alta Capacidad 25000 Paginas",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB578.webp"
+  },
+  {
+    "sku": "106R02607",
+    "name": "TONER XEROX MAGENTA PHASER 7100 CAP ESTANDAR 4.5K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB559.webp"
+  },
+  {
+    "sku": "106R02608",
+    "name": "TONER XEROX AMARILLO PHASER 7100 CAPACIDAD ESTANDAR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB560.webp"
+  },
+  {
+    "sku": "006R01406",
+    "name": "TONER XEROX AMARILLO 34000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB464.webp"
+  },
+  {
+    "sku": "006R01404",
+    "name": "TONER XEROX CYAN 34000 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB466.webp"
+  },
+  {
+    "sku": "106R03936",
+    "name": "Toner Xerox Extra Alta Capacidad 16.8k VersaLink C605 Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB689.webp"
+  },
+  {
+    "sku": "106R03937",
+    "name": "Toner Xerox Extra Alta Capacidad 16.8k VersaLink C605 Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB690.webp"
+  },
+  {
+    "sku": "106R03938",
+    "name": "Toner Xerox Extra Alta Capacidad 16.8k VersaLink C605 Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB691.webp"
+  },
+  {
+    "sku": "106R04082",
+    "name": "Toner Xerox Cyan Alta Capacidad 26.5K Paginas Versalink C9000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB669.webp"
+  },
+  {
+    "sku": "106R04083",
+    "name": "Toner Xerox Magenta Alta Capacidad 26.5K Versalink C9000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB670.webp"
+  },
+  {
+    "sku": "106R04084",
+    "name": "Toner Xerox Amarillo Alta Capacidad 26.5K Versalink C9000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB671.webp"
+  },
+  {
+    "sku": "006R01755",
+    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB704.webp"
+  },
+  {
+    "sku": "006R01756",
+    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB705.webp"
+  },
+  {
+    "sku": "006R01757",
+    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB706.webp"
+  },
+  {
+    "sku": "013R00686",
+    "name": "Tambor Xerox 198K PÃ¡ginas para AltaLink B8145/55/70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB071.webp"
+  },
+  {
+    "sku": "013R00657",
+    "name": "TAMBOR XEROX NEGRO 67K WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB016.webp"
+  },
+  {
+    "sku": "013R00659",
+    "name": "TAMBOR XEROX MAGENTA 51K WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB015.webp"
+  },
+  {
+    "sku": "013R00658",
+    "name": "TAMBOR XEROX AMARILLO 51K XEROX WC7120",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB020.webp"
+  },
+  {
+    "sku": "013R00660",
+    "name": "TAMBOR XEROX CYAN CARTRIDGE YIELD 51K WC 7120/7220/7225",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB034.webp"
+  },
+  {
+    "sku": "106R01415",
+    "name": "TONER XEROX PHASER 3435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB405.webp"
+  },
+  {
+    "sku": "106R03924",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Cian",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB665.webp"
+  },
+  {
+    "sku": "106R03925",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB666.webp"
+  },
+  {
+    "sku": "106R03926",
+    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB667.webp"
+  },
+  {
+    "sku": "006R01400",
+    "name": "TONER XEROX AMARILLO WC 7425/7428/7435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB451.webp"
+  },
+  {
+    "sku": "006R01401",
+    "name": "TONER XEROX MAGENTA WC 7425/7428/7435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB452.webp"
+  },
+  {
+    "sku": "006R01402",
+    "name": "TONER XEROX CYAN WC 7425/7428/7435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB453.webp"
+  },
+  {
+    "sku": "106R02732",
+    "name": "TONER XEROX P3610/WC3615 25300 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB557.webp"
+  },
+  {
+    "sku": "115R00069",
+    "name": "KIT MANTENIMIENTO XEROX 115R00069 110V PHASER 4600/4620 150.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECMOUAB030.webp"
+  },
+  {
+    "sku": "106R02752",
+    "name": "TONER XEROX WORKCENTRE 6655 ALTA CAPACIDAD CYAN 7500 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB573.webp"
+  },
+  {
+    "sku": "106R02753",
+    "name": "TONER XEROX WORKCENTRE 6655 ALTA CAPACIDAD MAGENTA 7500 PAGI",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB574.webp"
+  },
+  {
+    "sku": "106R02754",
+    "name": "TONER XEROX WORKCENTRE 6655 ALTA CAPACIDAD AMARILLO 7500 PAG",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB575.webp"
+  },
+  {
+    "sku": "106r02233",
+    "name": "TONER XEROX PHASER WC 6605 CYAN",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB542.webp"
+  },
+  {
+    "sku": "106R02234",
+    "name": "TONER XEROX PHASER WC 6605 MAGENTA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB543.webp"
+  },
+  {
+    "sku": "106R02235",
+    "name": "TONER XEROX PHASER WC 6605 AMARILLO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB544.webp"
+  },
+  {
+    "sku": "115R00084",
+    "name": "FUSOR XEROX PHASER 3610 110V 200K (PIEZA LARGA DURACION)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB051.webp"
+  },
+  {
+    "sku": "113R00782",
+    "name": "Tambor Xerox 82.2K VersaLink C7000 SFP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB057.webp"
+  },
+  {
+    "sku": "106R03766",
+    "name": "TÃ³ner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Amarillo",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB638.webp"
+  },
+  {
+    "sku": "106R03767",
+    "name": "TÃ³ner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Magenta",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB639.webp"
+  },
+  {
+    "sku": "113R00762",
+    "name": "TAMBOR XEROX KIT 4600/4620",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB013.webp"
+  },
+  {
+    "sku": "113R00711",
+    "name": "TONER XEROX PHASER 4510 CAPACIDAD ESTANDAR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB326.webp"
+  },
+  {
+    "sku": "013R00591",
+    "name": "Tambor Xerox negro 90K rendimiento 90000 impresiones AL",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB002.webp"
+  },
+  {
+    "sku": "101R00602",
+    "name": "TAMBOR XEROX PARA VERSALINK C8000 / C9000 PARA 190K PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB068.webp"
+  },
+  {
+    "sku": "013R00662",
+    "name": "TAMBOR XEROX WORKCENTRE WC7545/7556/7525/7530/7535 12500",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB021.webp"
+  },
+  {
+    "sku": "106R03945",
+    "name": "Toner Xerox Extra Alta Capacidad 46.7K para Versalink B600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB648.webp"
+  },
+  {
+    "sku": "115R00139",
+    "name": "FUSOR XEROX 200K PARA VERSALINK B600",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB064.webp"
+  },
+  {
+    "sku": "106R01526",
+    "name": "TONER XEROX PHASER 6700 NEGRO 18000 PAGS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB538.webp"
+  },
+  {
+    "sku": "013R00670",
+    "name": "TAMBOR XEROX WC 5019/5021 (80000)",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB033.webp"
+  },
+  {
+    "sku": "9NA",
+    "name": "Kit InicializaciÃ³n Xerox 30PPM MFP",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE563.webp"
+  },
+  {
+    "sku": "115R00076",
+    "name": "FUSOR XEROX PHASER 6600 WORKCENTRE 6605 110 V",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB048.webp"
+  },
+  {
+    "sku": "106R02609",
+    "name": "TONER XEROX DUAL CYAN 9K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB561.webp"
+  },
+  {
+    "sku": "006R01178",
+    "name": "TONER XEROX WC PRO C3545 AMARILLO",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB249.webp"
+  },
+  {
+    "sku": "115R00114",
+    "name": "FUSOR XEROX VERSALINK C7020/7025/7030",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB060.webp"
+  },
+  {
+    "sku": "106R01523",
+    "name": "TONER XEROX CYAN PHASER 6700 12000 PAGS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB539.webp"
+  },
+  {
+    "sku": "106R01524",
+    "name": "TONER XEROX MAGENTA 12.000 PAGS PHASER 6700",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB540.webp"
+  },
+  {
+    "sku": "106R01525",
+    "name": "TONER XEROX AMARILLO 12000 PAGS PHASER 6700",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB541.webp"
+  },
+  {
+    "sku": "108R01492",
+    "name": "KIT MANTENIMIENTO XEROX 100K (B. TRANSF. R. TRANSF. R. AL",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAF006.webp"
+  },
+  {
+    "sku": "106R01536",
+    "name": "TONER XEROX PHASER 4600/4620 ALTO RENDIMIENTO 30K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB494.webp"
+  },
+  {
+    "sku": "101R00435",
+    "name": "TAMBOR XEROX 5230_TD ALTA CAPACIDAD 80 88K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB006.webp"
+  },
+  {
+    "sku": "113R00724",
+    "name": "TONER XEROX MAGENTA ALTA CAP 6K PHASER 6180",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB346.webp"
+  },
+  {
+    "sku": "106R01322",
+    "name": "TONER XEROX AMARILLO 6400MFP CAP ESTANDAR",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB449.webp"
+  },
+  {
+    "sku": "106R04054",
+    "name": "Toner Xerox Cyan Alta Capacidad 16.5K Paginas Versalink C8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB673.webp"
+  },
+  {
+    "sku": "106R04055",
+    "name": "Toner Xerox Magenta Alta Capacidad 16.5K Paginas Versalink C8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB674.webp"
+  },
+  {
+    "sku": "106R04056",
+    "name": "Toner Xerox Amarillo Alta Capacidad 16.5K Paginas Versalink C8000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB675.webp"
+  },
+  {
+    "sku": "013R00664",
+    "name": "Tambor Xerox Color 550/560",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB001.webp"
+  },
+  {
+    "sku": "106R04646",
+    "name": "TÃ³ner Xerox Capacidad EstÃ¡ndar VersaLink C8000W 5000 PÃ¡ginas Color Blanco",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB701.webp"
+  },
+  {
+    "sku": "8NB",
+    "name": "Bandeja de Papel Xerox 520 Hojas C/1 Gabinete Versalink B70XX",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE565.webp"
+  },
+  {
+    "sku": "106R01573",
+    "name": "TONER XEROX NEGRO ALTA CAPACIDAD PHASER 7800 24K PA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB523.webp"
+  },
+  {
+    "sku": "106R01570",
+    "name": "TONER XEROX CYAN HIGH CAPACITY PHASER 7800 17.2K PA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB520.webp"
+  },
+  {
+    "sku": "106R01571",
+    "name": "TONER XEROX MAGENTA HIGH CAPACITY PHASER 7800 17.2K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB521.webp"
+  },
+  {
+    "sku": "106R01572",
+    "name": "TONER XEROX AMARILLO ALTA CAPACIDAD PHASER 7800 17.",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB522.webp"
+  },
+  {
+    "sku": "013R00647",
+    "name": "TAMBOR XEROX WORKCENTRE 7425/7428/7435",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB022.webp"
+  },
+  {
+    "sku": "115R00127",
+    "name": "Limpiador Correo Xerox 200K VersaLink C7000 SFP",
+    "brand": "Xerox",
+    "category": "ImpresiÃ³n y Multifuncionales",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECLIMAB004.webp"
+  },
+  {
+    "sku": "115R00086",
+    "name": "KIT XEROX FUSOR MANTENIMIENTO WC 4265",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB057.webp"
+  },
+  {
+    "sku": "113R00670",
+    "name": "TAMBOR XEROX PHASER 5500",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB011.webp"
+  },
+  {
+    "sku": "106R01446",
+    "name": "TONER XEROX PHASER 7500 HIGH CAPACITY BLACK",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB419.webp"
+  },
+  {
+    "sku": "113R00776",
+    "name": "TAMBOR XEROX WC 4265 100000 PAGINAS",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB038.webp"
+  },
+  {
+    "sku": "109R00773",
+    "name": "Fusor Xerox WC5687/5665/5675",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB043.webp"
+  },
+  {
+    "sku": "106R01218",
+    "name": "TONER XEROX PHASER 6360 CYAN ALTA CAPACIDAD",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB334.webp"
+  },
+  {
+    "sku": "106R01219",
+    "name": "TONER XEROX PHASER 6360 MAGENTA ALTA CAPACIDAD",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB335.webp"
+  },
+  {
+    "sku": "106R01220",
+    "name": "TONER XEROX PHASER 6360 AMARILLO ALTA CAPACIDAD",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB336.webp"
+  },
+  {
+    "sku": "115R00137",
+    "name": "Fusor Xerox VersaLink C7000",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECFUSAB061.webp"
+  },
+  {
+    "sku": "9NB",
+    "name": "MÃ³dulo Xerox Bandejas 3TM 520 Hojas Cada Una",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECACCAE572.webp"
+  },
+  {
+    "sku": "113R00755",
+    "name": "TAMBOR XEROX WORKCENTRE 4260",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB017.webp"
+  },
+  {
+    "sku": "106R01444",
+    "name": "TONER XEROX PHASER 7500 HIGH CAPACITY MAGENTA",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTONAB421.webp"
+  },
+  {
+    "sku": "013R00681",
+    "name": "Tambor Xerox para AltaLink C8130/35/45/55/70",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB070.webp"
+  },
+  {
+    "sku": "013R00663",
+    "name": "Tambor Xerox Impresora Color 550/560 CRU Negro",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECTAMAB012.webp"
+  },
+  {
+    "sku": "108R00645",
+    "name": "UNIDAD IMAGEN XEROX PHASER 6300 6350 35K",
+    "brand": "Xerox",
+    "category": "Consumibles",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XECUNIAB042.webp"
+  },
+  {
+    "sku": "1102",
+    "name": "EscÃ¡ner Xerox Viaje Doble Faz 1102 ResoluciÃ³n 600 ppp",
+    "brand": "Xerox",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIESCAB053.webp"
+  },
+  {
+    "sku": "0DXT",
+    "name": "EscÃ¡ner Xerox Duplex Combo 1517 ADF ResoluciÃ³n 600 dpi",
+    "brand": "Xerox",
+    "category": "DigitalizaciÃ³n de Documentos",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/XEIESCAB058.webp"
+  }
+];

@@ -16,12 +16,13 @@ export const NAP = {
   countryCode: 'MX',
 } as const;
 
-export const PHONE_E164 = '+523336394904';
-export const PHONE_DISPLAY = '33 3639 4904';
-export const WHATSAPP_NUMBER = '523336394904';
+export const PHONE_E164 = '+523323601251';
+export const PHONE_DISPLAY = '33 2360 1251';
+export const WHATSAPP_NUMBER = '523323601251';
 export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
+export const WHATSAPP_URL_SITE = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola%2C%20vengo%20de%20tu%20sitio%20web`;
 
-export const EMAIL_SALES = 'ventas@lomas.com.mx';
+export const EMAIL_SALES = 'ventas@cmlomas.com';
 export const EMAIL_SUPPORT = 'soporte@lomas.com.mx';
 
 export const GEO = { lat: 20.660339600250083, lng: -103.38131088 } as const;
@@ -45,6 +46,7 @@ export const ROUTES = {
   catalog: '/catalog',
   brands: '/brands',
   faq: '/preguntas-frecuentes',
+  papelBond: '/papel-bond',
 } as const;
 
 /**

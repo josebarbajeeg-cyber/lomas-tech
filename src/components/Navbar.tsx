@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import {
   Menu, Search, X,
   Home, Package, Building2, Info, Phone,
-  MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp,
+  MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp, FileText,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { cn } from '../lib/cn';
@@ -16,11 +16,12 @@ import {
 } from '../config/siteConfig';
 
 const navLinks = [
-  { to: '/',         label: 'Inicio',    icon: Home,       hash: '' },
-  { to: '/catalog',  label: 'Catálogo',  icon: Package,    hash: '' },
-  { to: '/brands',   label: 'Marcas',    icon: Building2,  hash: '' },
-  { to: '/#about',   label: 'Nosotros',  icon: Info,       hash: '#about' },
-  { to: '/#contact', label: 'Contacto',  icon: Phone,      hash: '#contact' },
+  { to: '/',           label: 'Inicio',      icon: Home,      hash: '' },
+  { to: '/catalog',    label: 'Catálogo',    icon: Package,   hash: '' },
+  { to: '/papel-bond', label: 'Papel Bond',  icon: FileText,  hash: '' },
+  { to: '/brands',     label: 'Marcas',      icon: Building2, hash: '' },
+  { to: '/#about',     label: 'Nosotros',    icon: Info,      hash: '#about' },
+  { to: '/#contact',   label: 'Contacto',    icon: Phone,     hash: '#contact' },
 ];
 
 const popularSearches = [
@@ -35,9 +36,9 @@ const popularSearches = [
 // src/data/products.ts. The catalog filter is exact-string equality, so a
 // mismatch here returns zero products silently.
 const popularCategories = [
-  { label: 'Impresoras',  to: '/catalog?category=Impresi%C3%B3n%20y%20Digitalizaci%C3%B3n' },
+  { label: 'Impresoras',  to: '/catalog?category=Impresi%C3%B3n%20y%20Multifuncionales' },
   { label: 'Tóner',       to: '/catalog?category=Consumibles' },
-  { label: 'Papel',       to: '/catalog?category=Papeler%C3%ADa' },
+  { label: 'Papel',       to: '/catalog?category=Papel' },
   { label: 'Cómputo',     to: '/catalog?category=C%C3%B3mputo' },
 ];
 

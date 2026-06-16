@@ -56,6 +56,9 @@ export const brands: Brand[] = [
   { name: 'Seagate',         logo: '',                                category: 'Cómputo'    },
   { name: 'Western Digital', logo: '',                                category: 'Cómputo'    },
   { name: 'Scribe',          logo: '',                                category: 'Papelería'  },
+  { name: 'Paperline',       logo: 'https://i.imgur.com/c33IvF5.png', category: 'Papelería'  },
+  { name: 'Reprograf',       logo: 'https://i.imgur.com/eHddZwz.png', category: 'Papelería'  },
+  { name: 'FaciaBond',       logo: 'https://i.imgur.com/txYp896.png', category: 'Papelería'  },
 ];
 
 export const brandCategories: BrandCategory[] = ['Impresión', 'Cómputo', 'Papelería', 'Mobiliario', 'Accesorios', 'General'];

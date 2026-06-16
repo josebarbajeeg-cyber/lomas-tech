@@ -34,47 +34,47 @@ const BRAND_COUNT = brands.length;
 
 const featuredCategories = [
   {
-    title: 'Impresión y Digitalización',
-    blurb: 'Multifuncionales láser e inkjet de HP, Brother, Epson, Canon y Xerox.',
-    category: 'Impresión y Digitalización',
+    title: 'Impresión y Multifuncionales',
+    blurb: 'Impresoras y multifuncionales láser de Xerox, Canon y más para oficinas de todos los tamaños.',
+    category: 'Impresión y Multifuncionales',
     icon: Printer,
   },
   {
     title: 'Consumibles',
-    blurb: 'Tóner y tinta originales con respaldo del fabricante para HP, Lexmark y Xerox.',
+    blurb: 'Tóner y tinta originales con respaldo del fabricante para Canon, Xerox y más.',
     category: 'Consumibles',
     icon: Sparkles,
   },
   {
     title: 'Cómputo',
-    blurb: 'Laptops y desktops corporativos de HP, Lenovo, Dell, Acer y Asus.',
+    blurb: 'Laptops y desktops corporativos de HP, Lenovo, Dell y más.',
     category: 'Cómputo',
     icon: HardDrive,
   },
   {
-    title: 'Almacenamiento',
-    blurb: 'SSDs, USBs y memorias Kingston, Adata y Verbatim para flotas y backups.',
-    category: 'Almacenamiento',
-    icon: HardDrive,
+    title: 'Servidores y Almacenamiento',
+    blurb: 'Infraestructura de servidores y soluciones de almacenamiento empresarial.',
+    category: 'Servidores y Almacenamiento',
+    icon: Network,
   },
   {
-    title: 'Redes',
-    blurb: 'Routers, switches y access points TP-Link y Manhattan para PYMEs.',
-    category: 'Redes',
+    title: 'Digitalización',
+    blurb: 'Escáneres de alta velocidad Canon y Xerox para digitalización de archivos corporativos.',
+    category: 'Digitalización de Documentos',
     icon: Wifi,
   },
   {
-    title: 'Papelería',
-    blurb: 'Papel bond carta y oficio Scribe, Xerox y PCM para volúmenes corporativos.',
-    category: 'Papelería',
-    icon: Network,
+    title: 'Papel',
+    blurb: 'Papel y suministros de alta calidad para impresoras y copiadoras.',
+    category: 'Papel',
+    icon: ShoppingCart,
   },
 ];
 
 const bestSellersSkus = [
-  'NEAPAPAE001', 'SCAPAPAE017', 'XEAPAPAE007',
-  'DCP-B7535DW', 'B405DN',
-  'NE-460R', 'NE-484', '910-004842',
+  'B405_DN', 'B600_DN', '2223C024AA',
+  '421G6LA#ABM', '20SL00VNLM', 'MMM55',
+  '2995C003AA', '1242C001AA',
 ];
 
 const bestSellers = products
@@ -82,23 +82,24 @@ const bestSellers = products
   .sort((a, b) => bestSellersSkus.indexOf(a.sku) - bestSellersSkus.indexOf(b.sku));
 
 const heroImages = [
-  'https://i.imgur.com/6RUFwFx.jpeg',
-  'https://i.imgur.com/pP6UDMH.jpeg',
-  'https://i.imgur.com/nCTulTT.jpeg',
-  'https://i.imgur.com/9mkGxUc.jpeg',
-  'https://i.imgur.com/6aYbPWi.jpeg',
-  'https://i.imgur.com/EyAX4Wh.jpeg',
+  'https://i.imgur.com/DPDzM7a.jpeg',
+  'https://i.imgur.com/ebofAco.jpeg',
+  'https://i.imgur.com/bghAFK9.jpeg',
+  'https://i.imgur.com/pvFQUSP.jpeg',
+  'https://i.imgur.com/9XyWGDl.jpeg',
+  'https://i.imgur.com/cd7oUiJ.jpeg',
 ];
 
 const aboutImages = [
-  'https://i.imgur.com/a6kXfUF.jpeg',
-  'https://i.imgur.com/CkR5KNs.jpeg',
-  'https://i.imgur.com/bgkmoMA.jpeg',
+  'https://i.imgur.com/675cRCL.png',
+  'https://i.imgur.com/kj8SIRm.png',
+  'https://i.imgur.com/urcDB09.png',
+  'https://i.imgur.com/QMaCl0i.png',
+  'https://i.imgur.com/pRoPNzL.png',
 ];
 
 const trustChips = [
   { icon: Calendar,    label: '15+ años en el mercado mexicano' },
-  { icon: Award,       label: '2,400+ distribuidores activos' },
   { icon: Truck,       label: 'Envío 24–48 h' },
   { icon: ShieldCheck, label: 'Factura electrónica CFDI 4.0' },
 ];
@@ -209,8 +210,8 @@ export default function LandingPage() {
             </h1>
 
             <p className="text-lg sm:text-xl text-slate-600 max-w-xl leading-relaxed">
-              {PRODUCT_COUNT} SKUs de {BRAND_COUNT} marcas oficiales (HP, Lexmark, Epson, Xerox, Brother y más).
-              Precios de mayorista, envío 24–48 h a toda la República desde nuestro almacén en Guadalajara.
+              El catálogo más completo de impresoras, tóners, suministros y mucho más al mejor precio del mercado.
+              Todo lo que necesitas de oficina y tecnología lo encuentras aquí.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -340,11 +341,11 @@ export default function LandingPage() {
               Acerca de Lomas
             </span>
             <h2 className="text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
-              Por qué 2,400+ negocios mexicanos compran en Lomas
+              Somos referente líder en la distribución de suministros de oficina
             </h2>
             <p className="text-slate-600 leading-relaxed">
               Llevamos 15 años distribuyendo tecnología de oficina a empresas mexicanas. Operamos
-              desde un almacén propio en el barrio Del Fresno (Guadalajara) y enviamos a las 32
+              desde un almacén propio en la colonia Del Fresno (Guadalajara) y enviamos a las 32
               entidades de la República en 24 a 48 horas.
             </p>
             <p className="text-slate-600 leading-relaxed">

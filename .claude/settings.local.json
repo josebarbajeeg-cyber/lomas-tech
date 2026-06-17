@@ -5,7 +5,17 @@
       "Bash(node scripts/build-sitemap.mjs)",
       "Bash(npm run *)",
       "Bash(node -e ' *)",
-      "Bash(node *)"
+      "Bash(node *)",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__search-designs",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__start-editing-transaction",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__get-design-pages",
+      "Bash(curl -s -o /tmp/colibri_p2.png \"https://document-export.canva.com/N6yms/DAGOQON6yms/36/thumbnail/0002.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWEOTUD6Q%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T214058Z&X-Amz-Expires=72496&X-Amz-Signature=a20e54b77fdd429661ae4974491e98a9b311b7253358bec7fbb529e2a14fac85&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2016%20Jun%202026%2017%3A49%3A14%20GMT\")",
+      "Read(//tmp/**)",
+      "PowerShell(Invoke-WebRequest -Uri \"https://document-export.canva.com/N6yms/DAGOQON6yms/36/thumbnail/0002.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWEOTUD6Q%2F20260615%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260615T214058Z&X-Amz-Expires=72496&X-Amz-Signature=a20e54b77fdd429661ae4974491e98a9b311b7253358bec7fbb529e2a14fac85&X-Amz-SignedHeaders=host&response-expires=Tue%2C%2016%20Jun%202026%2017%3A49%3A14%20GMT\" -OutFile \"$env:TEMP\\\\colibri_p2.png\"; Write-Output $env:TEMP\\\\colibri_p2.png)",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__generate-design",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__create-design-from-candidate",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__export-design",
+      "mcp__54f18e9d-1d86-41c0-b79a-1be2fd34cbbf__perform-editing-operations"
     ]
   }
 }

@@ -1,4 +1,4 @@
-﻿export interface Product {
+export interface Product {
   sku: string;
   name: string;
   brand: string;
@@ -18,7 +18,7 @@ export const products: Product[] = [
     "sku": "20SL00VNLM",
     "name": "Laptop Lenovo ThinkBook 14-IIL Aluminio 14\" Intel Core i3 1005G1 Disco duro 1 TB Ram 8 GB Windows 10 Pro",
     "brand": "Lenovo",
-    "category": "CÃ³mputo",
+    "category": "Cómputo",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/LNHLATAC081.webp"
   },
@@ -26,7 +26,7 @@ export const products: Product[] = [
     "sku": "MMM55",
     "name": "Laptop Dell Latitude 15 3520 15.6\" Intel Core i5 1135G7 Disco duro 1 TB Ram 8 GB Windows 10 Pro Color Negro",
     "brand": "Dell",
-    "category": "CÃ³mputo",
+    "category": "Cómputo",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/DEHLATAB311.webp"
   },
@@ -34,7 +34,7 @@ export const products: Product[] = [
     "sku": "421G6LA#ABM",
     "name": "Desktop HP ProDesk 400 G7 SFF Intel Core i5 10400 Disco duro 256 GB SSD Ram 8 GB Windows 10 Pro",
     "brand": "HP",
-    "category": "CÃ³mputo",
+    "category": "Cómputo",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/HPHDEKAB547.webp"
   },
@@ -72,9 +72,9 @@ export const products: Product[] = [
   },
   {
     "sku": "2223C024AA",
-    "name": "Multifuncional Canon ImageClass D1620 MonocromÃ¡tica LÃ¡ser de 45ppm",
+    "name": "Multifuncional Canon ImageClass D1620 Monocromática Láser de 45ppm",
     "brand": "Canon",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIIMPAG113.webp"
   },
@@ -488,7 +488,7 @@ export const products: Product[] = [
   },
   {
     "sku": "1511B020AA",
-    "name": "TINTA CANON CLI-36 COLOR (250 PÃ¡g.)",
+    "name": "TINTA CANON CLI-36 COLOR (250 Pág.)",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -752,7 +752,7 @@ export const products: Product[] = [
   },
   {
     "sku": "2164C001AA",
-    "name": "TÃ³ner Canon 047 Negro para ImageClass Series LBP110/MF110 (1600 Pag)",
+    "name": "Tóner Canon 047 Negro para ImageClass Series LBP110/MF110 (1600 Pag)",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -762,7 +762,7 @@ export const products: Product[] = [
     "sku": "1492A002CA",
     "name": "Toner Canon Negro E-20 para Serie PC 2mil paginas",
     "brand": "Canon",
-    "category": "CÃ³mputo",
+    "category": "Cómputo",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CACTONAB008.webp"
   },
@@ -800,7 +800,7 @@ export const products: Product[] = [
   },
   {
     "sku": "3024C001AA",
-    "name": "TÃ³ner Canon 054 Capacidad 1500 PÃ¡ginas Color Negro",
+    "name": "Tóner Canon 054 Capacidad 1500 Páginas Color Negro",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -912,7 +912,7 @@ export const products: Product[] = [
   },
   {
     "sku": "3023C001AA",
-    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Cian",
+    "name": "Tóner Canon 054 Capacidad 1200 Páginas Color Cian",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -920,7 +920,7 @@ export const products: Product[] = [
   },
   {
     "sku": "3022C001AA",
-    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Magenta",
+    "name": "Tóner Canon 054 Capacidad 1200 Páginas Color Magenta",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -928,7 +928,7 @@ export const products: Product[] = [
   },
   {
     "sku": "3021C001AA",
-    "name": "TÃ³ner Canon 054 Capacidad 1200 PÃ¡ginas Color Amarillo",
+    "name": "Tóner Canon 054 Capacidad 1200 Páginas Color Amarillo",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1016,7 +1016,7 @@ export const products: Product[] = [
   },
   {
     "sku": "3009C001AA",
-    "name": "TÃ³ner Canon 057 para ImageClass Series LBP226dw / MF445dw (3000 Pag)",
+    "name": "Tóner Canon 057 para ImageClass Series LBP226dw / MF445dw (3000 Pag)",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1048,7 +1048,7 @@ export const products: Product[] = [
   },
   {
     "sku": "7833A001BA",
-    "name": "TÃ³ner Canon S-35 D340/D320",
+    "name": "Tóner Canon S-35 D340/D320",
     "brand": "Canon",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1272,9 +1272,9 @@ export const products: Product[] = [
   },
   {
     "sku": "2628C003AA",
-    "name": "CÃ¡mara Canon EOS T100 con lente EF-S 18-55mm f/3.5-5.6",
+    "name": "Cámara Canon EOS T100 con lente EF-S 18-55mm f/3.5-5.6",
     "brand": "Canon",
-    "category": "CÃ¡mara, Video y ProyecciÃ³n",
+    "category": "Cámara, Video y Proyección",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAECAMAB252.webp"
   },
@@ -1282,7 +1282,7 @@ export const products: Product[] = [
     "sku": "2727C002AA",
     "name": "Camara Canon EOS Rebel T7 Con Lente EF-S 18-55mm f/3.5-5.6",
     "brand": "Canon",
-    "category": "CÃ¡mara, Video y ProyecciÃ³n",
+    "category": "Cámara, Video y Proyección",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAECAMAB258.webp"
   },
@@ -1304,33 +1304,33 @@ export const products: Product[] = [
   },
   {
     "sku": "2995C003AA",
-    "name": "EscÃ¡ner Canon ScanLIDE 300",
+    "name": "Escáner Canon ScanLIDE 300",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB025.webp"
   },
   {
     "sku": "9705B007AC",
-    "name": "Escaner Canon ImageFormula P-215II ResoluciÃ³n 600 dpi",
+    "name": "Escaner Canon ImageFormula P-215II Resolución 600 dpi",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB015.webp"
   },
   {
     "sku": "2646C002AC",
-    "name": "EscÃ¡ner Canon ImageFormula DR-C230 de 30ppm con Cap 60 Hojas",
+    "name": "Escáner Canon ImageFormula DR-C230 de 30ppm con Cap 60 Hojas",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB029.webp"
   },
   {
     "sku": "3258C002AA",
-    "name": "Escaner Canon ImageFormula DR-C225II ResoluciÃ³n 600 ppp",
+    "name": "Escaner Canon ImageFormula DR-C225II Resolución 600 ppp",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB027.webp"
   },
@@ -1338,93 +1338,93 @@ export const products: Product[] = [
     "sku": "0651C002AE",
     "name": "Escaner Canon ImageFormula DR-C240 de 45ppm con Cap 60 Hojas",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB023.webp"
   },
   {
     "sku": "2405C002AE",
-    "name": "EscÃ¡ner Canon ImageFormula DR-M260 de 60 PPM con Cap. 90 Hojas",
+    "name": "Escáner Canon ImageFormula DR-M260 de 60 PPM con Cap. 90 Hojas",
     "brand": "Canon",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CAIESCAB032.webp"
   },
   {
     "sku": "B600_DN",
-    "name": "Impresora LÃ¡ser Xerox VersaLink B600DN MonocromÃ¡tica con TecnologÃ­a ConnectKey",
+    "name": "Impresora Láser Xerox VersaLink B600DN Monocromática con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAE102.webp"
   },
   {
     "sku": "B610_DN",
-    "name": "Impresora LÃ¡ser Xerox VersaLink B610DN MonocromÃ¡tica con TecnologÃ­a ConnectKey",
+    "name": "Impresora Láser Xerox VersaLink B610DN Monocromática con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAE103.webp"
   },
   {
     "sku": "B405_DN",
-    "name": "Multifuncional Xerox VersaLink B405DN MonocromÃ¡tica LÃ¡ser con TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox VersaLink B405DN Monocromática Láser con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG208.webp"
   },
   {
     "sku": "C8130_T",
-    "name": "Multifuncional Xerox AltaLink C8130 Color LÃ¡ser con TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox AltaLink C8130 Color Láser con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG249.webp"
   },
   {
     "sku": "C8135_T",
-    "name": "Multifuncional Xerox AltaLink C8135A3 Color LÃ¡ser TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox AltaLink C8135A3 Color Láser Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG254.webp"
   },
   {
     "sku": "B8155_F",
-    "name": "Multifuncional Xerox AltaLink B8155 MFP A3 MonocromÃ¡tica LÃ¡ser 55 PPM",
+    "name": "Multifuncional Xerox AltaLink B8155 MFP A3 Monocromática Láser 55 PPM",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG255.webp"
   },
   {
     "sku": "C8145_F",
-    "name": "Multifuncional Xerox AltaLink C8145 Color LÃ¡ser A3 con TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox AltaLink C8145 Color Láser A3 con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG246.webp"
   },
   {
     "sku": "C8155_F",
-    "name": "Multifuncional Xerox AltaLink C8155 Color LÃ¡ser con TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox AltaLink C8155 Color Láser con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG250.webp"
   },
   {
     "sku": "B8170_F",
-    "name": "Multifuncional Xerox AltaLink B8170MonocromÃ¡tica LÃ¡ser con TecnologÃ­a ConnectKey",
+    "name": "Multifuncional Xerox AltaLink B8170Monocromática Láser con Tecnología ConnectKey",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIIMPAG248.webp"
   },
   {
     "sku": "116R00003",
-    "name": "Kit Rodillos de AlimentaciÃ³n Xerox 116R00003 100000 pÃ¡ginas",
+    "name": "Kit Rodillos de Alimentación Xerox 116R00003 100000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1432,7 +1432,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R01124",
-    "name": "Cartucho Residual Xerox 108R01124 30000 pÃ¡ginas",
+    "name": "Cartucho Residual Xerox 108R01124 30000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1442,13 +1442,13 @@ export const products: Product[] = [
     "sku": "108R01470",
     "name": "Rodillo Xerox TR 1 VersaLink B605_S",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECRODAB022.webp"
   },
   {
     "sku": "008R13089",
-    "name": "Contenedor de Desperdicio Xerox 008R13089 33000 pÃ¡ginas",
+    "name": "Contenedor de Desperdicio Xerox 008R13089 33000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1456,7 +1456,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R13036",
-    "name": "Cartucho de Residuo Xerox TÃ³ner PK",
+    "name": "Cartucho de Residuo Xerox Tóner PK",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1464,7 +1464,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R08102",
-    "name": "Cartucho Residuos Xerox Desperdicios 69K PÃ¡ginas para AltaLink C8170/B8170",
+    "name": "Cartucho Residuos Xerox Desperdicios 69K Páginas para AltaLink C8170/B8170",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1472,7 +1472,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R00982",
-    "name": "Cartucho de Residuos Xerox Phaser 7800 Hasta 20000 PÃ¡ginas",
+    "name": "Cartucho de Residuos Xerox Phaser 7800 Hasta 20000 Páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1480,7 +1480,7 @@ export const products: Product[] = [
   },
   {
     "sku": "497N05495",
-    "name": "Adaptador Xerox 497N05495 Red InalÃ¡mbrica para B1025",
+    "name": "Adaptador Xerox 497N05495 Red Inalámbrica para B1025",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1506,13 +1506,13 @@ export const products: Product[] = [
     "sku": "104R00256",
     "name": "Limpiador Xerox para Banda de Transferencia 160K Versalink C8000/C9000",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECLIMAB005.webp"
   },
   {
     "sku": "008r13086",
-    "name": "Rodillo de Transferencia Xerox 008r13086 200000 pÃ¡ginas",
+    "name": "Rodillo de Transferencia Xerox 008r13086 200000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1520,7 +1520,7 @@ export const products: Product[] = [
   },
   {
     "sku": "109R00783",
-    "name": "Kit Mantenimiento Xerox 109R00783 30000 pÃ¡ginas",
+    "name": "Kit Mantenimiento Xerox 109R00783 30000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1544,7 +1544,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R00861",
-    "name": "Unidad de Imagen Xerox 108R00861 80000 pÃ¡ginas",
+    "name": "Unidad de Imagen Xerox 108R00861 80000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1552,7 +1552,7 @@ export const products: Product[] = [
   },
   {
     "sku": "113R00672",
-    "name": "MÃ³dulo Xerox XerogrÃ¡fico para WC5645/5645/5665/5675/5687",
+    "name": "Módulo Xerox Xerográfico para WC5645/5645/5665/5675/5687",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1576,7 +1576,7 @@ export const products: Product[] = [
   },
   {
     "sku": "013R00603",
-    "name": "Unidad de Tambor Xerox 013R00603 100000 pÃ¡ginas",
+    "name": "Unidad de Tambor Xerox 013R00603 100000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1584,7 +1584,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R13087",
-    "name": "Fusor 120V Xerox 008R13087 100000 pÃ¡ginas",
+    "name": "Fusor 120V Xerox 008R13087 100000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1600,7 +1600,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R00691",
-    "name": "Unidad de Imagen Xerox 108R00691 20000 pÃ¡ginas",
+    "name": "Unidad de Imagen Xerox 108R00691 20000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1608,7 +1608,7 @@ export const products: Product[] = [
   },
   {
     "sku": "115R00119",
-    "name": "Kit Mantenimiento Xerox 110V VersaLink B400/B405 200K (Incluye Fusor y Rodillo Transferencia PolarizaciÃ³n)",
+    "name": "Kit Mantenimiento Xerox 110V VersaLink B400/B405 200K (Incluye Fusor y Rodillo Transferencia Polarización)",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1624,7 +1624,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R01121",
-    "name": "Unidad de Imagen Xerox 108R01121 60000 pÃ¡ginas",
+    "name": "Unidad de Imagen Xerox 108R01121 60000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1632,7 +1632,7 @@ export const products: Product[] = [
   },
   {
     "sku": "109R00752",
-    "name": "Fusor 110V Xerox 109R00752 400000 pÃ¡ginas",
+    "name": "Fusor 110V Xerox 109R00752 400000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1640,7 +1640,7 @@ export const products: Product[] = [
   },
   {
     "sku": "013R00602",
-    "name": "Unidad de Tambor Xerox 013R00602 231000 pÃ¡ginas",
+    "name": "Unidad de Tambor Xerox 013R00602 231000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1648,9 +1648,9 @@ export const products: Product[] = [
   },
   {
     "sku": "001R00610",
-    "name": "Cinta Transferencia Xerox 001R00610 para WorkCentre 7120/7125 200000 pÃ¡ginas",
+    "name": "Cinta Transferencia Xerox 001R00610 para WorkCentre 7120/7125 200000 páginas",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECCINAD005.webp"
   },
@@ -1672,7 +1672,7 @@ export const products: Product[] = [
   },
   {
     "sku": "108R00648",
-    "name": "Unidad de Imagen Xerox Phaser 7400 30000 pÃ¡ginas Color Magenta",
+    "name": "Unidad de Imagen Xerox Phaser 7400 30000 páginas Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1680,7 +1680,7 @@ export const products: Product[] = [
   },
   {
     "sku": "115R00063",
-    "name": "Kit Mantenimiento Xerox 115R00063 200000 pÃ¡ginas",
+    "name": "Kit Mantenimiento Xerox 115R00063 200000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1696,7 +1696,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R13044",
-    "name": "Fusor Xerox Workcentre 7232 100000 pÃ¡ginas",
+    "name": "Fusor Xerox Workcentre 7232 100000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1704,7 +1704,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R12988",
-    "name": "Fusor 120V Xerox 008R12988 200000 pÃ¡ginas",
+    "name": "Fusor 120V Xerox 008R12988 200000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1712,7 +1712,7 @@ export const products: Product[] = [
   },
   {
     "sku": "008R13102",
-    "name": "Fusor Xerox MÃ³dulo 110V 560/570",
+    "name": "Fusor Xerox Módulo 110V 560/570",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1720,7 +1720,7 @@ export const products: Product[] = [
   },
   {
     "sku": "109R00731",
-    "name": "Kit de Mantenimiento Xerox 109R00731 300000 pÃ¡ginas",
+    "name": "Kit de Mantenimiento Xerox 109R00731 300000 páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1762,7 +1762,7 @@ export const products: Product[] = [
     "sku": "116R00009",
     "name": "RODILLO XEROX DE TRANSFERENCIA 200K VERSALINK B600",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECRODAB021.webp"
   },
@@ -1778,7 +1778,7 @@ export const products: Product[] = [
     "sku": "115R00116",
     "name": "Rodillo De Transferencia Xerox Versalink B70XX 200K",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECRODAB018.webp"
   },
@@ -1794,7 +1794,7 @@ export const products: Product[] = [
     "sku": "115R00126",
     "name": "Rodillo de Transferencia Xerox 180k VersaLink C7000 SFP",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECRODAB019.webp"
   },
@@ -1832,7 +1832,7 @@ export const products: Product[] = [
   },
   {
     "sku": "101R00664",
-    "name": "Tambor Xerox Negro Rendimiento 10000 PÃ¡ginas para B210/B205/B215",
+    "name": "Tambor Xerox Negro Rendimiento 10000 Páginas para B210/B205/B215",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1840,7 +1840,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01773",
-    "name": "TÃ³ner Xerox 52K PÃ¡ginas para AltaLink B8170 Color Negro",
+    "name": "Tóner Xerox 52K Páginas para AltaLink B8170 Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1920,7 +1920,7 @@ export const products: Product[] = [
   },
   {
     "sku": "8NA",
-    "name": "Kit InicializaciÃ³n Xerox 25PPM MFP",
+    "name": "Kit Inicialización Xerox 25PPM MFP",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1936,7 +1936,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01772",
-    "name": "TÃ³ner Xerox 52K PÃ¡ginas para AltaLink B8145/55 Color Negro",
+    "name": "Tóner Xerox 52K Páginas para AltaLink B8145/55 Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -1976,7 +1976,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R02773",
-    "name": "TONER XEROX IMPRESIÃ“N NEGRO 3020/3025",
+    "name": "TONER XEROX IMPRESIÓN NEGRO 3020/3025",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2000,7 +2000,7 @@ export const products: Product[] = [
   },
   {
     "sku": "101R00554",
-    "name": "Tambor Xerox 65K PÃ¡ginas VersaLink B400",
+    "name": "Tambor Xerox 65K Páginas VersaLink B400",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2080,7 +2080,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01683",
-    "name": "TÃ³ner Xerox 2 Botes C/U 44K AltaLink B80XX Color Negro",
+    "name": "Tóner Xerox 2 Botes C/U 44K AltaLink B80XX Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2168,7 +2168,7 @@ export const products: Product[] = [
   },
   {
     "sku": "497K16590",
-    "name": "Kit TransportaciÃ³n Xerox Horizontal AltaLink B80XX",
+    "name": "Kit Transportación Xerox Horizontal AltaLink B80XX",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2400,7 +2400,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03772",
-    "name": "TÃ³ner Xerox Capacidad EstÃ¡ndar 3.3K VersaLink C7000 SFP Color Cian",
+    "name": "Tóner Xerox Capacidad Estándar 3.3K VersaLink C7000 SFP Color Cian",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2480,7 +2480,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01531",
-    "name": "TÃ³ner Xerox 550/560 Magenta 32000 PÃ¡ginas",
+    "name": "Tóner Xerox 550/560 Magenta 32000 Páginas",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2560,7 +2560,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01758",
-    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 59K PÃ¡ginas Color Negro",
+    "name": "Tóner Xerox AltaLink C8145/C8155/C8170 59K Páginas Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2664,7 +2664,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01754",
-    "name": "TÃ³ner Xerox AltaLink C8130/C8135 59K PÃ¡ginas Color Negro",
+    "name": "Tóner Xerox AltaLink C8130/C8135 59K Páginas Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2816,7 +2816,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03765",
-    "name": "TÃ³ner Xerox Alta Capacidad 10.7K VersaLink C7000 SFP Color Negro",
+    "name": "Tóner Xerox Alta Capacidad 10.7K VersaLink C7000 SFP Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2920,7 +2920,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03939",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.9k VersaLink C605 Color Negro",
+    "name": "Tóner Xerox Extra Alta Capacidad 16.9k VersaLink C605 Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2952,7 +2952,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01759",
-    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 28K PÃ¡ginas Color Cian",
+    "name": "Tóner Xerox AltaLink C8145/C8155/C8170 28K Páginas Color Cian",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -2960,7 +2960,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01761",
-    "name": "TÃ³ner Xerox AltaLink C8145/C8155/C8170 28K PÃ¡ginas Color Amarillo",
+    "name": "Tóner Xerox AltaLink C8145/C8155/C8170 28K Páginas Color Amarillo",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3064,7 +3064,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03535",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 8K VersaLink C400/405 Color Magenta",
+    "name": "Tóner Xerox Extra Alta Capacidad 8K VersaLink C400/405 Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3080,7 +3080,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01760",
-    "name": "TÃ³ner Xerox 28K PÃ¡ginas AltaLink C8145/C8155/C8170 Color Magenta",
+    "name": "Tóner Xerox 28K Páginas AltaLink C8145/C8155/C8170 Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3088,7 +3088,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03927",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.9K VersaLink C600 Color Negro",
+    "name": "Tóner Xerox Extra Alta Capacidad 16.9K VersaLink C600 Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3112,7 +3112,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R02741",
-    "name": "TÃ³ner Xerox Workcentre 3655 Extra Alta Capacidad 25900 PÃ¡ginas Color Negro",
+    "name": "Tóner Xerox Workcentre 3655 Extra Alta Capacidad 25900 Páginas Color Negro",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3224,7 +3224,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01755",
-    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Cian",
+    "name": "Tóner Xerox AltaLink C8130/C8135 28K Páginas Color Cian",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3232,7 +3232,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01756",
-    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Magenta",
+    "name": "Tóner Xerox AltaLink C8130/C8135 28K Páginas Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3240,7 +3240,7 @@ export const products: Product[] = [
   },
   {
     "sku": "006R01757",
-    "name": "TÃ³ner Xerox AltaLink C8130/C8135 28K PÃ¡ginas Color Amarillo",
+    "name": "Tóner Xerox AltaLink C8130/C8135 28K Páginas Color Amarillo",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3248,7 +3248,7 @@ export const products: Product[] = [
   },
   {
     "sku": "013R00686",
-    "name": "Tambor Xerox 198K PÃ¡ginas para AltaLink B8145/55/70",
+    "name": "Tambor Xerox 198K Páginas para AltaLink B8145/55/70",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3296,7 +3296,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03924",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Cian",
+    "name": "Tóner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Cian",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3304,7 +3304,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03925",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Magenta",
+    "name": "Tóner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3312,7 +3312,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03926",
-    "name": "TÃ³ner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Amarillo",
+    "name": "Tóner Xerox Extra Alta Capacidad 16.8K VersaLink C600 Color Amarillo",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3424,7 +3424,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03766",
-    "name": "TÃ³ner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Amarillo",
+    "name": "Tóner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Amarillo",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3432,7 +3432,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R03767",
-    "name": "TÃ³ner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Magenta",
+    "name": "Tóner Xerox Alta Capacidad 10.1K VersaLink C7000 SFP Color Magenta",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3512,7 +3512,7 @@ export const products: Product[] = [
   },
   {
     "sku": "9NA",
-    "name": "Kit InicializaciÃ³n Xerox 30PPM MFP",
+    "name": "Kit Inicialización Xerox 30PPM MFP",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3648,7 +3648,7 @@ export const products: Product[] = [
   },
   {
     "sku": "106R04646",
-    "name": "TÃ³ner Xerox Capacidad EstÃ¡ndar VersaLink C8000W 5000 PÃ¡ginas Color Blanco",
+    "name": "Tóner Xerox Capacidad Estándar VersaLink C8000W 5000 Páginas Color Blanco",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3706,7 +3706,7 @@ export const products: Product[] = [
     "sku": "115R00127",
     "name": "Limpiador Correo Xerox 200K VersaLink C7000 SFP",
     "brand": "Xerox",
-    "category": "ImpresiÃ³n y Multifuncionales",
+    "category": "Impresión y Multifuncionales",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECLIMAB004.webp"
   },
@@ -3784,7 +3784,7 @@ export const products: Product[] = [
   },
   {
     "sku": "9NB",
-    "name": "MÃ³dulo Xerox Bandejas 3TM 520 Hojas Cada Una",
+    "name": "Módulo Xerox Bandejas 3TM 520 Hojas Cada Una",
     "brand": "Xerox",
     "category": "Consumibles",
     "status": "En Stock",
@@ -3832,17 +3832,17 @@ export const products: Product[] = [
   },
   {
     "sku": "1102",
-    "name": "EscÃ¡ner Xerox Viaje Doble Faz 1102 ResoluciÃ³n 600 ppp",
+    "name": "Escáner Xerox Viaje Doble Faz 1102 Resolución 600 ppp",
     "brand": "Xerox",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIESCAB053.webp"
   },
   {
     "sku": "0DXT",
-    "name": "EscÃ¡ner Xerox Duplex Combo 1517 ADF ResoluciÃ³n 600 dpi",
+    "name": "Escáner Xerox Duplex Combo 1517 ADF Resolución 600 dpi",
     "brand": "Xerox",
-    "category": "DigitalizaciÃ³n de Documentos",
+    "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIESCAB058.webp"
   }

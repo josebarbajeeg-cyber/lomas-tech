@@ -5373,5 +5373,717 @@ export const products: Product[] = [
     "category": "Consumibles",
     "status": "OEM",
     "image": "https://www.cmlomas.com/productos-exel/GEN_4002116L.jpg"
+  },
+  {
+    "sku": "MDVF4E/A",
+    "name": "Apple MacBook Air Retina 15.3\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 24GB, 1TB SSD, Español, Blanco Estelar",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDVF4E-A.jpg"
+  },
+  {
+    "sku": "MDHE4E/A",
+    "name": "Apple MacBook Air Retina 13.6\", Apple M5 (CPU 10 Núcleos y GPU 8 Núcleos), 16GB, 512GB SSD, Español, Medianoche",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDHE4E-A.jpg"
+  },
+  {
+    "sku": "MDVA4E/A",
+    "name": "Apple MacBook Air Retina 15.3\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDVA4E-A.jpg"
+  },
+  {
+    "sku": "MDH84E/A",
+    "name": "Apple MacBook Air Retina 13.6\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDH84E-A.jpg"
+  },
+  {
+    "sku": "MDHF4E/A",
+    "name": "Apple MacBook Air Retina 13.6\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 1TB SSD, Español, Medianoche",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDHF4E-A.jpg"
+  },
+  {
+    "sku": "MDVN4E/A",
+    "name": "Apple MacBook Air Retina 15.3\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 24GB, 1TB SSD, Español, Medianoche",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDVN4E-A.jpg"
+  },
+  {
+    "sku": "MDVC4E/A",
+    "name": "Apple MacBook Air Retina 15.3\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 24GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDVC4E-A.jpg"
+  },
+  {
+    "sku": "MDH74E/A",
+    "name": "Apple MacBook Air Retina 13.6\", Apple M5 (CPU 10 Núcleos y GPU 8 Núcleos), 16GB, 512GB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDH74E-A.jpg"
+  },
+  {
+    "sku": "MGED4E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Max (CPU 18 Núcleos y GPU 32 Núcleos), 36GB, 2TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGED4E-A.jpg"
+  },
+  {
+    "sku": "MJLV4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Pro (CPU 15 Núcleos y GPU 16 Núcleos), 24GB, 2TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MJLV4E-A.jpg"
+  },
+  {
+    "sku": "MJLW4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Pro (CPU 15 Núcleos y GPU 16 Núcleos), 24GB, 2TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MJLW4E-A.jpg"
+  },
+  {
+    "sku": "MGE64E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 48GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGE64E-A.jpg"
+  },
+  {
+    "sku": "MGEC4E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 48GB, 1TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGEC4E-A.jpg"
+  },
+  {
+    "sku": "MGEA4E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 24GB, 1TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGEA4E-A.jpg"
+  },
+  {
+    "sku": "MGDN4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Pro (CPU 15 Núcleos y GPU 16 Núcleos), 24GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGDN4E-A.jpg"
+  },
+  {
+    "sku": "MGE44E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 24GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGE44E-A.jpg"
+  },
+  {
+    "sku": "MGDU4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Max (CPU 18 Núcleos y GPU 32 Núcleos), 36GB, 2TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGDU4E-A.jpg"
+  },
+  {
+    "sku": "MGDQ4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Max (CPU 18 Núcleos y GPU 32 Núcleos), 36GB, 2TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGDQ4E-A.jpg"
+  },
+  {
+    "sku": "MGE74E/A",
+    "name": "Apple MacBook Pro Retina XDR 16.2\", Apple M5 Max (CPU 18 Núcleos y GPU 32 Núcleos), 36GB, 2TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGE74E-A.jpg"
+  },
+  {
+    "sku": "MJ3E4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 32GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MJ3E4E-A.jpg"
+  },
+  {
+    "sku": "MGDT4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 24GB, 2TB SSD, Español, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGDT4E-A.jpg"
+  },
+  {
+    "sku": "MGDP4E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 Pro (CPU 18 Núcleos y GPU 20 Núcleos), 24GB, 2TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGDP4E-A.jpg"
+  },
+  {
+    "sku": "MDE64E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 24GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDE64E-A.jpg"
+  },
+  {
+    "sku": "MDE54E/A",
+    "name": "Apple MacBook Pro Retina XDR 14.2\", Apple M5 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 1TB SSD, Español, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDE54E-A.png"
+  },
+  {
+    "sku": "MWUU3E/A",
+    "name": "Apple iMac Retina 24\", Apple M4 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 256GB, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MWUU3E-A.jpg"
+  },
+  {
+    "sku": "MWUV3E/A",
+    "name": "Apple iMac Retina 24\", Apple M4 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 512GB, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MWUV3E-A.jpg"
+  },
+  {
+    "sku": "MQRR3E/A",
+    "name": "Apple iMac Retina 24\", Apple M3 (CPU 8 Núcleos y GPU 10 Núcleos), 8GB, 512GB, Azul",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MQRR3E-A.jpg"
+  },
+  {
+    "sku": "Z1EJ",
+    "name": "Apple iMac Retina 24\", Apple M4 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 1TB, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_Z1EJ.jpg"
+  },
+  {
+    "sku": "MWUC3E/A",
+    "name": "Apple iMac Retina 24\", Apple M4 (CPU 8 Núcleos y GPU 8 Núcleos), 16GB, 256GB, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MWUC3E-A.jpg"
+  },
+  {
+    "sku": "MNH73E/A",
+    "name": "Apple Mac Mini, Apple M2 Pro (CPU 10 Núcleos y GPU 16 Núcleos), 16GB, 512GB SSD, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MNH73E-A.jpg"
+  },
+  {
+    "sku": "MCYT4E/A",
+    "name": "Apple Mac Mini, Apple M4 (CPU 10 Núcleos y GPU 10 Núcleos), 24GB, 512GB SSD, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MCYT4E-A.jpg"
+  },
+  {
+    "sku": "MU9E3E/A",
+    "name": "Apple Mac Mini, Apple M4 (CPU 10 Núcleos y GPU 10 Núcleos), 16GB, 512GB SSD, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MU9E3E-A.jpg"
+  },
+  {
+    "sku": "MGNT3LZ/A",
+    "name": "Apple Mac Mini, Apple M1 (CPU 8 Núcleos y GPU 8 Núcleos), 8GB, 512GB SSD, Gigabit Ethernet, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MGNT3LZ-A.jpg"
+  },
+  {
+    "sku": "MU963E/A",
+    "name": "Apple Mac Studio, Apple M4 Max (CPU 14 Núcleos y GPU 32 Núcleos), 36GB, 512GB, 10G Ethernet",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MU963E-A.jpg"
+  },
+  {
+    "sku": "ME7W4CL/A",
+    "name": "Apple iPad Pro 13\" Retina XDR, Apple M5, 256GB, WiFi + Cellular, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_ME7W4CL-A.jpg"
+  },
+  {
+    "sku": "MDYT4CL/A",
+    "name": "Apple iPad Pro 13\" Retina XDR, Apple M5, 2TB, WiFi, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDYT4CL-A.jpg"
+  },
+  {
+    "sku": "MDYK4CL/A",
+    "name": "Apple iPad Pro 13\" Retina XDR, Apple M5, 256GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDYK4CL-A.jpg"
+  },
+  {
+    "sku": "MDWL4CL/A",
+    "name": "Apple iPad Pro 11\" Retina XDR, Apple M5, 256GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDWL4CL-A.jpg"
+  },
+  {
+    "sku": "MDWN4CL/A",
+    "name": "Apple iPad Pro 11\" Retina XDR, Apple M5, 512GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDWN4CL-A.jpg"
+  },
+  {
+    "sku": "MDWM4CL/A",
+    "name": "Apple iPad Pro 11\" Retina XDR, Apple M5, 512GB, WiFi, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDWM4CL-A.jpg"
+  },
+  {
+    "sku": "MDWK4CL/A",
+    "name": "Apple iPad Pro 11\" Retina XDR, Apple M5, 256GB, WiFi, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDWK4CL-A.jpg"
+  },
+  {
+    "sku": "ME2N4CL/A",
+    "name": "Apple iPad Pro 11\" Retina XDR, Apple M5, 256GB, WiFi + Cellular, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_ME2N4CL-A.jpg"
+  },
+  {
+    "sku": "MDYL4CL/A",
+    "name": "Apple iPad Pro 13\" Retina XDR, Apple M5, 512GB, WiFi, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDYL4CL-A.jpg"
+  },
+  {
+    "sku": "MDYJ4CL/A",
+    "name": "Apple iPad Pro 13\" Retina XDR, Apple M5, 256GB, WiFi, Negro Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MDYJ4CL-A.jpg"
+  },
+  {
+    "sku": "MH3E4CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 512GB, WiFi, Morado",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH3E4CL-A.jpg"
+  },
+  {
+    "sku": "MH9D4CL/A",
+    "name": "Apple iPad Air Retina 13\", Apple M4, 128GB, WiFi + Cellular, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH9D4CL-A.jpg"
+  },
+  {
+    "sku": "MH9H4CL/A",
+    "name": "Apple iPad Air Retina 13\", Apple M4, 256GB, WiFi + Cellular, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH9H4CL-A.jpg"
+  },
+  {
+    "sku": "MH364CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 256GB, WiFi, Azul",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH364CL-A.jpg"
+  },
+  {
+    "sku": "MH334CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 128GB, WiFi, Blanco Estelar",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH334CL-A.jpg"
+  },
+  {
+    "sku": "MH3G4CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 1TB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH3G4CL-A.jpg"
+  },
+  {
+    "sku": "MH354CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 256GB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH354CL-A.jpg"
+  },
+  {
+    "sku": "MH304CL/A",
+    "name": "Apple iPad Air Retina 11\", Apple M4, 128GB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH304CL-A.jpg"
+  },
+  {
+    "sku": "MH5N4CL/A",
+    "name": "Apple iPad Air Retina 13\", Apple M4, 128GB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MH5N4CL-A.jpg"
+  },
+  {
+    "sku": "MD7L4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 256GB, WiFi + Cellular, Azul",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD7L4CL-A.jpg"
+  },
+  {
+    "sku": "MD4Q4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 512GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD4Q4CL-A.jpg"
+  },
+  {
+    "sku": "MD4E4LL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 128GB, WiFi, Rosa",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD4E4LL-A.jpg"
+  },
+  {
+    "sku": "MD7P4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 512GB, WiFi + Cellular, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD7P4CL-A.jpg"
+  },
+  {
+    "sku": "MD7K4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 256GB, WiFi + Cellular, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD7K4CL-A.jpg"
+  },
+  {
+    "sku": "MD4A4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 128GB, WiFi, Azul",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD4A4CL-A.jpg"
+  },
+  {
+    "sku": "MD4G4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 256GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD4G4CL-A.jpg"
+  },
+  {
+    "sku": "MD3Y4CL/A",
+    "name": "Apple iPad 11 Retina 11\", Apple A16, 128GB, WiFi, Plata",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MD3Y4CL-A.jpg"
+  },
+  {
+    "sku": "MYH23CL/A",
+    "name": "Apple iPad Mini A17 Pro Retina 8.3\", 512GB, WiFi, Blanco Estelar (7.ª Generación - Octubre 2024)",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MYH23CL-A.jpg"
+  },
+  {
+    "sku": "MYHC3CL/A",
+    "name": "Apple iPad Mini A17 Pro Retina 8.3\", 512GB, WiFi + Cellular, Gris Espacial (7.ª Generación - Octubre 2024)",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MYHC3CL-A.jpg"
+  },
+  {
+    "sku": "MYGY3CL/A",
+    "name": "Apple iPad Mini A17 Pro Retina 8.3\", 512GB, WiFi, Gris Espacial (7.ª Generación - Octubre 2024)",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MYGY3CL-A.jpg"
+  },
+  {
+    "sku": "MXN63CL/A",
+    "name": "Apple iPad Mini A17 Pro Retina 8.3\", Apple A17 Pro, 128GB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MXN63CL-A.jpg"
+  },
+  {
+    "sku": "MXNA3CL/A",
+    "name": "Apple iPad Mini 7 Retina 8.3\", Apple A17 Pro, 256GB, WiFi, Gris Espacial",
+    "brand": "Apple",
+    "category": "Apple",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/APPLE_MXNA3CL-A.jpg"
+  },
+  {
+    "sku": "003M02010",
+    "name": "Xerox Papel Bond Ecológico 75g/m², 5000 Hojas de Tamaño Carta, Blanclura 93%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02010.png"
+  },
+  {
+    "sku": "003M02010/500",
+    "name": "Xerox Papel Bond Ecológico 75g/m², 500 Hojas de Tamaño Carta, Blancura 93%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02010-500.png"
+  },
+  {
+    "sku": "3M2041",
+    "name": "Xerox Papel 3M2041 75g/m², Oficio, 5000 Hojas, Blancura 97%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_3M2041.png"
+  },
+  {
+    "sku": "R3107075405E0MIL",
+    "name": "HP Papel R3107075405E0MIL 75g/m², Carta, 1000 Hojas, Blancura 92%",
+    "brand": "HP",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MIL.jpg"
+  },
+  {
+    "sku": "003M02051/1000",
+    "name": "Xerox Papel Marathon 003M02051 70 g/m², A4, 500 Hojas, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02051-1000.jpg"
+  },
+  {
+    "sku": "XEROXPAQ",
+    "name": "Xerox Papel XEROXPAQ 70 g/m², Carta, 500 Hojas, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_XEROXPAQ.png"
+  },
+  {
+    "sku": "R3107075405E0MC",
+    "name": "HP Papel Office 20 75g/m², Carta, 5000 Hojas, Blancura 92%",
+    "brand": "HP",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MC.jpg"
+  },
+  {
+    "sku": "E-PAPER-OA75C5",
+    "name": "E-Paper Papel ‎E-PAPER-OA75C5 75g/m², Oficio, 2500 Hojas, Blancura 99%",
+    "brand": "E-Paper",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_E-PAPER-OA75C5.png"
+  },
+  {
+    "sku": "3R75121 CAJA",
+    "name": "Xerox Papel Digital Paper 75g/m², Doble Carta, 2500 Hojas, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_3R75121%20CAJA.png"
+  },
+  {
+    "sku": "2024",
+    "name": "IRASAFORTEC Papel Reciclado 75g/m², 100 Hojas de Tamaño Carta, Blanco",
+    "brand": "Fortec",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_2024.jpg"
+  },
+  {
+    "sku": "003M02040",
+    "name": "Xerox Papel Bond Office Paper 75g/m², 5000 Hojas de Tamaño Carta, Blancura 97%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02040.png"
+  },
+  {
+    "sku": "003M02041",
+    "name": "Xerox Papel Bond 75g/m², 5000 Hojas de Tamaño Oficio, Blancura 97%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02041.png"
+  },
+  {
+    "sku": "REPROGNATURAL",
+    "name": "Genérico Papel Natural 72g/m², 5200 Hojas de Tamaño Carta, Beige",
+    "brand": "Genérico",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_REPROGNATURAL.png"
+  },
+  {
+    "sku": "003M02056",
+    "name": "Xerox Papel Bond Marathon 70g/m², 5000 Hojas de Tamaño Oficio, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02056.png"
+  },
+  {
+    "sku": "003M02021",
+    "name": "Xerox Caja de Papel Digital Paper 75g/m², 5000 Hojas Tamaño Oficio, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02021.png"
+  },
+  {
+    "sku": "3M2012-M",
+    "name": "Xerox Papel Bond Ecológico 75 g/m², 1000 Hojas Oficio, Blanco",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_3M2012-M.jpg"
+  },
+  {
+    "sku": "003M02051",
+    "name": "Xerox Papel Marathon 70 g/m², Carta, 5000 Hojas, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02051.png"
+  },
+  {
+    "sku": "003M00360",
+    "name": "Xerox Papel Bond Premium 75 g/m², 5000 Hojas de Tamaño Carta, Blancura 97%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M00360.jpg"
+  },
+  {
+    "sku": "003R75121/2500",
+    "name": "Xerox Papel Bond Digital Paper 75g/m², 2500 Hojas Tamaño Doble Carta, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003R75121-2500.png"
+  },
+  {
+    "sku": "003M02055",
+    "name": "Xerox Papel Bond Marathon 70 g/m², 2500 Hojas Tamaño Carta, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02055.png"
+  },
+  {
+    "sku": "003M02012",
+    "name": "Xerox Papel Ecologico 75 g/m², 5000 Hojas Oficio, Blanclura 93%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02012.png"
+  },
+  {
+    "sku": "003M02000",
+    "name": "Xerox Papel Bond Digital Paper 75g/m², 5000 Hojas de Tamaño Carta, Blancura 99%",
+    "brand": "Xerox",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02000.png"
+  },
+  {
+    "sku": "S041586",
+    "name": "Epson Papel Premium 90g/m², 500 Hojas de Tamaño Carta, Blanco",
+    "brand": "Epson",
+    "category": "Papel",
+    "status": "En Stock",
+    "image": "https://www.cmlomas.com/productos-exel/PAPEL_S041586.jpg"
   }
 ];

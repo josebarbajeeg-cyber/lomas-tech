@@ -3845,5 +3845,1533 @@ export const products: Product[] = [
     "category": "Digitalización de Documentos",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XEIESCAB058.webp"
+  },
+  {
+    "sku": "W2020A",
+    "name": "Cartucho de Tóner HP 414A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2020A.png"
+  },
+  {
+    "sku": "W1105A",
+    "name": "Cartucho de Tóner HP 105A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1105A.png"
+  },
+  {
+    "sku": "W1500A",
+    "name": "Cartucho de Tóner HP 150A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1500A.png"
+  },
+  {
+    "sku": "W2300A",
+    "name": "Cartucho de tóner HP 230A LaserJet Negro Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2300A.png"
+  },
+  {
+    "sku": "W1103A",
+    "name": "Kit de Recarga de Tóner Laser HP 103A Negro Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1103A.png"
+  },
+  {
+    "sku": "W2110A",
+    "name": "Cartucho de Tóner HP 206A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2110A.png"
+  },
+  {
+    "sku": "W2220X",
+    "name": "Cartucho de tóner Original HP LaserJet 222X de alto rendimiento, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2220X.png"
+  },
+  {
+    "sku": "W2301A",
+    "name": "Cartucho de tóner HP 230A LaserJet Cian Origina",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2301A.png"
+  },
+  {
+    "sku": "W2310A",
+    "name": "Cartucho de Tóner HP 215A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2310A.png"
+  },
+  {
+    "sku": "W1510A",
+    "name": "Cartucho de Tóner HP 151A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1510A.png"
+  },
+  {
+    "sku": "W1540X",
+    "name": "Kit de recarga de tóner de tanque original HP LaserJet 154X, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1540X.png"
+  },
+  {
+    "sku": "W2302A",
+    "name": "Cartucho de tóner HP 230A LaserJet Amarillo Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2302A.png"
+  },
+  {
+    "sku": "W2303A",
+    "name": "Cartucho de tóner HP 230A LaserJet Magenta Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2303A.png"
+  },
+  {
+    "sku": "CF258A",
+    "name": "Cartucho de Tóner HP 58A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF258A.png"
+  },
+  {
+    "sku": "W2022A",
+    "name": "Cartucho de Tóner HP 414A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2022A.png"
+  },
+  {
+    "sku": "W2312A",
+    "name": "Cartucho de Tóner HP 215A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2312A.png"
+  },
+  {
+    "sku": "W2311A",
+    "name": "Cartucho de Tóner HP 215A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2311A.png"
+  },
+  {
+    "sku": "W2021A",
+    "name": "Cartucho de Tóner HP 414A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2021A.png"
+  },
+  {
+    "sku": "W2023A",
+    "name": "Cartucho de Tóner HP 414A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2023A.png"
+  },
+  {
+    "sku": "W2111A",
+    "name": "Cartucho de Tóner HP 206A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2111A.png"
+  },
+  {
+    "sku": "W1360A",
+    "name": "Cartucho de Tóner HP 136A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1360A.png"
+  },
+  {
+    "sku": "W2313A",
+    "name": "Cartucho de Tóner HP 215A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2313A.png"
+  },
+  {
+    "sku": "W2222X",
+    "name": "Cartucho de tóner Original HP LaserJet 222X de alto rendimiento, amarillo",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2222X.png"
+  },
+  {
+    "sku": "W2112A",
+    "name": "Cartucho de Tóner HP 206A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2112A.png"
+  },
+  {
+    "sku": "W2221X",
+    "name": "Cartucho de tóner Original HP LaserJet 222X de alto rendimiento, cian",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2221X.png"
+  },
+  {
+    "sku": "W2113A",
+    "name": "Cartucho de Tóner HP 206A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2113A.png"
+  },
+  {
+    "sku": "W1104A",
+    "name": "Tambor de Formación de Imágenes HP 104A Negro Láser Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1104A.png"
+  },
+  {
+    "sku": "W1450X",
+    "name": "Cartucho de tóner original HP LaserJet 145X de alto rendimiento, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1450X.png"
+  },
+  {
+    "sku": "W2223X",
+    "name": "Cartucho de tóner Original HP LaserJet 222X alto rendimiento, magenta",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2223X.png"
+  },
+  {
+    "sku": "CF217A",
+    "name": "Cartucho de Tóner HP 17A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF217A.png"
+  },
+  {
+    "sku": "CF510A",
+    "name": "Cartucho de Tóner HP 204A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF510A.png"
+  },
+  {
+    "sku": "W1510X",
+    "name": "Cartucho de Tóner HP 151X Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1510X.png"
+  },
+  {
+    "sku": "CF511A",
+    "name": "Cartucho de Tóner HP 204A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF511A.png"
+  },
+  {
+    "sku": "W1450A",
+    "name": "Cartucho de tóner original HP LaserJet 145A negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1450A.png"
+  },
+  {
+    "sku": "W2222A",
+    "name": "Cartucho de tóner Original HP LaserJet 222A, amarillo",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2222A.png"
+  },
+  {
+    "sku": "W2110X",
+    "name": "Cartucho de Tóner HP 206X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2110X.png"
+  },
+  {
+    "sku": "CF512A",
+    "name": "Cartucho de Tóner HP 204A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF512A.png"
+  },
+  {
+    "sku": "W2223A",
+    "name": "Cartucho de tóner Original HP LaserJet 222A, magenta",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2223A.png"
+  },
+  {
+    "sku": "CE285A",
+    "name": "Cartucho de Tóner HP 85A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE285A.png"
+  },
+  {
+    "sku": "Q2612A",
+    "name": "Cartucho de Tóner HP 12A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_Q2612A.png"
+  },
+  {
+    "sku": "CF500A",
+    "name": "Cartucho de Tóner HP 202A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF500A.png"
+  },
+  {
+    "sku": "W2221A",
+    "name": "Cartucho de tóner Original HP LaserJet 222A, cian",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2221A.png"
+  },
+  {
+    "sku": "CF248A",
+    "name": "Cartucho de Tóner HP 48A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF248A.png"
+  },
+  {
+    "sku": "CF410A",
+    "name": "Cartucho de Tóner HP 410A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF410A.png"
+  },
+  {
+    "sku": "W1360X",
+    "name": "Cartucho de Tóner HP 136X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1360X.png"
+  },
+  {
+    "sku": "W2112X",
+    "name": "Cartucho de Tóner HP 206X Amarillo Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2112X.png"
+  },
+  {
+    "sku": "W2111X",
+    "name": "Cartucho de Tóner HP 206X Cian Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2111X.png"
+  },
+  {
+    "sku": "W2300X",
+    "name": "Cartucho de tóner original HP LaserJet 230X negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2300X.png"
+  },
+  {
+    "sku": "CF513A",
+    "name": "Cartucho de Tóner HP 204A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF513A.png"
+  },
+  {
+    "sku": "W2113X",
+    "name": "Cartucho de Tóner HP 206X Magenta Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2113X.png"
+  },
+  {
+    "sku": "CF287A",
+    "name": "Cartucho de Tóner HP 87A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF287A.png"
+  },
+  {
+    "sku": "CF283AD",
+    "name": "Pack de 2 Cartuchos de Tóner HP 83A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF283AD.png"
+  },
+  {
+    "sku": "CF230A",
+    "name": "Cartucho de Tóner HP 30A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF230A.png"
+  },
+  {
+    "sku": "CF289A",
+    "name": "Cartucho de Toner HP 89A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF289A.png"
+  },
+  {
+    "sku": "CE310A",
+    "name": "Cartucho de Tóner HP 126A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE310A.png"
+  },
+  {
+    "sku": "W2020X",
+    "name": "Cartucho de Tóner HP 414X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2020X.png"
+  },
+  {
+    "sku": "CF258X",
+    "name": "Cartucho de Tóner HP 58X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF258X.png"
+  },
+  {
+    "sku": "SU815A",
+    "name": "Cartucho de Tóner MLT-D111S Negro Samsung",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SU815A.png"
+  },
+  {
+    "sku": "W2130A",
+    "name": "Cartucho de Tóner HP LaserJet 213A Negro Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2130A.png"
+  },
+  {
+    "sku": "CE285AD",
+    "name": "Pack de 2 Cartuchos de Tóner HP 85A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE285AD.png"
+  },
+  {
+    "sku": "CF400A",
+    "name": "Cartucho de Tóner HP 201A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF400A.png"
+  },
+  {
+    "sku": "CF502A",
+    "name": "Cartucho de Tóner HP 202A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF502A.png"
+  },
+  {
+    "sku": "CF412A",
+    "name": "Cartucho de Tóner HP 410A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF412A.png"
+  },
+  {
+    "sku": "CF350A",
+    "name": "Cartucho de Tóner HP 130A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF350A.png"
+  },
+  {
+    "sku": "CF411A",
+    "name": "Cartucho de Tóner HP 410A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF411A.png"
+  },
+  {
+    "sku": "W2132A",
+    "name": "Cartucho de Tóner HP LaserJet 213A Amarillo Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2132A.png"
+  },
+  {
+    "sku": "CF503A",
+    "name": "Cartucho de Tóner HP 202A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF503A.png"
+  },
+  {
+    "sku": "CF501A",
+    "name": "Cartucho de Tóner HP 202A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF501A.png"
+  },
+  {
+    "sku": "CB435A",
+    "name": "Cartucho de Tóner HP 35A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB435A.png"
+  },
+  {
+    "sku": "CF400X",
+    "name": "Cartucho de Tóner HP 201X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF400X.png"
+  },
+  {
+    "sku": "CF413A",
+    "name": "Cartucho de Tóner HP 410A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF413A.png"
+  },
+  {
+    "sku": "CF362A",
+    "name": "Cartucho de Tóner HP 508A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF362A.png"
+  },
+  {
+    "sku": "CF402A",
+    "name": "Cartucho de Tóner HP 201A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF402A.png"
+  },
+  {
+    "sku": "CF403A",
+    "name": "Cartucho de Tóner HP 201A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF403A.png"
+  },
+  {
+    "sku": "CF211A",
+    "name": "Cartucho de Tóner HP 131A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF211A.png"
+  },
+  {
+    "sku": "W2131A",
+    "name": "Cartucho de Tóner HP LaserJet 213A Cian Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2131A.png"
+  },
+  {
+    "sku": "CE312A",
+    "name": "Cartucho de Tóner HP 126A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE312A.png"
+  },
+  {
+    "sku": "CF352A",
+    "name": "Cartucho de Tóner HP 130A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF352A.png"
+  },
+  {
+    "sku": "CF219A",
+    "name": "Tambor de Creación de Imágenes HP19A LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF219A.png"
+  },
+  {
+    "sku": "CF401A",
+    "name": "Cartucho de Tóner HP 201A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF401A.png"
+  },
+  {
+    "sku": "W2022X",
+    "name": "Cartucho de Tóner HP 414X Amarillo Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2022X.png"
+  },
+  {
+    "sku": "CF226A",
+    "name": "Cartucho de Tóner HP 26A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF226A.png"
+  },
+  {
+    "sku": "W2133A",
+    "name": "Cartucho de Tóner HP LaserJet 213A Magenta Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2133A.png"
+  },
+  {
+    "sku": "W2021X",
+    "name": "Cartucho de Tóner HP 414X Cian Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2021X.png"
+  },
+  {
+    "sku": "W2023X",
+    "name": "Cartucho de Tóner HP 414X Magenta Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2023X.png"
+  },
+  {
+    "sku": "CE311A",
+    "name": "Cartucho de Tóner HP 126A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE311A.png"
+  },
+  {
+    "sku": "CE255A",
+    "name": "Cartucho de Tóner HP 55A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE255A.png"
+  },
+  {
+    "sku": "CE278AD",
+    "name": "Pack de 2 Cartuchos de Tóner HP 78A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE278AD.png"
+  },
+  {
+    "sku": "CF279A",
+    "name": "Cartucho de Tóner HP 79A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF279A.png"
+  },
+  {
+    "sku": "CE313A",
+    "name": "Cartucho de Tóner HP 126A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE313A.png"
+  },
+  {
+    "sku": "CF351A",
+    "name": "Cartucho de Tóner HP 130A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF351A.png"
+  },
+  {
+    "sku": "CF353A",
+    "name": "Cartucho de Tóner HP 130A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF353A.png"
+  },
+  {
+    "sku": "SU833A",
+    "name": "Cartucho de Tóner MLT-D116L Negro Samsung",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SU833A.png"
+  },
+  {
+    "sku": "CF230X",
+    "name": "Cartucho de Tóner HP 30X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF230X.png"
+  },
+  {
+    "sku": "CF410X",
+    "name": "Cartucho de Tóner HP 410X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF410X.png"
+  },
+  {
+    "sku": "CF360A",
+    "name": "Cartucho de Tóner HP 508A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF360A.png"
+  },
+  {
+    "sku": "CE323A",
+    "name": "Cartucho de Tóner HP 128A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE323A.png"
+  },
+  {
+    "sku": "CE322A",
+    "name": "Cartucho de Tóner HP 128A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE322A.png"
+  },
+  {
+    "sku": "CE321A",
+    "name": "Cartucho de Tóner HP 128A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE321A.png"
+  },
+  {
+    "sku": "CF210A",
+    "name": "Cartucho de Tóner HP 131A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF210A.png"
+  },
+  {
+    "sku": "CE320A",
+    "name": "Cartucho de Tóner HP 128A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE320A.png"
+  },
+  {
+    "sku": "CF212A",
+    "name": "Cartucho de Tóner HP 131A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF212A.png"
+  },
+  {
+    "sku": "CF213A",
+    "name": "Cartucho de Tóner HP 131A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF213A.png"
+  },
+  {
+    "sku": "CF500X",
+    "name": "Cartucho de Tóner HP 202X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF500X.png"
+  },
+  {
+    "sku": "W1470A",
+    "name": "Cartucho de Tóner HP 147A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1470A.png"
+  },
+  {
+    "sku": "CF413X",
+    "name": "Cartucho de Tóner HP 410X Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF413X.png"
+  },
+  {
+    "sku": "CF411X",
+    "name": "Cartucho de Tóner HP 410X Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF411X.png"
+  },
+  {
+    "sku": "CF412X",
+    "name": "Cartucho de Tóner HP 410X Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF412X.png"
+  },
+  {
+    "sku": "CF363A",
+    "name": "Cartucho de Tóner HP 508A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF363A.png"
+  },
+  {
+    "sku": "CF361A",
+    "name": "Cartucho de Tóner HP 508A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF361A.png"
+  },
+  {
+    "sku": "CF289X",
+    "name": "Cartucho de Tóner HP 89X Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF289X.png"
+  },
+  {
+    "sku": "CE278A",
+    "name": "Cartucho de Tóner HP 78A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE278A.png"
+  },
+  {
+    "sku": "CF283X",
+    "name": "Cartucho de Tóner HP 83X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF283X.png"
+  },
+  {
+    "sku": "W1330A",
+    "name": "Cartucho de tóner original HP 330A Laser, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1330A.png"
+  },
+  {
+    "sku": "CE505A",
+    "name": "Cartucho de Tóner HP 05A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE505A.png"
+  },
+  {
+    "sku": "CF287X",
+    "name": "Cartucho de Tóner HP 87X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF287X.png"
+  },
+  {
+    "sku": "CF283A",
+    "name": "Cartucho de Tóner HP 83A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF283A.png"
+  },
+  {
+    "sku": "CB542A",
+    "name": "Cartucho de Tóner HP 125A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB542A.png"
+  },
+  {
+    "sku": "CB543A",
+    "name": "Cartucho de Tóner HP 125A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB543A.png"
+  },
+  {
+    "sku": "CB540A",
+    "name": "Cartucho de Tóner HP 125A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB540A.png"
+  },
+  {
+    "sku": "SV113A",
+    "name": "Cartucho de Tóner MLT-D358S Negro Samsung",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SV113A.png"
+  },
+  {
+    "sku": "CF503X",
+    "name": "Cartucho de Tóner HP 202X Magenta Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF503X.png"
+  },
+  {
+    "sku": "CF502X",
+    "name": "Cartucho de Tóner HP 202X Amarillo Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF502X.png"
+  },
+  {
+    "sku": "CF501X",
+    "name": "Cartucho de Tóner HP 202X Cian Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF501X.png"
+  },
+  {
+    "sku": "CF403X",
+    "name": "Cartucho de Tóner HP 201X Magenta Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF403X.png"
+  },
+  {
+    "sku": "CF402X",
+    "name": "Cartucho de Tóner HP 201X Amarillo Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF402X.png"
+  },
+  {
+    "sku": "CE411A",
+    "name": "Cartucho de Tóner HP 305A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE411A.png"
+  },
+  {
+    "sku": "W1330X",
+    "name": "Cartucho de tóner original de alto rendimiento HP 330X Laser, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W1330X.png"
+  },
+  {
+    "sku": "W2120A",
+    "name": "Cartucho de Tóner HP 212A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2120A.png"
+  },
+  {
+    "sku": "CF281A",
+    "name": "Cartucho de Tóner HP 81A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF281A.jpg"
+  },
+  {
+    "sku": "CF237A",
+    "name": "Cartucho de Tóner HP 37A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF237A.png"
+  },
+  {
+    "sku": "W2121A",
+    "name": "Cartucho de Tóner HP 212A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2121A.png"
+  },
+  {
+    "sku": "CF360X",
+    "name": "Cartucho de Tóner HP 508X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF360X.png"
+  },
+  {
+    "sku": "CE255X",
+    "name": "Cartucho de Tóner HP 55X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE255X.png"
+  },
+  {
+    "sku": "SV135A",
+    "name": "Unidad de creación de imágenes HP MLT-R116",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SV135A.png"
+  },
+  {
+    "sku": "CB541A",
+    "name": "Cartucho de Tóner HP 125A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB541A.png"
+  },
+  {
+    "sku": "CB436A",
+    "name": "Cartucho de Tóner HP 36A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CB436A.png"
+  },
+  {
+    "sku": "CE410A",
+    "name": "Cartucho de Tóner HP 305A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE410A.png"
+  },
+  {
+    "sku": "CF210X",
+    "name": "Cartucho de Tóner HP 131X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF210X.png"
+  },
+  {
+    "sku": "CF380A",
+    "name": "Cartucho de Tóner HP 312A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF380A.png"
+  },
+  {
+    "sku": "CF401X",
+    "name": "Cartucho de Tóner HP 201X Cian Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF401X.png"
+  },
+  {
+    "sku": "CF280A",
+    "name": "Cartucho de Tóner HP 80A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF280A.png"
+  },
+  {
+    "sku": "CE410X",
+    "name": "Cartucho de Tóner HP 305X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE410X.png"
+  },
+  {
+    "sku": "CE413A",
+    "name": "Cartucho de Tóner HP 305A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE413A.png"
+  },
+  {
+    "sku": "CE412A",
+    "name": "Cartucho de Tóner HP 305A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE412A.png"
+  },
+  {
+    "sku": "CC532A",
+    "name": "Cartucho de Tóner HP 304A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CC532A.png"
+  },
+  {
+    "sku": "CF383A",
+    "name": "Cartucho de Tóner HP 312A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF383A.png"
+  },
+  {
+    "sku": "CF382A",
+    "name": "Cartucho de Tóner HP 312A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF382A.png"
+  },
+  {
+    "sku": "CF381A",
+    "name": "Cartucho de Tóner HP 312A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF381A.png"
+  },
+  {
+    "sku": "W2000A",
+    "name": "Cartucho de Tóner HP 658A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2000A.png"
+  },
+  {
+    "sku": "CC533A",
+    "name": "Cartucho de Tóner HP 304A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CC533A.png"
+  },
+  {
+    "sku": "CC531A",
+    "name": "Cartucho de Tóner HP 304A Cian LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CC531A.png"
+  },
+  {
+    "sku": "CC530A",
+    "name": "Cartucho de Tóner HP 304A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CC530A.png"
+  },
+  {
+    "sku": "CE390A",
+    "name": "Cartucho de Tóner HP 90A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE390A.png"
+  },
+  {
+    "sku": "CF280X",
+    "name": "Cartucho de Tóner HP 80X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF280X.jpg"
+  },
+  {
+    "sku": "Q5942A",
+    "name": "Cartucho de Tóner HP 42A Negro LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_Q5942A.png"
+  },
+  {
+    "sku": "W2123A",
+    "name": "Cartucho de Tóner HP 212A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2123A.png"
+  },
+  {
+    "sku": "W2122A",
+    "name": "Cartucho de Tóner HP 212A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2122A.png"
+  },
+  {
+    "sku": "W2120X",
+    "name": "Cartucho de tóner original HP LaserJet 212X de alto rendimiento, negro",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2120X.png"
+  },
+  {
+    "sku": "W2002A",
+    "name": "Cartucho de Tóner HP 658A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2002A.png"
+  },
+  {
+    "sku": "CE402A",
+    "name": "Cartucho de Tóner HP 507A Amarillo LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE402A.png"
+  },
+  {
+    "sku": "CE403A",
+    "name": "Cartucho de Tóner HP 507A Magenta LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE403A.png"
+  },
+  {
+    "sku": "CF453A",
+    "name": "Cartucho de Tóner HP 655A Magenta Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF453A.png"
+  },
+  {
+    "sku": "CF452A",
+    "name": "Cartucho de Tóner HP 655A Amarillo Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF452A.png"
+  },
+  {
+    "sku": "CF451A",
+    "name": "Cartucho de Tóner HP 655A Cian Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CF451A.png"
+  },
+  {
+    "sku": "W2121X",
+    "name": "Cartucho de tóner original HP LaserJet 212X de alto rendimiento, cian",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2121X.png"
+  },
+  {
+    "sku": "W2123X",
+    "name": "Cartucho de tóner original HP LaserJet 212X de alto rendimiento, magenta",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2123X.png"
+  },
+  {
+    "sku": "W2122X",
+    "name": "Cartucho de tóner original HP LaserJet 212X de alto rendimiento, amarillo",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_W2122X.png"
+  },
+  {
+    "sku": "CE255XD",
+    "name": "Pack de 2 Cartuchos de Tóner HP 55X Negro Alto Rendimiento LaserJet Original",
+    "brand": "HP",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_CE255XD.png"
+  },
+  {
+    "sku": "SU106A",
+    "name": "Cartucho de Tóner CLT-K404S Negro Samsung",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SU106A.png"
+  },
+  {
+    "sku": "SU920A",
+    "name": "Cartucho de Tóner MLT-D203U Negro Samsung",
+    "brand": "Samsung",
+    "category": "Consumibles",
+    "status": "Original",
+    "image": "https://www.cmlomas.com/productos-exel/HP_SU920A.png"
+  },
+  {
+    "sku": "400185A",
+    "name": "Toner Gen con 85A 35A 36A para: HP LaserJet P1005 P1006 HP LaserJet P1505 P1505n , HP LaserJet M1120 1522n 1522nf HP LaserJet Pro M1132 1212nf MFP P1102 1102W",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400185A.jpg"
+  },
+  {
+    "sku": "4002111",
+    "name": "Samsung 111 L Genérico / Compatible con impresora Xpress M2020, M2020W, M2022, M2022W, M2026, M2070, M2070W, M2021, M2071. Para 2,000 página",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002111.jpg"
+  },
+  {
+    "sku": "400117A",
+    "name": "Toner COMP C HP 17A IMPR. HP LaserJet Pro M102a M102w, MFP M130a M130fn M130fw M130nw",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400117A.jpg"
+  },
+  {
+    "sku": "4003TN660",
+    "name": "GENERICO TN660 IMPRES. DCP-L2520DW, DCP-L2540DW, HL-L2300D, HL-L2320D, HL-L2340DW, HL-L2360DW, HL-L2380DW, MFC-L2700DW, MFC-L2720DW, MFC-L2740DW",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4003TN660.jpg"
+  },
+  {
+    "sku": "400155X",
+    "name": "COMP C HP 55X IMPR. HP LaserJet P3015 3015d 3015dn 3015x",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400155X.jpg"
+  },
+  {
+    "sku": "400155A",
+    "name": "COMP C HP 55A IMPR. HP LaserJet P3015 3015d 3015dn 3015x",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400155A.jpg"
+  },
+  {
+    "sku": "400105A",
+    "name": "05A/80A Toner Generico con HP 05A/80A",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400105A.jpg"
+  },
+  {
+    "sku": "100155X",
+    "name": "Toner HP 55X IMPR. HP LaserJet P3015 3015d 3015dn 3015x",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_100155X.jpg"
+  },
+  {
+    "sku": "100155A",
+    "name": "Toner HP 55A IMPR. HP LaserJet P3015 3015d 3015dn 3015x",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_100155A.jpg"
+  },
+  {
+    "sku": "4003TN1060",
+    "name": "TN1060 Toner genérico para HL-1110, HL-1112, DCP-1512, MFC-1810, MFC-1815",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": ""
+  },
+  {
+    "sku": "400183A",
+    "name": "Toner Gen con 83A para: HP LaserJet Pro M201dw M125a aio M127fn aio M225dw aio",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_400183A.jpg"
+  },
+  {
+    "sku": "4004355011K",
+    "name": "Toner Gen con Xerox 3550 (11,000 pag) para Xerox WorkCentre™ 3550",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4004355011K.jpg"
+  },
+  {
+    "sku": "4002303E",
+    "name": "Toner Gen con Samsung 303E (MLT-D303E) Negro para Samsung SL-M4580FX",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002303E.jpg"
+  },
+  {
+    "sku": "4002203U",
+    "name": "Toner Gen con Samsung 203U (MLT-D203U) Negro para Samsung ProXpress 4020 / 4070 / 4072",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002203U.jpg"
+  },
+  {
+    "sku": "4002203L",
+    "name": "Toner Gen con Samsung 203L (MLT-D203L) Negro para Samsung ProXpress SL-M3320 / 3820 / 4020 / M3370 / 3870 / 4070",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002203L.jpg"
+  },
+  {
+    "sku": "4002203E",
+    "name": "Toner Gen con Samsung 203E (MLT-D203E) Negro para Samsung ProXpress SL-M3820 / M3870 / 4020 / 4070",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002203E.jpg"
+  },
+  {
+    "sku": "4002201S",
+    "name": "Toner Gen con Samsung 201S (MLT-D201S) Negro para Samsung ProXpress M4030ND / M4080FX",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002201S.jpg"
+  },
+  {
+    "sku": "4002201L",
+    "name": "Toner Gen con Samsung 201L (MLT-D201L) Negro para Samsung ProXpress M4030ND / M4080FX",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002201L.jpg"
+  },
+  {
+    "sku": "4002117S",
+    "name": "Toner Gen con Samsung 117S (MLT-D117S) Negro para Samsung SXC-4650 / SCX-4655FN",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002117S.jpg"
+  },
+  {
+    "sku": "4002116L",
+    "name": "Toner Gen con Samsung 116L (MLT-D116L) Negro para Samsung Xpress M2625D / M2825DW / M2835DW/ M2875DW / M2875FD / M2875FW / M2885FW",
+    "brand": "Genérico",
+    "category": "Consumibles",
+    "status": "OEM",
+    "image": "https://www.cmlomas.com/productos-exel/GEN_4002116L.jpg"
   }
 ];

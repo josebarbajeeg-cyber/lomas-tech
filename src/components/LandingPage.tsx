@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { AnimatePresence, motion, useReducedMotion } from 'motion/react';
 import {
-  ArrowRight, Award, Calendar, CheckCircle2, ChevronLeft, ChevronRight,
-  HardDrive, Mail, MapPin, MessageCircle, Minus, Network, Phone,
-  Printer, ShieldCheck, ShoppingCart, Sparkles, Truck, Wifi,
+  ArrowRight, Award, Calendar, Camera, CheckCircle2, ChevronLeft, ChevronRight,
+  FileText, HardDrive, Laptop, Mail, MapPin, MessageCircle, Minus, Network, Phone,
+  Printer, ScanLine, Server, ShieldCheck, ShoppingCart, Sparkles, Truck, Wifi,
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -68,6 +68,51 @@ const featuredCategories = [
     blurb: 'Papel y suministros de alta calidad para impresoras y copiadoras.',
     category: 'Papel',
     icon: ShoppingCart,
+  },
+];
+
+const categoryCards = [
+  {
+    title: 'Consumibles',
+    category: 'Consumibles',
+    icon: Sparkles,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #f59e0b 0%, #ea580c 100%)' },
+  },
+  {
+    title: 'Cámara, Video y Proyección',
+    category: 'Cámara, Video y Proyección',
+    icon: Camera,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #7c3aed 0%, #6d28d9 100%)' },
+  },
+  {
+    title: 'Cómputo',
+    category: 'Cómputo',
+    icon: Laptop,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #2563eb 0%, #4338ca 100%)' },
+  },
+  {
+    title: 'Digitalización de Documentos',
+    category: 'Digitalización de Documentos',
+    icon: ScanLine,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #0891b2 0%, #0f766e 100%)' },
+  },
+  {
+    title: 'Impresión y Multifuncionales',
+    category: 'Impresión y Multifuncionales',
+    icon: Printer,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #334155 0%, #0f172a 100%)' },
+  },
+  {
+    title: 'Papel',
+    category: 'Papel',
+    icon: FileText,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #059669 0%, #15803d 100%)' },
+  },
+  {
+    title: 'Servidores y Almacenamiento',
+    category: 'Servidores y Almacenamiento',
+    icon: Server,
+    gradientStyle: { backgroundImage: 'linear-gradient(135deg, #f43f5e 0%, #b91c1c 100%)' },
   },
 ];
 
@@ -322,6 +367,102 @@ export default function LandingPage() {
          ================================================================ */}
       <section className="py-14 bg-white border-y border-slate-100">
         <BrandsSection />
+      </section>
+
+      {/* ===================================================================
+          Category Showcase — 7 gradient cards with hover effects
+         ================================================================ */}
+      <section className="py-16 lg:py-20 bg-slate-950 relative overflow-hidden">
+        <div className="absolute inset-0 surface-grid-dark opacity-30" aria-hidden="true" />
+        <div className="absolute top-0 left-1/4 w-96 h-96 bg-blue-600/20 blur-3xl rounded-full" aria-hidden="true" />
+        <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-violet-600/20 blur-3xl rounded-full" aria-hidden="true" />
+
+        <div className="relative max-w-7xl mx-auto px-6 md:px-8">
+          <div className="text-center max-w-xl mx-auto mb-10 lg:mb-12">
+            <span className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-cyan-400 mb-3">
+              <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
+              Líneas de producto
+            </span>
+            <h2 className="text-3xl lg:text-4xl font-black text-white tracking-tight">
+              Explora nuestras categorías
+            </h2>
+            <p className="mt-3 text-slate-400 text-sm">
+              {PRODUCT_COUNT} SKUs organizados por línea · Selecciona para ver el catálogo filtrado
+            </p>
+          </div>
+
+          {/* First row — 4 cards */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
+            {categoryCards.slice(0, 4).map((cat, idx) => {
+              const Icon = cat.icon;
+              const count = categoryCounts.get(cat.category) ?? 0;
+              return (
+                <motion.div
+                  key={cat.title}
+                  initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-60px' }}
+                  transition={{ duration: 0.4, delay: idx * 0.07 }}
+                >
+                  <Link
+                    to={`${ROUTES.catalog}?category=${encodeURIComponent(cat.category)}`}
+                    className="group relative overflow-hidden rounded-2xl h-44 md:h-52 flex items-center justify-center text-white focus-ring"
+                  >
+                    <div className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-110" style={cat.gradientStyle} />
+                    <div className="absolute inset-0 opacity-[0.06] surface-grid-dark" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300" />
+                    <div className="relative z-10 flex flex-col items-center gap-2.5 px-3 text-center transition-transform duration-300 group-hover:-translate-y-2">
+                      <span className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/20 backdrop-blur-sm group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300 shadow-lg">
+                        <Icon className="w-7 h-7 drop-shadow" aria-hidden="true" />
+                      </span>
+                      <h3 className="font-black text-sm md:text-base leading-tight drop-shadow-md px-1">{cat.title}</h3>
+                      <p className="text-[11px] font-bold opacity-70">{count} SKUs</p>
+                    </div>
+                    <div className="absolute bottom-3.5 z-10 inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                      Explorar <ArrowRight className="w-3 h-3" aria-hidden="true" />
+                    </div>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </div>
+
+          {/* Second row — 3 wider cards */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 lg:gap-4 mt-3 lg:mt-4">
+            {categoryCards.slice(4).map((cat, idx) => {
+              const Icon = cat.icon;
+              const count = categoryCounts.get(cat.category) ?? 0;
+              return (
+                <motion.div
+                  key={cat.title}
+                  initial={reduceMotion ? false : { opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-60px' }}
+                  transition={{ duration: 0.4, delay: (idx + 4) * 0.07 }}
+                >
+                  <Link
+                    to={`${ROUTES.catalog}?category=${encodeURIComponent(cat.category)}`}
+                    className="group relative overflow-hidden rounded-2xl h-44 md:h-52 flex items-center justify-center text-white focus-ring"
+                  >
+                    <div className="absolute inset-0 transition-transform duration-700 ease-out group-hover:scale-110" style={cat.gradientStyle} />
+                    <div className="absolute inset-0 opacity-[0.06] surface-grid-dark" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors duration-300" />
+                    <div className="relative z-10 flex flex-col items-center gap-2.5 px-3 text-center transition-transform duration-300 group-hover:-translate-y-2">
+                      <span className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-white/20 backdrop-blur-sm group-hover:bg-white/30 group-hover:scale-110 transition-all duration-300 shadow-lg">
+                        <Icon className="w-7 h-7 drop-shadow" aria-hidden="true" />
+                      </span>
+                      <h3 className="font-black text-sm md:text-base leading-tight drop-shadow-md px-1">{cat.title}</h3>
+                      <p className="text-[11px] font-bold opacity-70">{count} SKUs</p>
+                    </div>
+                    <div className="absolute bottom-3.5 z-10 inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-widest opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">
+                      Explorar <ArrowRight className="w-3 h-3" aria-hidden="true" />
+                    </div>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
       </section>
 
       {/* ===================================================================

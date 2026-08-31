@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion } from 'motion/react';
 import {
   ChevronLeft, ChevronRight, Filter, LayoutGrid, List as ListIcon,
-  MessageCircle, PackageSearch, Search, SlidersHorizontal, X,
+  MessageCircle, PackageSearch, Search, SlidersHorizontal, Tag, X,
 } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 import { products, type Product } from '../data/products';
@@ -422,6 +422,7 @@ export default function CatalogPage() {
                   : 'grid-cols-1'
               )}
             >
+              {currentPage === 1 && <GenericPromoCard view={viewMode} />}
               {paginatedProducts.map((product) => (
                 <ProductCard key={product.sku} product={product} view={viewMode} />
               ))}
@@ -640,6 +641,72 @@ function ProductCard({ product, view }: { product: Product; view: ViewMode }) {
           target="_blank"
           rel="noopener noreferrer"
           className="mt-auto inline-flex items-center justify-center gap-2 bg-[color:var(--color-whatsapp)]/10 hover:bg-[color:var(--color-whatsapp)] text-[color:var(--color-whatsapp-dark)] hover:text-white border border-[color:var(--color-whatsapp)]/30 font-semibold py-2.5 rounded-xl transition-colors text-xs"
+        >
+          <MessageCircle className="w-4 h-4" aria-hidden="true" />
+          Cotizar por WhatsApp
+        </a>
+      </div>
+    </article>
+  );
+}
+
+function GenericPromoCard({ view }: { view: ViewMode }) {
+  const link = `${WHATSAPP_URL}?text=${encodeURIComponent('Hola, me gustaría conocer los productos genéricos disponibles.')}`;
+
+  if (view === 'list') {
+    return (
+      <article className="overflow-hidden flex flex-col sm:flex-row items-stretch rounded-2xl border-2 border-dashed border-amber-400 bg-gradient-to-r from-amber-50 to-orange-50">
+        <div className="relative w-full sm:w-48 shrink-0 aspect-square sm:aspect-auto sm:h-48 bg-amber-100 rounded-t-2xl sm:rounded-t-none sm:rounded-l-2xl flex items-center justify-center">
+          <span className="absolute top-3 left-3 bg-amber-500 text-white px-2 py-0.5 rounded-md text-[9px] font-black uppercase tracking-tighter z-10">
+            Pregunta
+          </span>
+          <Tag className="w-14 h-14 text-amber-400" aria-hidden="true" />
+        </div>
+        <div className="flex-1 flex flex-col justify-center p-5">
+          <p className="text-[10px] font-black text-amber-600 uppercase tracking-[0.2em] mb-2">Disponibles bajo pedido</p>
+          <h3 className="font-black text-slate-900 leading-snug text-lg mb-2">
+            Pregunta por nuestros productos genéricos
+          </h3>
+          <p className="text-sm text-slate-600 mb-4 leading-relaxed">
+            Consumibles y accesorios de alta relación calidad‑precio. Cotiza hoy y obtén precio preferencial.
+          </p>
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex w-fit items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-4 py-2.5 rounded-xl transition-colors text-sm"
+          >
+            <MessageCircle className="w-4 h-4" aria-hidden="true" />
+            Cotizar por WhatsApp
+          </a>
+        </div>
+      </article>
+    );
+  }
+
+  return (
+    <article className="overflow-hidden flex flex-col rounded-2xl border-2 border-dashed border-amber-400 bg-gradient-to-br from-amber-50 to-orange-50 group">
+      <div className="relative flex-1 flex flex-col items-center justify-center text-center p-7 min-h-[200px]">
+        <span className="absolute top-3 right-3 bg-amber-500 text-white text-[10px] font-black uppercase tracking-widest px-2.5 py-0.5 rounded-full">
+          Pregunta
+        </span>
+        <div className="w-16 h-16 rounded-2xl bg-amber-100 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+          <Tag className="w-8 h-8 text-amber-500" aria-hidden="true" />
+        </div>
+        <p className="text-[10px] font-black text-amber-600 uppercase tracking-widest mb-2">Disponibles bajo pedido</p>
+        <h3 className="font-black text-slate-900 text-base leading-snug mb-2">
+          Pregunta por nuestros<br />productos genéricos
+        </h3>
+        <p className="text-xs text-slate-500 leading-relaxed">
+          Opciones económicas de consumibles y accesorios. Cotiza hoy.
+        </p>
+      </div>
+      <div className="p-4 border-t border-amber-200/70">
+        <a
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2.5 rounded-xl transition-colors text-xs w-full"
         >
           <MessageCircle className="w-4 h-4" aria-hidden="true" />
           Cotizar por WhatsApp

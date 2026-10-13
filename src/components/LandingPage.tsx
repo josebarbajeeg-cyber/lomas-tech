@@ -141,12 +141,12 @@ const bestSellers = products
   .sort((a, b) => bestSellersSkus.indexOf(a.sku) - bestSellersSkus.indexOf(b.sku));
 
 const heroImages = [
-  'https://i.imgur.com/DPDzM7a.jpeg',
-  'https://i.imgur.com/ebofAco.jpeg',
-  'https://i.imgur.com/bghAFK9.jpeg',
-  'https://i.imgur.com/pvFQUSP.jpeg',
-  'https://i.imgur.com/9XyWGDl.jpeg',
-  'https://i.imgur.com/cd7oUiJ.jpeg',
+  '/slides/slide-mac.jpg',
+  '/slides/slide-xerox.jpg',
+  '/slides/slide-papeleria.jpg',
+  '/slides/slide-pedido.jpg',
+  '/slides/slide-oficina.jpg',
+  '/slides/slide-sala.jpg',
 ];
 
 const aboutImages = [
@@ -307,13 +307,13 @@ export default function LandingPage() {
           >
             <div className="absolute -inset-6 bg-gradient-to-tr from-blue-400/20 via-cyan-300/20 to-transparent blur-3xl rounded-full" aria-hidden="true" />
             <div className="relative glass rounded-3xl p-3 shadow-[var(--shadow-lg)]">
-              <div className="relative aspect-square w-full overflow-hidden rounded-2xl bg-slate-100">
+              <div className="relative aspect-[3/4] w-full overflow-hidden rounded-2xl bg-slate-100">
                 <AnimatePresence mode="wait">
                   <motion.img
                     key={heroIndex}
                     src={heroImages[heroIndex]}
                     alt={`Producto destacado ${heroIndex + 1} de ${heroImages.length}`}
-                    width="800"
+                    width="600"
                     height="800"
                     loading="eager"
                     fetchPriority="high"

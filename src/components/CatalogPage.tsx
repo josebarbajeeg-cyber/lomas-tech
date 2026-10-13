@@ -422,7 +422,7 @@ export default function CatalogPage() {
                   : 'grid-cols-1'
               )}
             >
-              {currentPage === 1 && <GenericPromoCard view={viewMode} />}
+              {currentPage === 1 && selectedCategory === 'Consumibles' && <GenericPromoCard view={viewMode} />}
               {paginatedProducts.map((product) => (
                 <ProductCard key={product.sku} product={product} view={viewMode} />
               ))}

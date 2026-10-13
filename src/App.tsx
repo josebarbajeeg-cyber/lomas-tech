@@ -11,7 +11,6 @@ import LandingPage from './components/LandingPage';
 import CatalogPage from './components/CatalogPage';
 import BrandsPage from './components/BrandsPage';
 import FaqPage from './components/FaqPage';
-import PapelBondPage from './components/PapelBondPage';
 import { ROUTES, WHATSAPP_URL_SITE } from './config/siteConfig';
 
 function WhatsAppIcon({ className }: { className?: string }) {
@@ -37,7 +36,6 @@ export default function App() {
             <Route path={ROUTES.catalog} element={<CatalogPage />} />
             <Route path={ROUTES.brands} element={<BrandsPage />} />
             <Route path={ROUTES.faq} element={<FaqPage />} />
-            <Route path={ROUTES.papelBond} element={<PapelBondPage />} />
           </Routes>
         </main>
 

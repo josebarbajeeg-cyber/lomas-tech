@@ -46,7 +46,6 @@ export const ROUTES = {
   catalog: '/catalog',
   brands: '/brands',
   faq: '/preguntas-frecuentes',
-  papelBond: '/papel-bond',
 } as const;
 
 /**

@@ -1290,7 +1290,7 @@ export const products: Product[] = [
     "sku": "8568B001AA",
     "name": "Papel Canon RP108",
     "brand": "Canon",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CACPAPAE023.webp"
   },
@@ -1298,7 +1298,7 @@ export const products: Product[] = [
     "sku": "3115B001AA",
     "name": "Tinta/Papel Canon KP-108IN Para Selphy CP (Cont. 108 Papel)",
     "brand": "Canon",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/CACPAPAN005.webp"
   },
@@ -1570,7 +1570,7 @@ export const products: Product[] = [
     "sku": "497K13630",
     "name": "Bandeja de Papel Xerox 497K13630 para 550 hojas",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECBAEAB005.webp"
   },
@@ -1594,7 +1594,7 @@ export const products: Product[] = [
     "sku": "097S04949",
     "name": "Bandeja de Papel Xerox 097S04949 para 550 hojas",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECACCAE585.webp"
   },
@@ -1666,7 +1666,7 @@ export const products: Product[] = [
     "sku": "LB1",
     "name": "Bandeja de Papel Xerox LB1 para 550 hojas",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECACCAE517.webp"
   },
@@ -1738,7 +1738,7 @@ export const products: Product[] = [
     "sku": "097S04948",
     "name": "Bandeja de Papel Xerox 097S04948 2000 hojas",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECACCAE590.webp"
   },
@@ -1754,7 +1754,7 @@ export const products: Product[] = [
     "sku": "116R00010",
     "name": "Kit de Rodillo Xerox para Bandeja de Papel para VersaLink C",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECRODAB020.webp"
   },
@@ -3658,7 +3658,7 @@ export const products: Product[] = [
     "sku": "8NB",
     "name": "Bandeja de Papel Xerox 520 Hojas C/1 Gabinete Versalink B70XX",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Consumibles",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/XECACCAE565.webp"
   },
@@ -5935,14 +5935,6 @@ export const products: Product[] = [
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MIL.jpg"
   },
   {
-    "sku": "003M02051/1000",
-    "name": "Xerox Papel Marathon 003M02051 70 g/m², A4, 500 Hojas, Blancura 99%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02051-1000.jpg"
-  },
-  {
     "sku": "XEROXPAQ",
     "name": "Xerox Papel XEROXPAQ 70 g/m², Carta, 500 Hojas, Blancura 99%",
     "brand": "Xerox",
@@ -5957,14 +5949,6 @@ export const products: Product[] = [
     "category": "Papel",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MC.jpg"
-  },
-  {
-    "sku": "E-PAPER-OA75C5",
-    "name": "E-Paper Papel ‎E-PAPER-OA75C5 75g/m², Oficio, 2500 Hojas, Blancura 99%",
-    "brand": "E-Paper",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_E-PAPER-OA75C5.png"
   },
   {
     "sku": "3R75121 CAJA",
@@ -5999,22 +5983,6 @@ export const products: Product[] = [
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02041.png"
   },
   {
-    "sku": "REPROGNATURAL",
-    "name": "Genérico Papel Natural 72g/m², 5200 Hojas de Tamaño Carta, Beige",
-    "brand": "Genérico",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_REPROGNATURAL.png"
-  },
-  {
-    "sku": "003M02056",
-    "name": "Xerox Papel Bond Marathon 70g/m², 5000 Hojas de Tamaño Oficio, Blancura 99%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02056.png"
-  },
-  {
     "sku": "003M02021",
     "name": "Xerox Caja de Papel Digital Paper 75g/m², 5000 Hojas Tamaño Oficio, Blancura 99%",
     "brand": "Xerox",
@@ -6031,14 +5999,6 @@ export const products: Product[] = [
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_3M2012-M.jpg"
   },
   {
-    "sku": "003M02051",
-    "name": "Xerox Papel Marathon 70 g/m², Carta, 5000 Hojas, Blancura 99%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02051.png"
-  },
-  {
     "sku": "003M00360",
     "name": "Xerox Papel Bond Premium 75 g/m², 5000 Hojas de Tamaño Carta, Blancura 97%",
     "brand": "Xerox",
@@ -6053,14 +6013,6 @@ export const products: Product[] = [
     "category": "Papel",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003R75121-2500.png"
-  },
-  {
-    "sku": "003M02055",
-    "name": "Xerox Papel Bond Marathon 70 g/m², 2500 Hojas Tamaño Carta, Blancura 99%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02055.png"
   },
   {
     "sku": "003M02012",

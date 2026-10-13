@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import {
   Menu, Search, X,
   Home, Package, Building2, Info, Phone,
-  MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp, FileText,
+  MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
 import { cn } from '../lib/cn';
@@ -16,12 +16,11 @@ import {
 } from '../config/siteConfig';
 
 const navLinks = [
-  { to: '/',           label: 'Inicio',      icon: Home,      hash: '' },
-  { to: '/catalog',    label: 'Catálogo',    icon: Package,   hash: '' },
-  { to: '/papel-bond', label: 'Papel Bond',  icon: FileText,  hash: '' },
-  { to: '/brands',     label: 'Marcas',      icon: Building2, hash: '' },
-  { to: '/#about',     label: 'Nosotros',    icon: Info,      hash: '#about' },
-  { to: '/#contact',   label: 'Contacto',    icon: Phone,     hash: '#contact' },
+  { to: '/',          label: 'Inicio',   icon: Home,      hash: '' },
+  { to: '/catalog',   label: 'Catálogo', icon: Package,   hash: '' },
+  { to: '/brands',    label: 'Marcas',   icon: Building2, hash: '' },
+  { to: '/#about',    label: 'Nosotros', icon: Info,      hash: '#about' },
+  { to: '/#contact',  label: 'Contacto', icon: Phone,     hash: '#contact' },
 ];
 
 const popularSearches = [

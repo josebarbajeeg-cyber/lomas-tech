@@ -151,9 +151,6 @@ export default function BrandsPage() {
                       {brand.name}
                     </span>
                   )}
-                  <span className="mt-3 text-[10px] font-bold uppercase tracking-widest text-slate-400 group-hover:text-blue-600 transition-colors">
-                    {brand.category}
-                  </span>
                 </Link>
               </motion.div>
             ))}

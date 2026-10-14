@@ -64,9 +64,9 @@ const featuredCategories = [
     icon: Wifi,
   },
   {
-    title: 'Papel',
-    blurb: 'Papel y suministros de alta calidad para impresoras y copiadoras.',
-    category: 'Papel',
+    title: 'Papel Bond',
+    blurb: 'Papel bond y suministros de alta calidad para impresoras y copiadoras.',
+    category: 'Papel Bond',
     icon: ShoppingCart,
   },
 ];
@@ -111,8 +111,8 @@ const categoryCards = [
     image: `${CATEGORY_IMAGE_BASE}impresion.jpeg`,
   },
   {
-    title: 'Papel',
-    category: 'Papel',
+    title: 'Papel Bond',
+    category: 'Papel Bond',
     icon: FileText,
     image: `${CATEGORY_IMAGE_BASE}papel.jpeg`,
   },
@@ -141,12 +141,16 @@ const bestSellers = products
   .sort((a, b) => bestSellersSkus.indexOf(a.sku) - bestSellersSkus.indexOf(b.sku));
 
 const heroImages = [
-  '/slides/slide-mac.jpg',
-  '/slides/slide-xerox.jpg',
   '/slides/slide-papeleria.jpg',
-  '/slides/slide-pedido.jpg',
-  '/slides/slide-oficina.jpg',
-  '/slides/slide-sala.jpg',
+  '/slides/115.jpg',
+  '/slides/116.jpg',
+  '/slides/117.jpg',
+  '/slides/118.jpg',
+  '/slides/119.jpg',
+  '/slides/120.jpg',
+  '/slides/113.jpg',
+  '/slides/114.jpg',
+  '/slides/slide-xerox.jpg',
 ];
 
 const aboutImages = [

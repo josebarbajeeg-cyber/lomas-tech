@@ -144,10 +144,10 @@ export default function BrandsPage() {
                       width="160"
                       height="80"
                       loading="lazy"
-                      className="max-h-16 w-auto object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
+                      className="block w-full aspect-square object-contain grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-300"
                     />
                   ) : (
-                    <span className="flex items-center justify-center h-16 px-4 rounded-xl bg-slate-100 text-slate-700 font-black text-base tracking-tight group-hover:bg-blue-50 group-hover:text-blue-700 transition-colors">
+                    <span className="flex items-center justify-center text-center w-full h-16 px-2 rounded-xl bg-slate-100 text-slate-700 font-black text-base tracking-tight group-hover:bg-blue-50 group-hover:text-blue-700 transition-colors">
                       {brand.name}
                     </span>
                   )}

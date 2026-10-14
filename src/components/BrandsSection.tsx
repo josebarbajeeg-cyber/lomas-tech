@@ -27,10 +27,10 @@ export default function BrandsSection() {
                   width="200"
                   height="100"
                   loading="lazy"
-                  className="max-h-20 sm:max-h-24 w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+                  className="block w-32 h-16 sm:w-40 sm:h-20 object-contain opacity-80 hover:opacity-100 transition-opacity"
                 />
               ) : (
-                <span className="text-slate-700 font-black text-lg tracking-tight">{brand.name}</span>
+                <span className="flex w-32 h-16 sm:w-40 sm:h-20 items-center justify-center text-center text-slate-700 font-black text-lg tracking-tight">{brand.name}</span>
               )}
             </Link>
           ))}
@@ -67,10 +67,10 @@ export default function BrandsSection() {
                   width="240"
                   height="120"
                   loading="lazy"
-                  className="h-24 sm:h-28 lg:h-32 w-auto object-contain grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                  className="block w-[180px] h-28 object-contain grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
                 />
               ) : (
-                <span className="text-slate-700 font-black text-2xl tracking-tight grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500">
+                <span className="flex w-[180px] h-28 items-center justify-center text-center text-slate-700 font-black text-2xl tracking-tight grayscale opacity-70 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500">
                   {brand.name}
                 </span>
               )}

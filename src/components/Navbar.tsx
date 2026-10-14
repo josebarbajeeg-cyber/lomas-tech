@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import {
   Menu, Search, X,
-  Home, Package, Building2, Info, Phone,
+  Home, Package, Building2, Info, Phone, FileText,
   MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
@@ -16,11 +16,12 @@ import {
 } from '../config/siteConfig';
 
 const navLinks = [
-  { to: '/',          label: 'Inicio',   icon: Home,      hash: '' },
-  { to: '/catalog',   label: 'Catálogo', icon: Package,   hash: '' },
-  { to: '/brands',    label: 'Marcas',   icon: Building2, hash: '' },
-  { to: '/#about',    label: 'Nosotros', icon: Info,      hash: '#about' },
-  { to: '/#contact',  label: 'Contacto', icon: Phone,     hash: '#contact' },
+  { to: '/',                          label: 'Inicio',     icon: Home,      hash: '' },
+  { to: '/catalog',                   label: 'Catálogo',   icon: Package,   hash: '' },
+  { to: '/catalog?category=Papel+Bond', label: 'Papel Bond', icon: FileText,  hash: '' },
+  { to: '/brands',                    label: 'Marcas',     icon: Building2, hash: '' },
+  { to: '/#about',                    label: 'Nosotros',   icon: Info,      hash: '#about' },
+  { to: '/#contact',                  label: 'Contacto',   icon: Phone,     hash: '#contact' },
 ];
 
 const popularSearches = [
@@ -37,7 +38,7 @@ const popularSearches = [
 const popularCategories = [
   { label: 'Impresoras',  to: '/catalog?category=Impresi%C3%B3n%20y%20Multifuncionales' },
   { label: 'Tóner',       to: '/catalog?category=Consumibles' },
-  { label: 'Papel',       to: '/catalog?category=Papel' },
+  { label: 'Papel Bond',  to: '/catalog?category=Papel+Bond' },
   { label: 'Cómputo',     to: '/catalog?category=C%C3%B3mputo' },
 ];
 
@@ -132,7 +133,7 @@ export default function Navbar() {
 
           {/* Nav links desktop (centrado, solo lg+) */}
           <ul className="hidden lg:flex items-center gap-1 flex-1 justify-center font-semibold text-sm">
-            {navLinks.slice(0, 4).map((l) => (
+            {navLinks.slice(0, 5).map((l) => (
               <li key={l.to}>
                 {l.to.startsWith('/#') ? (
                   <a

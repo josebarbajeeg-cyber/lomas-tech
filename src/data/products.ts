@@ -1,4 +1,4 @@
-export interface Product {
+﻿export interface Product {
   sku: string;
   name: string;
   brand: string;
@@ -5906,7 +5906,7 @@ export const products: Product[] = [
     "sku": "003M02010",
     "name": "Xerox Papel Bond Ecológico 75g/m², 5000 Hojas de Tamaño Carta, Blanclura 93%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02010.png"
   },
@@ -5914,79 +5914,23 @@ export const products: Product[] = [
     "sku": "003M02010/500",
     "name": "Xerox Papel Bond Ecológico 75g/m², 500 Hojas de Tamaño Carta, Blancura 93%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02010-500.png"
-  },
-  {
-    "sku": "3M2041",
-    "name": "Xerox Papel 3M2041 75g/m², Oficio, 5000 Hojas, Blancura 97%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_3M2041.png"
-  },
-  {
-    "sku": "R3107075405E0MIL",
-    "name": "HP Papel R3107075405E0MIL 75g/m², Carta, 1000 Hojas, Blancura 92%",
-    "brand": "HP",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MIL.jpg"
-  },
-  {
-    "sku": "XEROXPAQ",
-    "name": "Xerox Papel XEROXPAQ 70 g/m², Carta, 500 Hojas, Blancura 99%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_XEROXPAQ.png"
-  },
-  {
-    "sku": "R3107075405E0MC",
-    "name": "HP Papel Office 20 75g/m², Carta, 5000 Hojas, Blancura 92%",
-    "brand": "HP",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_R3107075405E0MC.jpg"
   },
   {
     "sku": "3R75121 CAJA",
     "name": "Xerox Papel Digital Paper 75g/m², Doble Carta, 2500 Hojas, Blancura 99%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_3R75121%20CAJA.png"
-  },
-  {
-    "sku": "2024",
-    "name": "IRASAFORTEC Papel Reciclado 75g/m², 100 Hojas de Tamaño Carta, Blanco",
-    "brand": "Fortec",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_2024.jpg"
-  },
-  {
-    "sku": "003M02040",
-    "name": "Xerox Papel Bond Office Paper 75g/m², 5000 Hojas de Tamaño Carta, Blancura 97%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02040.png"
-  },
-  {
-    "sku": "003M02041",
-    "name": "Xerox Papel Bond 75g/m², 5000 Hojas de Tamaño Oficio, Blancura 97%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02041.png"
   },
   {
     "sku": "003M02021",
     "name": "Xerox Caja de Papel Digital Paper 75g/m², 5000 Hojas Tamaño Oficio, Blancura 99%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02021.png"
   },
@@ -5994,23 +5938,15 @@ export const products: Product[] = [
     "sku": "3M2012-M",
     "name": "Xerox Papel Bond Ecológico 75 g/m², 1000 Hojas Oficio, Blanco",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_3M2012-M.jpg"
-  },
-  {
-    "sku": "003M00360",
-    "name": "Xerox Papel Bond Premium 75 g/m², 5000 Hojas de Tamaño Carta, Blancura 97%",
-    "brand": "Xerox",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M00360.jpg"
   },
   {
     "sku": "003R75121/2500",
     "name": "Xerox Papel Bond Digital Paper 75g/m², 2500 Hojas Tamaño Doble Carta, Blancura 99%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003R75121-2500.png"
   },
@@ -6018,7 +5954,7 @@ export const products: Product[] = [
     "sku": "003M02012",
     "name": "Xerox Papel Ecologico 75 g/m², 5000 Hojas Oficio, Blanclura 93%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02012.png"
   },
@@ -6026,16 +5962,8 @@ export const products: Product[] = [
     "sku": "003M02000",
     "name": "Xerox Papel Bond Digital Paper 75g/m², 5000 Hojas de Tamaño Carta, Blancura 99%",
     "brand": "Xerox",
-    "category": "Papel",
+    "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02000.png"
-  },
-  {
-    "sku": "S041586",
-    "name": "Epson Papel Premium 90g/m², 500 Hojas de Tamaño Carta, Blanco",
-    "brand": "Epson",
-    "category": "Papel",
-    "status": "En Stock",
-    "image": "https://www.cmlomas.com/productos-exel/PAPEL_S041586.jpg"
   }
 ];

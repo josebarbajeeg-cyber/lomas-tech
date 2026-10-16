@@ -45,6 +45,7 @@ export const ROUTES = {
   home: '/',
   catalog: '/catalog',
   brands: '/brands',
+  downloads: '/descargables',
   faq: '/preguntas-frecuentes',
 } as const;
 

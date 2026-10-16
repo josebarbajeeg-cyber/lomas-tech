@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import {
   Menu, Search, X,
-  Home, Package, Building2, Info, Phone, FileText,
+  Home, Package, Building2, Info, Phone, FileText, Download,
   MessageCircle, Mail, MapPin, ArrowRight, Sparkles, TrendingUp,
 } from 'lucide-react';
 import { AnimatePresence, motion } from 'motion/react';
@@ -18,6 +18,7 @@ import {
 const navLinks = [
   { to: '/',                          label: 'Inicio',     icon: Home,      hash: '' },
   { to: '/catalog',                   label: 'Catálogo',   icon: Package,   hash: '' },
+  { to: '/descargables',              label: 'Descargables', icon: Download, hash: '' },
   { to: '/catalog?category=Papel+Bond', label: 'Papel Bond', icon: FileText,  hash: '' },
   { to: '/brands',                    label: 'Marcas',     icon: Building2, hash: '' },
   { to: '/#about',                    label: 'Nosotros',   icon: Info,      hash: '#about' },
@@ -133,7 +134,7 @@ export default function Navbar() {
 
           {/* Nav links desktop (centrado, solo lg+) */}
           <ul className="hidden lg:flex items-center gap-1 flex-1 justify-center font-semibold text-sm">
-            {navLinks.slice(0, 5).map((l) => (
+            {navLinks.slice(0, 6).map((l) => (
               <li key={l.to}>
                 {l.to.startsWith('/#') ? (
                   <a

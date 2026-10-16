@@ -71,62 +71,60 @@ const featuredCategories = [
   },
 ];
 
-const CATEGORY_IMAGE_BASE = 'https://www.cmlomas.com/productos-exel/';
-
 const categoryCards = [
   {
     title: 'Consumibles',
     category: 'Consumibles',
     icon: Sparkles,
-    image: `${CATEGORY_IMAGE_BASE}consumibles%201.jpeg`,
+    image: '/categorias/consumibles.jpg',
   },
   {
     title: 'Cámara, Video y Proyección',
     category: 'Cámara, Video y Proyección',
     icon: Camera,
-    image: `${CATEGORY_IMAGE_BASE}camara%20video.jpeg`,
+    image: '/categorias/camara-video.jpg',
   },
   {
     title: 'Cómputo',
     category: 'Cómputo',
     icon: Laptop,
-    image: `${CATEGORY_IMAGE_BASE}computo.jpeg`,
+    image: '/categorias/computo.jpg',
   },
   {
     title: 'Apple',
     category: 'Apple',
     icon: Tablet,
-    image: `${CATEGORY_IMAGE_BASE}apple.jpeg`,
+    image: '/categorias/apple.jpg',
   },
   {
     title: 'Digitalización de Documentos',
     category: 'Digitalización de Documentos',
     icon: ScanLine,
-    image: `${CATEGORY_IMAGE_BASE}digitalizacion.jpeg`,
+    image: '/categorias/digitalizacion.jpg',
   },
   {
     title: 'Impresión y Multifuncionales',
     category: 'Impresión y Multifuncionales',
     icon: Printer,
-    image: `${CATEGORY_IMAGE_BASE}impresion.jpeg`,
+    image: '/categorias/impresion.jpg',
   },
   {
     title: 'Papel Bond',
     category: 'Papel Bond',
     icon: FileText,
-    image: `${CATEGORY_IMAGE_BASE}papel.jpeg`,
+    image: '/categorias/papel-bond.jpg',
   },
   {
     title: 'Servidores y Almacenamiento',
     category: 'Servidores y Almacenamiento',
     icon: Server,
-    image: `${CATEGORY_IMAGE_BASE}servidores.jpeg`,
+    image: '/categorias/servidores.jpg',
   },
   {
     title: 'Mobiliario de Oficina',
     category: 'Mobiliario de Oficina',
     icon: Armchair,
-    image: `${CATEGORY_IMAGE_BASE}mobiliario.jpeg`,
+    image: '/categorias/mobiliario.jpg',
   },
 ];
 

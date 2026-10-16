@@ -10,6 +10,7 @@ import ScrollToTop from './components/ScrollToTop';
 import LandingPage from './components/LandingPage';
 import CatalogPage from './components/CatalogPage';
 import BrandsPage from './components/BrandsPage';
+import DownloadsPage from './components/DownloadsPage';
 import FaqPage from './components/FaqPage';
 import { ROUTES, WHATSAPP_URL_SITE } from './config/siteConfig';
 
@@ -35,6 +36,7 @@ export default function App() {
             <Route path={ROUTES.home} element={<LandingPage />} />
             <Route path={ROUTES.catalog} element={<CatalogPage />} />
             <Route path={ROUTES.brands} element={<BrandsPage />} />
+            <Route path={ROUTES.downloads} element={<DownloadsPage />} />
             <Route path={ROUTES.faq} element={<FaqPage />} />
           </Routes>
         </main>

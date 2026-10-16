@@ -58,17 +58,20 @@ export const brands: Brand[] = [
   { name: 'Bic',          logo: '/logos/norm/bic.png',                      category: 'Papelería' },
   { name: 'COPAMEX',      logo: '/logos/norm/copamex.png',                  category: 'Papelería' },
   { name: 'Deli',         logo: '/logos/norm/deli.png',                     category: 'Papelería' },
+  { name: 'EcoBond',      logo: '/logos/norm/ecobond.png',                  category: 'Papelería' },
   { name: 'Estrella',     logo: '/logos/norm/estrella.png',                 category: 'Papelería' },
+  { name: 'FaciaBond',    logo: '/logos/norm/faciabond.png',                category: 'Papelería' },
   { name: 'Fellowes',     logo: '/logos/norm/fellowes.png',                 category: 'Papelería' },
   { name: 'Papermate',    logo: '/logos/norm/papermate.png',                category: 'Papelería' },
   { name: 'Pelikan',      logo: '/logos/norm/pelikan.png',                  category: 'Papelería' },
   { name: 'Pritt',        logo: '/logos/norm/pritt.png',                    category: 'Papelería' },
+  { name: 'Reprograf',    logo: '/logos/norm/reprograf.png',                category: 'Papelería' },
   { name: 'Scribe',       logo: '/logos/norm/scribe.png',                   category: 'Papelería' },
+  { name: 'Tops',         logo: '/logos/norm/tops.png',                     category: 'Papelería' },
 
   // --- Mobiliario ---
   { name: 'Albar',        logo: '/logos/norm/albar.png',                    category: 'Mobiliario' },
   { name: 'Offiho',       logo: '/logos/norm/offiho.png',                   category: 'Mobiliario' },
-  { name: 'Tops',         logo: '/logos/norm/tops.png',                     category: 'Mobiliario' },
 
   // --- General ---
   { name: 'Hisense',      logo: '/logos/norm/hisense.png',                  category: 'General' },

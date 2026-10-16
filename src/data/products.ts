@@ -5965,5 +5965,53 @@ export const products: Product[] = [
     "category": "Papel Bond",
     "status": "En Stock",
     "image": "https://www.cmlomas.com/productos-exel/PAPEL_003M02000.png"
+  },
+  {
+    "sku": "FACIABOND-CARTA-500",
+    "name": "FaciaBond Papel Bond Premium Multipropósito 75g/m², 500 Hojas Tamaño Carta",
+    "brand": "FaciaBond",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/faciabond-carta-500.jpg"
+  },
+  {
+    "sku": "FACIABOND-CARTA-CAJA",
+    "name": "FaciaBond Caja de Papel Bond Premium Multipropósito 75g/m², Tamaño Carta, Blancura 99%",
+    "brand": "FaciaBond",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/faciabond-carta-caja.jpg"
+  },
+  {
+    "sku": "ECOBOND-75-CARTA-500",
+    "name": "EcoBond 75 Papel Bond Ecológico Multiusos, 500 Hojas Tamaño Carta",
+    "brand": "EcoBond",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/ecobond-75-carta-500.jpg"
+  },
+  {
+    "sku": "ECOBOND-OFICIO-CAJA",
+    "name": "EcoBond Caja de Papel Bond Ecológico Multiusos, Tamaño Oficio, Blanco, 10 Paquetes",
+    "brand": "EcoBond",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/ecobond-oficio-caja.jpg"
+  },
+  {
+    "sku": "REPROGRAF-BLANCO-CARTA-500",
+    "name": "Reprograf Papel Bond Blanco 75g/m², 500 Hojas Tamaño Carta, Blancura 92%",
+    "brand": "Reprograf",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/reprograf-blanco-carta-500.jpg"
+  },
+  {
+    "sku": "REPROGRAF-CAJA",
+    "name": "Reprograf Caja de Papel Bond Ecológico, Hecho 100% de Caña de Azúcar",
+    "brand": "Reprograf",
+    "category": "Papel Bond",
+    "status": "En Stock",
+    "image": "/productos/papel-bond/reprograf-caja.jpg"
   }
 ];

@@ -23,7 +23,6 @@ export const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const WHATSAPP_URL_SITE = `https://wa.me/${WHATSAPP_NUMBER}?text=Hola%2C%20vengo%20de%20tu%20sitio%20web`;
 
 export const EMAIL_SALES = 'ventas@cmlomas.com';
-export const EMAIL_SUPPORT = 'soporte@lomas.com.mx';
 
 export const GEO = { lat: 20.660339600250083, lng: -103.38131088 } as const;
 

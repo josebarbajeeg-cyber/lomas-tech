@@ -13,6 +13,7 @@ import {
   type Catalog,
   type DownloadSection,
 } from '../data/downloads';
+import ChairSlider from './ChairSlider';
 import { cn } from '../lib/cn';
 import SEO from '../seo/SEO';
 import { breadcrumbSchema } from '../seo/schemas';
@@ -103,6 +104,10 @@ export default function DownloadsPage() {
                 <span className="text-sm text-slate-600 leading-tight">Marcas<br />y líneas</span>
               </div>
             </div>
+          </div>
+
+          <div className="mt-10">
+            <ChairSlider />
           </div>
         </div>
       </section>

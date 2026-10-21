@@ -39,7 +39,7 @@ export default function FaqPage() {
           </h1>
 
           <p className="text-lg text-slate-600 leading-relaxed max-w-2xl">
-            Más de 2,400 distribuidores nos eligen porque resolvemos sus dudas antes de comprar.
+            Más de 500 clientes activos nos eligen porque resolvemos sus dudas antes de comprar.
             Aquí están las 12 preguntas que recibimos cada semana, con respuestas directas.
           </p>
         </div>

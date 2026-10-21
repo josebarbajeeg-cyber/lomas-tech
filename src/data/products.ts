@@ -6013,5 +6013,165 @@ export const products: Product[] = [
     "category": "Papel Bond",
     "status": "En Stock",
     "image": "/productos/papel-bond/reprograf-caja.jpg"
+  },
+  {
+    "sku": "OHE-405",
+    "name": "Offiho Silla Directiva Alufsen, modelo OHE-405",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohe-405.jpg"
+  },
+  {
+    "sku": "OHE-35",
+    "name": "Offiho Silla Ejecutiva Dillon, modelo OHE-35",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohe-35.jpg"
+  },
+  {
+    "sku": "OHE-605",
+    "name": "Offiho Silla Ejecutiva Draco, modelo OHE-605",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohe-605.jpg"
+  },
+  {
+    "sku": "OHS-11",
+    "name": "Offiho Silla Operativa Ciao, modelo OHS-11",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohs-11.jpg"
+  },
+  {
+    "sku": "OHS-42",
+    "name": "Offiho Silla Operativa Prochair, modelo OHS-42",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohs-42.jpg"
+  },
+  {
+    "sku": "OHE-99",
+    "name": "Offiho Silla Operativa Evolution, modelo OHE-99",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohe-99.jpg"
+  },
+  {
+    "sku": "OHV-47",
+    "name": "Offiho Silla Visitante Quick, modelo OHV-47",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohv-47.jpg"
+  },
+  {
+    "sku": "OHV-19",
+    "name": "Offiho Silla Visitante Exterior Teksi, modelo OHV-19",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohv-19.jpg"
+  },
+  {
+    "sku": "OHP-2100",
+    "name": "Offiho Silla Escolar Blow con paleta, modelo OHP-2100",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohp-2100.jpg"
+  },
+  {
+    "sku": "OHV-106",
+    "name": "Offiho Sillón Confortable Blair, modelo OHV-106",
+    "brand": "Offiho",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/offiho-ohv-106.jpg"
+  },
+  {
+    "sku": "LK-20 NE",
+    "name": "Albar Silla Operativa, modelo LK-20 NE",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-lk-20-ne.jpg"
+  },
+  {
+    "sku": "M-50",
+    "name": "Albar Silla Operativa con brazos, modelo M-50",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-m-50.jpg"
+  },
+  {
+    "sku": "AC-15 NE",
+    "name": "Albar Sillón Semiejecutivo, modelo AC-15 NE",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-ac-15-ne.jpg"
+  },
+  {
+    "sku": "E-410",
+    "name": "Albar Silla Semiejecutiva, modelo E-410",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-e-410.jpg"
+  },
+  {
+    "sku": "AC-40E NE",
+    "name": "Albar Silla Ejecutiva ergonómica con cabecera, modelo AC-40E NE",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-ac-40e-ne.jpg"
+  },
+  {
+    "sku": "LK-23 N/N",
+    "name": "Albar Silla Secretarial, modelo LK-23 N/N",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-lk-23-n-n.jpg"
+  },
+  {
+    "sku": "AR-404 NE",
+    "name": "Albar Silla Visitante apilable, modelo AR-404 NE",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-ar-404-ne.jpg"
+  },
+  {
+    "sku": "PL-750",
+    "name": "Albar Silla Escolar con paleta, modelo PL-750",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-pl-750.jpg"
+  },
+  {
+    "sku": "AR-2017 NE",
+    "name": "Albar Silla Visitante de polipropileno, modelo AR-2017 NE",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-ar-2017-ne.jpg"
+  },
+  {
+    "sku": "AB-2014",
+    "name": "Albar Silla Visitante de trineo con brazos, modelo AB-2014",
+    "brand": "Albar",
+    "category": "Mobiliario de Oficina",
+    "status": "En Stock",
+    "image": "/productos/mobiliario/albar-ab-2014.jpg"
   }
 ];

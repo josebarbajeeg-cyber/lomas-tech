@@ -20,7 +20,6 @@ import { STATUS_STYLES } from '../lib/status';
 import { cn } from '../lib/cn';
 import {
   EMAIL_SALES,
-  EMAIL_SUPPORT,
   PHONE_DISPLAY,
   PHONE_E164,
   ROUTES,
@@ -521,8 +520,8 @@ export default function LandingPage() {
               className="card p-8 flex flex-col justify-between"
             >
               <span className="text-sm font-semibold uppercase tracking-wider text-slate-500">Clientes B2B</span>
-              <p className="text-5xl lg:text-6xl font-black mt-3 text-slate-900">2,400+</p>
-              <p className="text-sm text-slate-600 mt-2">Distribuidores activos</p>
+              <p className="text-5xl lg:text-6xl font-black mt-3 text-slate-900">500+</p>
+              <p className="text-sm text-slate-600 mt-2">Clientes activos</p>
             </motion.div>
           </div>
 
@@ -949,7 +948,6 @@ export default function LandingPage() {
                 <div>
                   <h3 className="text-base font-black text-slate-900 mb-1">Correo</h3>
                   <a href={`mailto:${EMAIL_SALES}`} className="block text-slate-600 hover:text-blue-600 transition-colors">{EMAIL_SALES}</a>
-                  <a href={`mailto:${EMAIL_SUPPORT}`} className="block text-slate-600 hover:text-blue-600 transition-colors">{EMAIL_SUPPORT}</a>
                 </div>
               </li>
             </ul>

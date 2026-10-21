@@ -95,3 +95,20 @@ export const offihoShowcase = {
     { label: 'Accesorios',          image: '/descargables/offiho/accesorios.jpg' },
   ],
 };
+
+// --- Galerías de marca (slider de sillas en /descargables) ---
+
+export type GalleryBrand = 'Offiho' | 'Albar';
+
+export const galleryBrands: GalleryBrand[] = ['Offiho', 'Albar'];
+
+const galleryImages = (brand: GalleryBrand) =>
+  [1, 2, 3, 4, 5].map((n) => ({
+    src: `/descargables/galeria/${brand.toLowerCase()}-${n}.jpg`,
+    alt: `${brand}, imagen ${n} de la galería`,
+  }));
+
+export const brandGalleries: Record<GalleryBrand, { catalogId: string; site: string; images: { src: string; alt: string }[] }> = {
+  Offiho: { catalogId: 'offiho-econosillas-2026', site: 'https://www.offiho.com/', images: galleryImages('Offiho') },
+  Albar:  { catalogId: 'albar-oficinas',          site: 'https://grupoalbar.com/', images: galleryImages('Albar') },
+};
